@@ -1,0 +1,101 @@
+
+A.lbOn:link {
+ color           : #000;
+ text-decoration : none;
+}
+
+
+A.lbOn:visited {
+ color           : #000;
+ text-decoration : none;
+}
+
+
+A.lbOn:active {
+ color           : #000;
+ text-decoration : none;
+}
+
+
+A.lbOn:hover {
+ color           : #fff;
+ text-decoration : none;
+}
+
+
+#lightbox A:link {
+ color           : #000;
+ text-decoration : none;
+}
+
+#lightbox A:visited  {
+ color           : #000;
+ text-decoration : none;
+}
+
+
+#lightbox A:active {
+ color           : #000;
+ text-decoration : none;
+}
+
+
+#lightbox A:hover {
+ color           : #fff;
+ text-decoration : none;
+}
+
+
+#lightbox{
+	display:none;
+	position: absolute;
+
+
+	top:50%;
+	left:50%;
+	z-index:9999;
+	width:600px;
+	height:600px;
+	margin:-300px 0 0 -500px;
+	background:transparent;
+	text-align:center;
+        vertical-align: 50%;
+	border: 0px solid black;
+}
+
+#lightbox[id]{
+	position:fixed;
+}
+
+#overlay{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:5000;
+	background-color:#000;
+	-moz-opacity: 0.65;
+	opacity:.65;
+	filter: alpha(opacity=65);
+}
+#overlay[id]{
+	position:fixed;
+}
+
+#lightbox.done #lbLoadMessage{
+	display:none;
+}
+
+#lightbox.loading #lbContent{
+	display:none;
+}
+#lightbox.loading #lbLoadMessage{
+	display:block;
+}
+
+#lightbox.done img{
+  vertical-align: bottom;
+
+}

@@ -150,7 +150,7 @@ if ($do != inbox && $do != "outbox")  {
          if ($userdata_admin == "1" or $mod_user_status == "1")  { 
 
 	     $del_post  = "<a href=index.php?do=delete&p_id=".$row_posts["id"].">";
-             $del_post2 = "<img src=\"images/templates/$template/icon_delete.gif\" title=\"Beitrag löschen\" border=\"0\">";
+             $del_post2 = "<img src=\"images/templates/$template/icon_delete.gif\" title=\"Beitrag l&ouml;schen\" border=\"0\">";
              $del_post3 = "</a>";
 
          }
@@ -369,13 +369,13 @@ if ($do != inbox && $do != "outbox")  {
 
                      if ($imgsize[0] > $max_w)  {
 
-                         $attachment = "<br><br><b>Angehängtes Bild:</b> <br><br> <img src=\"attachments/$row_posts[attachment]\" width=\"$max_w\"> <a href=\"attachments/$row_posts[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgröße anzeigen\" border=\"0\"> </a><br>";
+                         $attachment = "<br><br><b>Angeh&auml;ngtes Bild:</b> <br><br> <img src=\"attachments/$row_posts[attachment]\" width=\"$max_w\"> <a href=\"attachments/$row_posts[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgr&ouml;&szlig;e anzeigen\" border=\"0\"> </a><br>";
 
                      }
 
                      else  {
 
-                         $attachment = "<br><br><b>Angehängtes Bild:</b> <br><br><img src=\"attachments/$row_posts[attachment]\">";
+                         $attachment = "<br><br><b>Angeh&auml;ngtes Bild:</b> <br><br><img src=\"attachments/$row_posts[attachment]\">";
   
                      }
 
@@ -383,7 +383,7 @@ if ($do != inbox && $do != "outbox")  {
 
                  else  { 
 
-                         $attachment = "<i>Angehängtes Bild konnte nicht gefunden werden</i>";
+                         $attachment = "<i>Angeh&auml;ngtes Bild konnte nicht gefunden werden</i>";
   
                  }
 

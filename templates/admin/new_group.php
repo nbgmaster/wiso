@@ -99,7 +99,7 @@
 
   <tr>
 
-    <td class="tableb">Beiträge lesen</td>
+    <td class="tableb">Beitr&auml;ge lesen</td>
 
     <td class="tablea">
 
@@ -113,7 +113,7 @@
 
   <tr>
 
-    <td class="tableb">Beiträge schreiben</td>
+    <td class="tableb">Beitr&auml;ge schreiben</td>
 
     <td class="tablea">
 

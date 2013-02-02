@@ -38,7 +38,7 @@
 
                  if ($_POST[email] == "$email_members" && $userdata_id != $row_members_free_data["UserID"])  { 
 
-                     $text01   = "Die gewählte Emailadresse ist bereits registriert!";
+                     $text01   = "Die gew&auml;hlte Emailadresse ist bereits registriert!";
                      $link     = "index.php?do=usercp&sec=edit_email";
 
                      $usercp_data = "wrong";
@@ -59,7 +59,7 @@
 
           mysql_query($update_email) OR die(mysql_error());
 
-          $text01   = "Email wurde geändert!";         
+          $text01   = "Email wurde ge&auml;ndert!";         
           $link     = "index.php?do=usercp";
 
       }

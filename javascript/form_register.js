@@ -45,7 +45,7 @@ function check_user()
    if( document.reg_form.r_password.value != document.reg_form.password2.value )
 
       {
-       alert( "Die Passwörter stimmen nicht überein!" );
+       alert( "Die Passw&ouml;rter stimmen nicht &uuml;berein!" );
        document.reg_form.r_password.focus();
        return false;
       }
@@ -55,7 +55,7 @@ function check_user()
 
       {
 
-       alert( "Fehler: Nickname ungültig!" );
+       alert( "Fehler: Nickname ung&uuml;ltig!" );
        document.reg_form.r_nickname.focus();
        return false;
       }
@@ -92,7 +92,7 @@ function check_user()
 
       {
 
-       alert( "Fehler: Vorname  ungültig!" );
+       alert( "Fehler: Vorname  ung&uuml;ltig!" );
        document.reg_form.firstname.focus();
        return false;
       }
@@ -112,7 +112,7 @@ function check_user()
    if( NachLength < 3 )
 
       {
-       alert( "Fehler: Nachname ungültig!" );
+       alert( "Fehler: Nachname ung&uuml;ltig!" );
        document.reg_form.lastname.focus();
        return false;
       }
@@ -137,7 +137,7 @@ function check_user()
    if (!mailOK) 
 
       {
-       alert ("Die E-Mail-Adresse ist ungültig!");
+       alert ("Die E-Mail-Adresse ist ung&uuml;ltig!");
        document.reg_form.email.focus();
        return false;
       }

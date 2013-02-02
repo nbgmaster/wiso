@@ -568,7 +568,7 @@
 
 
 
-       <input class="input" type="submit" name="send_admin_data" value="Forum ändern">
+       <input class="input" type="submit" name="send_admin_data" value="Forum &auml;ndern">
 
 
 

@@ -53,9 +53,9 @@
 <td style="line-height:18px;">
 
        Diese Datenbank beinhaltet eine Sammlung aus hilfreichen <b>Stoffzusammenfassungen und Mitschriften vergangener Vorlesungen</b> oder
-       sonstigen nützlichen Dateien für das Studium.
+       sonstigen n&uuml;tzlichen Dateien f&uuml;r das Studium.
        <br>
-       Jeder hat hier die Möglichkeit seine selbsterstellten Dokumente für alle anderen Komilliton(inn)en online zu stellen!
+       Jeder hat hier die M&ouml;glichkeit seine selbsterstellten Dokumente f&uuml;r alle anderen Komilliton(inn)en online zu stellen!
   </td></tr></table>
        </td>
 

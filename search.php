@@ -231,7 +231,7 @@
 
       if ($searchnumbers == "0")  { 
 
-          $text01 = "Ihre Auswahl enthält keine Treffer.";
+          $text01 = "Ihre Auswahl enth&auml;lt keine Treffer.";
 
           $refresh_time = "2";
 

@@ -46,7 +46,7 @@ function check_usercp2()
    if( document.usercp_form.password2.value != document.usercp_form.password3.value )
 
       {
-       alert( "Die Passwörter stimmen nicht überein!" );
+       alert( "Die Passw&ouml;rter stimmen nicht &uuml;berein!" );
        document.usercp_form.password2.focus();
        return false;
       }

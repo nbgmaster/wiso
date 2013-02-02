@@ -7,7 +7,7 @@
 
          <td class="tableb" align="left" width="50%">
 
-         <b>Mitglieder dürfen dir Emails per Formmailer schicken?</b>
+         <b>Mitglieder d&uuml;rfen dir Emails per Formmailer schicken?</b>
 
          </td>
 
@@ -39,7 +39,7 @@
 
       </td><td>
 
-      &nbsp;<b>Deine Emailadresse bleibt unabhängig von dieser Einstellung weiterhin nicht sichtbar.</b>
+      &nbsp;<b>Deine Emailadresse bleibt unabh&auml;ngig von dieser Einstellung weiterhin nicht sichtbar.</b>
 
       </td></tr></table>
 

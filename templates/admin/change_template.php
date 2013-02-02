@@ -34,7 +34,7 @@
 
     <td align="center">
 
-    <input type="submit" class="input" value="Template auswählen" name="change_tpl">
+    <input type="submit" class="input" value="Template ausw&auml;hlen" name="change_tpl">
 
     </td>
 

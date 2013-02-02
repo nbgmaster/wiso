@@ -2,7 +2,7 @@
 
   if ($sec == "edit_nickname")  { 
 
-      $usercp_navi = ":: Nickname ändern";
+      $usercp_navi = ":: Nickname &auml;ndern";
   
       include("templates/usercp/usercp_top.php");
 
@@ -33,7 +33,7 @@
 
   if ($sec == "edit_pw")  { 
 
-      $usercp_navi = ":: Passwort ändern";
+      $usercp_navi = ":: Passwort &auml;ndern";
   
       include("templates/usercp/usercp_top.php");
       include("includes/usercp/edit_pw.php"); 
@@ -48,7 +48,7 @@
 
   if ($sec == "edit_email")  {
  
-      $usercp_navi = ":: Emailadresse ändern";
+      $usercp_navi = ":: Emailadresse &auml;ndern";
      
       include("templates/usercp/usercp_top.php");
 
@@ -77,7 +77,7 @@
 
   if ($sec == "edit_settings")  { 
 
-      $usercp_navi = ":: Einstellungen ändern";
+      $usercp_navi = ":: Einstellungen &auml;ndern";
    
       include("templates/usercp/usercp_top.php");
 
@@ -99,7 +99,7 @@
 
   if ($sec == "edit_view")  { 
 
-      $usercp_navi = ":: Forendarstellung ändern";
+      $usercp_navi = ":: Forendarstellung &auml;ndern";
   
       include("templates/usercp/usercp_top.php");
       include("includes/usercp/edit_view.php"); 
@@ -115,7 +115,7 @@
 
   if ($sec == "edit_profile")  { 
 
-      $usercp_navi = ":: Profildaten ändern";
+      $usercp_navi = ":: Profildaten &auml;ndern";
  
       include("templates/usercp/usercp_top.php");
       include("includes/usercp/edit_profile.php");
@@ -132,7 +132,7 @@
 
       if ($module == "")  { 
 
-          $usercp_navi = ":: Signatur ändern";
+          $usercp_navi = ":: Signatur &auml;ndern";
  
           include("templates/usercp/usercp_top.php");
           include("includes/usercp/edit_signature.php");
@@ -149,7 +149,7 @@
 
   if ($sec == "edit_avatar")  {
 
-      $usercp_navi = ":: Avatar ändern"; 
+      $usercp_navi = ":: Avatar &auml;ndern"; 
   
       include("templates/usercp/usercp_top.php");
       include("includes/usercp/edit_avatar.php");

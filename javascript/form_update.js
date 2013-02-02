@@ -46,7 +46,7 @@ function check_user()
 
       {
 
-       alert( "Fehler: Nickname ungültig!" );
+       alert( "Fehler: Nickname ung&uuml;ltig!" );
        document.reg_form.r_nickname.focus();
        return false;
       }
@@ -65,7 +65,7 @@ function check_user()
 
       {
 
-       alert( "Fehler: Vorname ungültig!" );
+       alert( "Fehler: Vorname ung&uuml;ltig!" );
        document.reg_form.firstname.focus();
        return false;
       }
@@ -85,7 +85,7 @@ function check_user()
    if( NachLength < 3 )
 
       {
-       alert( "Fehler: Nachname ungültig!" );
+       alert( "Fehler: Nachname ung&uuml;ltig!" );
        document.reg_form.lastname.focus();
        return false;
       }

@@ -19,7 +19,7 @@ function ajaxNewPM3()  {
   var empLength = neuer_emp.length;
 
   if (empLength < 2)  {
-           alert( "Fehler: Empfänger ungültig!" );
+           alert( "Fehler: Empf&auml;nger ung&uuml;ltig!" );
            document.bbform.title.focus();
            return false;
       }
@@ -70,7 +70,7 @@ if (strnobr.length < 2)  {
    if( document.bbform.message.value == "" )
 
       {
-       alert( "Fehler: Sie müssen eine Nachricht eingeben!" );
+       alert( "Fehler: Sie m&uuml;ssen eine Nachricht eingeben!" );
        document.bbform.message.focus();
        return false;
       }

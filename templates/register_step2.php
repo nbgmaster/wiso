@@ -192,7 +192,7 @@
 
          <td class="tableb" align="left">
 
-         <b>Straße, Hausnummer, etc.</b>
+         <b>Stra&szlig;e, Hausnummer, etc.</b>
 
          </td>
 

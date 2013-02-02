@@ -4,7 +4,7 @@
 
   mysql_query($query_markread) OR die(mysql_error()); 
 
-  $text01 = "Alle Beiträge als gelesen markiert!";
+  $text01 = "Alle Beitr&auml;ge als gelesen markiert!";
 
   $link = "index.php";
 

@@ -18,7 +18,7 @@ function check_usercp2()
    if (pwLength < 5)
 
       {
-       alert ("Passwort ungültig!");
+       alert ("Passwort ung&uuml;ltig!");
        document.usercp_form.password.focus();
        return false;
       }
@@ -45,7 +45,7 @@ function check_usercp2()
    if( document.usercp_form.email.value != document.usercp_form.email2.value )
 
       {
-       alert( "Die Emailadressen stimmen nicht überein!" );
+       alert( "Die Emailadressen stimmen nicht &uuml;berein!" );
        document.usercp_form.email.focus();
        return false;
       }
@@ -71,7 +71,7 @@ function check_usercp2()
    if (!mailOK) 
 
       {
-       alert ("Die E-Mail-Adresse ist ungültig!");
+       alert ("Die E-Mail-Adresse ist ung&uuml;ltig!");
        document.usercp_form.email.focus();
        return false;
       }

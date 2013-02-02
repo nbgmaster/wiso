@@ -49,11 +49,11 @@ $summe = 0;
 
           $qyB = mysql_query("SELECT * from notpron ORDER by id");
 
-?><table cellpadding="3" cellspacing="4" width="800"><tr style=\"border:1px solid #000\"><td><b>Anzahl</b></td><td><b>Name</b></td><td><b>Wertigkeit</b></td><td><b>löschen</b></td></tr><?php 
+?><table cellpadding="3" cellspacing="4" width="800"><tr style=\"border:1px solid #000\"><td><b>Anzahl</b></td><td><b>Name</b></td><td><b>Wertigkeit</b></td><td><b>l&ouml;schen</b></td></tr><?php 
 
           while ($rwB  =  mysql_fetch_assoc($qyB))  {
 
-echo"<tr style=\"border:1px solid #000\"><td style=\"border:1px solid #000\">$counter</td><td style=\"border:1px solid #000\">$rwB[wert]</td><td style=\"border:1px solid #000\">$rwB[zahl]</td><td style=\"border:1px solid #000\"><a href=?do=del&id=$rwB[id]>löschen</a></td></tr>";
+echo"<tr style=\"border:1px solid #000\"><td style=\"border:1px solid #000\">$counter</td><td style=\"border:1px solid #000\">$rwB[wert]</td><td style=\"border:1px solid #000\">$rwB[zahl]</td><td style=\"border:1px solid #000\"><a href=?do=del&id=$rwB[id]>l&ouml;schen</a></td></tr>";
 
 $counter++;
 

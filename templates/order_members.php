@@ -224,7 +224,7 @@
  
         <?php  if ($sortby == "postnumbers") { echo"selected"; } ?> 
     
-        >Anzahl der Beiträge</option>
+        >Anzahl der Beitr&auml;ge</option>
 
         <option value="online"
  

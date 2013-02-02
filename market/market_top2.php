@@ -12,7 +12,7 @@
 
                if ($row_boerse[lecture] == "UMV")  {
 
-                   $lecture = "Unternehmen, Märkte, Volkswirtschaften";
+                   $lecture = "Unternehmen, M&auml;rkte, Volkswirtschaften";
 
                }
 
@@ -30,7 +30,7 @@
 
                if ($row_boerse[lecture] == "BF")  {
 
-                   $lecture = "Buchführung";
+                   $lecture = "Buchf&uuml;hrung";
 
                }
 
@@ -54,13 +54,13 @@
 
                if ($row_boerse[lecture] == "mikro")  {
 
-                   $lecture = "Mikrookönomie";
+                   $lecture = "Mikrook&ouml;nomie";
 
                }
 
                if ($row_boerse[lecture] == "makro")  {
 
-                   $lecture = "Makrookönomie";
+                   $lecture = "Makrook&ouml;nomie";
 
                }
 
@@ -121,7 +121,7 @@
 
                if ($row_boerse[lecture] == "oerecht")  {
 
-                   $lecture = "Öffentliches Recht I";
+                   $lecture = "&Ouml;ffentliches Recht I";
 
                }
 
@@ -140,19 +140,19 @@
 
                if ($row_boerse[lecture] == "EwA")  {
 
-                   $lecture = "Einführung in das wissenschaftl. Arbeiten";
+                   $lecture = "Einf&uuml;hrung in das wissenschaftl. Arbeiten";
 
                }
 
                if ($row_boerse[lecture] == "praes")  {
 
-                   $lecture = "Präsentationsfähigkeiten";
+                   $lecture = "Pr&auml;sentationsf&auml;higkeiten";
 
                }
 
                if ($row_boerse[lecture] == "oerecht2")  {
 
-                   $lecture = "Öffentliches Recht II";
+                   $lecture = "&Ouml;ffentliches Recht II";
 
                }
 
@@ -170,7 +170,7 @@
 
                if ($row_boerse[lecture] == "intuf")  {
 
-                   $lecture = "Internationale Unternehmensführung";
+                   $lecture = "Internationale Unternehmensf&uuml;hrung";
 
                }
 
@@ -224,7 +224,7 @@
 
                if ($row_boerse[lecture] == "bpaed")  {
 
-                   $lecture = "Betriebspädagogik";
+                   $lecture = "Betriebsp&auml;dagogik";
 
                }
 
@@ -236,13 +236,13 @@
 
                if ($row_boerse[lecture] == "auw")  {
 
-                   $lecture = "Außenwirtschaft";
+                   $lecture = "Au&szlig;enwirtschaft";
 
                }
 
                if ($row_boerse[lecture] == "OeoeS")  {
 
-                   $lecture = "Ökonomie des öffentlichen Sektors";
+                   $lecture = "&Ouml;konomie des &ouml;ffentlichen Sektors";
 
                }
 
@@ -328,17 +328,17 @@
 
            if ($row_boerse[category] == "wipaed")  {
 
-               $category = "(B.A.) Wipäd";
+               $category = "(B.A.) Wip&auml;d";
 
                if ($row_boerse[lecture] == "gwip")  {
 
-                   $lecture = "Grundlagen der Wipäd";
+                   $lecture = "Grundlagen der Wip&auml;d";
 
                }
 
                if ($row_boerse[lecture] == "praesmod")  {
 
-                   $lecture = "Präsentations- und Moderationstechniken";
+                   $lecture = "Pr&auml;sentations- und Moderationstechniken";
 
                }
 
@@ -350,7 +350,7 @@
 
                if ($row_boerse[lecture] == "paedseminar")  {
 
-                   $lecture = "Betriebspädagogisches Seminar";
+                   $lecture = "Betriebsp&auml;dagogisches Seminar";
 
                }
 
@@ -374,7 +374,7 @@
 
                if ($row_boerse[lecture] == "intrecht1")  {
 
-                   $lecture = "Europäisches und Internationales Recht";
+                   $lecture = "Europ&auml;isches und Internationales Recht";
 
                }
 
@@ -386,7 +386,7 @@
 
                if ($row_boerse[lecture] == "europglob")  {
 
-                   $lecture = "Europäisierung & Globalisierung";
+                   $lecture = "Europ&auml;isierung & Globalisierung";
 
                }
 
@@ -418,7 +418,7 @@
 
            if ($row_boerse[category] == "sozi")  {
 
-               $category = "(B.A.) Sozialökönomik";
+               $category = "(B.A.) Sozial&ouml;k&ouml;nomik";
 
                if ($row_boerse[lecture] == "sozio")  {
 
@@ -446,13 +446,13 @@
 
                if ($row_boerse[lecture] == "empsozi")  {
 
-                   $lecture = "Einführung in emp. Sozialforschung";
+                   $lecture = "Einf&uuml;hrung in emp. Sozialforschung";
 
                }
 
                if ($row_boerse[lecture] == "compana")  {
 
-                   $lecture = "Computergestützte Datenanalyse";
+                   $lecture = "Computergest&uuml;tzte Datenanalyse";
 
                }
 
@@ -554,7 +554,7 @@
 
            if ($row_boerse[category] == "master")  {
 
-               $category = "Masterstudiengänge";
+               $category = "Masterstudieng&auml;nge";
 
                if ($row_boerse[lecture] == "m_aup")   $lecture = "(M.Sc.) Arbeitsmarkt u. Personal"; 
                if ($row_boerse[lecture] == "m_eco")   $lecture = "(M.Sc.) Economics";
@@ -564,8 +564,8 @@
                if ($row_boerse[lecture] == "m_iis")   $lecture = "(M.Sc.) IIS"; 
                if ($row_boerse[lecture] == "m_mgm")   $lecture = "(M.A.) Management";
                if ($row_boerse[lecture] == "m_mark")  $lecture = "(M.A.) Marketing";
-               if ($row_boerse[lecture] == "m_sozi")  $lecture = "(M.A.) Sozialökonomik";
-               if ($row_boerse[lecture] == "m_paed")  $lecture = "(M.A.) Wirtschaftspädagogik";
+               if ($row_boerse[lecture] == "m_sozi")  $lecture = "(M.A.) Sozial&ouml;konomik";
+               if ($row_boerse[lecture] == "m_paed")  $lecture = "(M.A.) Wirtschaftsp&auml;dagogik";
                
            }
            

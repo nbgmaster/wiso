@@ -37,14 +37,14 @@
 
           $message = "Hallo $retreive_user
 
-Dein Kennwort auf wiwistud.de wurde geändert.
+Dein Kennwort auf wiwistud.de wurde ge&auml;ndert.
 
 Deine Zugangsdaten lauten jetzt:
 
   Anmeldename: $retreive_user
   Kennwort: $new_pw
 
-Ändere dein neues Passwort unbedingt gleich nach dem ersten Login.
+&Auml;ndere dein neues Passwort unbedingt gleich nach dem ersten Login.
 
 
 Hinweis: In den meisten E-Mail-Programmen erscheint die Adresse als blauer
@@ -56,14 +56,14 @@ Bei Problemen wenden Dich bitte an die Administratoren der Website.
 Dein wiwistud.de Team
 
 
-- Achtung: Keine Antwort an diese Emailadresse möglich!";
+- Achtung: Keine Antwort an diese Emailadresse m&ouml;glich!";
 
          mail($to, $subject, $message, $Header);
 
 
           $refresh_time = 10;
 
-          $text01 = "Hiermit hast Du deine Kennwortänderung bestätigt. <br>Deine neuen Logindaten wurden an deine Emailadresse <u>".$retreive_mail. "</u> verschickt!";
+          $text01 = "Hiermit hast Du deine Kennwort&auml;nderung best&auml;tigt. <br>Deine neuen Logindaten wurden an deine Emailadresse <u>".$retreive_mail. "</u> verschickt!";
 
           $link   = "index.php";
 
@@ -73,6 +73,6 @@ Dein wiwistud.de Team
 
    else  {
 
-       echo"Ungültiger Seitenaufruf.";
+       echo"Ung&uuml;ltiger Seitenaufruf.";
 
    }

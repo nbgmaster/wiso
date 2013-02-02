@@ -60,7 +60,7 @@ echo $row->UserName;
 
     if ($boardD == "1" && $userdata_admin == "1")  {
 
-        $alert_msg = "Achtung: Für Gäste & Mitglieder ist das Board zur Zeit deaktiviert!";
+        $alert_msg = "Achtung: F&uuml;r G&auml;ste & Mitglieder ist das Board zur Zeit deaktiviert!";
 
         echo"<font size=\"2\"><b>$alert_msg</b></font><br><br>";
 

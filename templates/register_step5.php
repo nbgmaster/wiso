@@ -5,7 +5,7 @@
 
     <td class="cellbg" align="center">
 
-    <b>Überprüfen der Stammdaten</b>
+    <b>&Uuml;berpr&uuml;fen der Stammdaten</b>
 
     </td>
 
@@ -123,9 +123,9 @@
          if ($_Sre_study == "bwl")  { $_Sre_study2 = "Wirtschaftswissenschaften (Schwerpunkt BWL)"; }
          if ($_Sre_study == "vwl")  { $_Sre_study2 = "Wirtschaftswissenschaften (Schwerpunkt VWL)"; }
          if ($_Sre_study == "info")  { $_Sre_study2 = "Wirtschaftswissenschaften (Schwerpunkt Informatik)"; }
-         if ($_Sre_study == "paed")  { $_Sre_study2 = "Wirtschaftswissenschaften (Schwerpunkt Pädagogik)"; }
+         if ($_Sre_study == "paed")  { $_Sre_study2 = "Wirtschaftswissenschaften (Schwerpunkt P&auml;dagogik)"; }
          if ($_Sre_study == "int")  { $_Sre_study2 = "International Business Studies"; }
-         if ($_Sre_study == "sozi")  { $_Sre_study2 = "Sozialökonomik"; }
+         if ($_Sre_study == "sozi")  { $_Sre_study2 = "Sozial&ouml;konomik"; }
 
          echo"$_Sre_study2"; ?>
 
@@ -151,7 +151,7 @@
     <b>WICHTIG:</b>
 
     <ul type="square">
-    <li>Solltest du in den nächsten 24 Stunden <b>keinen Aktivierungscode</b> an deine Emailadresse <b><?php  echo"$_Sre_email"; ?></b> zugeschickt bekommen, dann
+    <li>Solltest du in den n&auml;chsten 24 Stunden <b>keinen Aktivierungscode</b> an deine Emailadresse <b><?php  echo"$_Sre_email"; ?></b> zugeschickt bekommen, dann
     melde dich bei einem Administrator.</li>
     <ul>
 
@@ -171,7 +171,7 @@
 
     <td class="tableb" align="left">
 
-<b>Wichtig ist die Angabe einer gültigen Emailadresse, da Du dich sonst nicht freischalten kannst!</b>
+<b>Wichtig ist die Angabe einer g&uuml;ltigen Emailadresse, da Du dich sonst nicht freischalten kannst!</b>
 
     </td>
 
@@ -179,7 +179,7 @@
 
    <input type="hidden" name="Aprinciples" value="accept">
 
-   <input onclick="location.href='index.php?do=register'" type="submit" style="width:210px" class="buttons" value="Stammdaten nochmal ändern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
+   <input onclick="location.href='index.php?do=register'" type="submit" style="width:210px" class="buttons" value="Stammdaten nochmal &auml;ndern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
 
    </td>
  
@@ -189,13 +189,13 @@
 
     <td class="tableb" align="left">
 
-<b>Alle anderen Einstellungen kannst Du später jederzeit im Profil ändern.</b>
+<b>Alle anderen Einstellungen kannst Du sp&auml;ter jederzeit im Profil &auml;ndern.</b>
 
     </td>
 
    <td class="tablea">
 
-   <input onclick="location.href='index.php?do=register&step=3'" type="submit" name="reg_back" style="width:210px" class="buttons" value="Einstellungen nochmal ändern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
+   <input onclick="location.href='index.php?do=register&step=3'" type="submit" name="reg_back" style="width:210px" class="buttons" value="Einstellungen nochmal &auml;ndern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
 
    </td>
  
@@ -211,7 +211,7 @@
 
     <td class="tablea" align="center">
 
-    <input type="submit" class="buttons" name="send_reg_data" value="Registrierung abschließen" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
+    <input type="submit" class="buttons" name="send_reg_data" value="Registrierung abschlie&szlig;en" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
 
     </td>
  

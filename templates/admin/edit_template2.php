@@ -28,7 +28,7 @@
 
     </select>
 
-    &nbsp;&nbsp;&nbsp;<input type="submit" class="input" value="Template Auswählen">
+    &nbsp;&nbsp;&nbsp;<input type="submit" class="input" value="Template Ausw&auml;hlen">
 
     </td>
 

@@ -4,7 +4,7 @@
 
       if (!isset($send_del_data) && $_POST[del_tpl] != "")  {
 
-          $text01 ="Dieses Template wirklich löschen?";
+          $text01 ="Dieses Template wirklich l&ouml;schen?";
           $link   = "index.php?do=admin&sec=templates&module=edit"; 
 
          include("templates/delete.php");
@@ -25,13 +25,13 @@
 
                   mysql_query($delete_template) OR die(mysql_error());  
    
-                  $text01 = "Template gelöscht!";
+                  $text01 = "Template gel&ouml;scht!";
  
               }
 
               else  {
 
-                  $text01 = "Es ist nur noch ein Template vorhanden! Dieses kann nicht gelöscht werden!";
+                  $text01 = "Es ist nur noch ein Template vorhanden! Dieses kann nicht gel&ouml;scht werden!";
 
               }
 
@@ -53,7 +53,7 @@
 
              if ($check_tpl_data == "1")  {
 
-             $text02 = "<br><br>Templatename nicht geändert! (bereits vorhanden)";
+             $text02 = "<br><br>Templatename nicht ge&auml;ndert! (bereits vorhanden)";
 
              }
 
@@ -90,7 +90,7 @@
          mysql_query($sql_template7) OR die(mysql_error());
          mysql_query($sql_template8) OR die(mysql_error());
 
-         $text01 = "Template geändert!";
+         $text01 = "Template ge&auml;ndert!";
 
          $link = "index.php?do=admin&sec=templates&module=edit";
 

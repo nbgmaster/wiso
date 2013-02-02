@@ -139,15 +139,15 @@ if ($gesamtnote <= 2) {  $col_pos = "20823B";  }
                  </td>
 
                  </tr>
-                <tr> <td colspan="3" style="cursor:default;padding-top:6px" onmouseover="return overlib('Wie verständlich war der Vortrag des Dozenten oder Professors; Bemühen/Motivation, Eingehen auf Fragen.');" onmouseout="return nd();" style="padding-top:6px"><table cellspacing="1" class="tableinborder" width="100%">
-                <tr><td class="tablea"><table><tr><td width="220"><b><span style="font-size:12px">Qualität des Vortrags:</span></td><td class="tgfx">
+                <tr> <td colspan="3" style="cursor:default;padding-top:6px" onmouseover="return overlib('Wie verst&auml;ndlich war der Vortrag des Dozenten oder Professors; Bem&uuml;hen/Motivation, Eingehen auf Fragen.');" onmouseout="return nd();" style="padding-top:6px"><table cellspacing="1" class="tableinborder" width="100%">
+                <tr><td class="tablea"><table><tr><td width="220"><b><span style="font-size:12px">Qualit&auml;t des Vortrags:</span></td><td class="tgfx">
                  <table cellspacing="0" cellpadding="0"><tr><td style="padding-left:30px">
                  <div class="gfxB" style="width:<?php echo"$balken_quali";?>px;background-color:<?php echo"$bg_quali";?>">
                  </div></td><td>&nbsp;&nbsp;<b><span style="font-size:12px"><?php  echo $quality; ?></span></b></td>
                  </tr></table></td></tr></table>  </td></tr></table>
                  </td></tr>
-                <tr> <td colspan="3" style="cursor:default;" onmouseover="return overlib('Eine 5.0 bedeutet, dass der Arbeitsaufwand für die Veranstaltung unverhältnismäßig groß war.');" onmouseout="return nd();"><table cellspacing="1" class="tableinborder" width="100%">
-                <tr><td class="tablea"><table><tr><td width="220"><b><span style="font-size:12px">Verhältnis Arbeitsaufwand/ECTS:</span></td><td class="tgfx">
+                <tr> <td colspan="3" style="cursor:default;" onmouseover="return overlib('Eine 5.0 bedeutet, dass der Arbeitsaufwand f&uuml;r die Veranstaltung unverh&auml;ltnism&auml;&szlig;ig gro&szlig; war.');" onmouseout="return nd();"><table cellspacing="1" class="tableinborder" width="100%">
+                <tr><td class="tablea"><table><tr><td width="220"><b><span style="font-size:12px">Verh&auml;ltnis Arbeitsaufwand/ECTS:</span></td><td class="tgfx">
                  <table cellspacing="0" cellpadding="0"><tr><td style="padding-left:30px">
                  <div class="gfxB" style="width:<?php echo"$balken_ects";?>px;background-color:<?php echo"$bg_ects";?>">
                  </div></td><td>&nbsp;&nbsp;<b><span style="font-size:12px"><?php  echo $ects; ?></b></span></b></td>
@@ -160,8 +160,8 @@ if ($gesamtnote <= 2) {  $col_pos = "20823B";  }
                  </div></td><td>&nbsp;&nbsp;<b><span style="font-size:12px"><?php  echo $klausur; ?></span></b></td>
                  </tr></table></td></tr></table>  </td></tr></table>
                  </td></tr>
-                <tr> <td colspan="3" style="cursor:default;" onmouseover="return overlib('Skript & Folien, Verfügbarkeit, Aktualität, Fehlerfreiheit, Verständlichkeit');" onmouseout="return nd();"><table cellspacing="1" class="tableinborder" width="100%">
-                <tr><td class="tablea"><table><tr><td width="220"><b><span style="font-size:12px">Qualität der Materialien:</span></td><td class="tgfx">
+                <tr> <td colspan="3" style="cursor:default;" onmouseover="return overlib('Skript & Folien, Verf&uuml;gbarkeit, Aktualit&auml;t, Fehlerfreiheit, Verst&auml;ndlichkeit');" onmouseout="return nd();"><table cellspacing="1" class="tableinborder" width="100%">
+                <tr><td class="tablea"><table><tr><td width="220"><b><span style="font-size:12px">Qualit&auml;t der Materialien:</span></td><td class="tgfx">
                  <table cellspacing="0" cellpadding="0"><tr><td style="padding-left:30px">
                  <div class="gfxB" style="width:<?php echo"$balken_mat";?>px;background-color:<?php echo"$bg_mat";?>">
                  </div></td><td>&nbsp;&nbsp;<b><span style="font-size:12px"><?php  echo $material; ?></span></b></td>

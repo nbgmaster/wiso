@@ -16,7 +16,7 @@
         
         <font class="footer">
         Powered by <b><a href="http://www.nbg-master.de" target="_blank">nbg-master.de Foren-Software v1.8</a></b> &copy; 2003-<?php echo"$c_year";?>
-         - designed by <b>Stefan Richter & Tino Müller</b> | <a href="index.php?do=impressum"><u>Impressum</u></a></font></td>
+         - designed by <b>Stefan Richter & Tino M&uuml;ller</b> | <a href="index.php?do=impressum"><u>Impressum</u></a></font></td>
 
      </tr>
 

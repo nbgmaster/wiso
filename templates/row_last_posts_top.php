@@ -6,7 +6,7 @@
 
     <td align="left" class="cellbg">
 
-    <b>die letzten 5 Beiträge:</b>
+    <b>die letzten 5 Beitr&auml;ge:</b>
 
     </td>
  

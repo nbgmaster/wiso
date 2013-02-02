@@ -81,7 +81,7 @@ $Ay_chosed[] = $number;  }
 
   <table width="100%" cellpadding="3" cellspacing="1" class="tableinborder">
 
-  <form method="post" onsubmit="return confirm('Hiermit sendest du deine Bewertungen endgültig ab. OK?');">
+  <form method="post" onsubmit="return confirm('Hiermit sendest du deine Bewertungen endg&uuml;ltig ab. OK?');">
 
      <tr><td class="catbg" style="font-size:13px">
 <b>Die wiwistud.de RANGLISTE der Bachelor-Lehrveranstaltungen im Wintersemester 08/09</b></td></tr>
@@ -90,11 +90,11 @@ $Ay_chosed[] = $number;  }
     <span style="font-size:12px;line-height:24px;">
     <ul type="square">
 
- <li>Bewerte nun deine ausgewählten Veranstaltungen <b>fair und objektiv!</b></li>
- <li>Wähle hierzu für jedes Kriterium die gewünschte Notenstufe mit den <b>Select-Boxen in der rechten Spalte</b> aus</li>
+ <li>Bewerte nun deine ausgew&auml;hlten Veranstaltungen <b>fair und objektiv!</b></li>
+ <li>W&auml;hle hierzu f&uuml;r jedes Kriterium die gew&uuml;nschte Notenstufe mit den <b>Select-Boxen in der rechten Spalte</b> aus</li>
  <li><b>Werteskala:</b> 1,0 = sehr gut bis 5,0 = mangelhaft <b><u>bzw.</u></b> 1,0 = sehr bis 5,0 = gar nicht</li>
  <br>
- <li><u>Du hast auch die Möglichkeit einzelne Felder leer zu lassen</u></li>
+ <li><u>Du hast auch die M&ouml;glichkeit einzelne Felder leer zu lassen</u></li>
  </ul>
  </span>
 
@@ -128,13 +128,13 @@ Welche <b>Gesamtnote</b> gibst du dieser Veranstaltung?
 <option value="4.7">4,7</option><option value="5.0">5,0</option></select></td>
 </tr><tr>
 <td class="tableb" style="font-size:12px">
-<b>Qualität des Vortrags</b> des Dozenten/Professors? <span style="font-size:11px">(Verständlichkeit, Bemühen/Motivation, eingehen auf Fragen)</span>
+<b>Qualit&auml;t des Vortrags</b> des Dozenten/Professors? <span style="font-size:11px">(Verst&auml;ndlichkeit, Bem&uuml;hen/Motivation, eingehen auf Fragen)</span>
  </td><td class="tablea"><select name="course_<?php echo"$courseID";?>_2"><option value="0"></option><option value="1.0">1,0</option><option value="1.3">1,3</option><option value="1.7">1,7</option><option value="2.0">2,0</option><option value="2.3">2,3</option>
 <option value="2.7">2,7</option><option value="3.0">3,0</option><option value="3.3">3,3</option><option value="3.7">3,7</option><option value="4.0">4,0</option><option value="4.3">4,3</option>
 <option value="4.7">4,7</option><option value="5.0">5,0</option></select></td>
 </tr><tr>
 <td class="tableb" style="font-size:12px">
-Wie war das <b>Verhältnis des Arbeitsaufwands</b> zu der <b>Anzahl an ECTS</b>? <span style="font-size:11px">(5,0 = unverhätnismäßig hoher Workload)</span>
+Wie war das <b>Verh&auml;ltnis des Arbeitsaufwands</b> zu der <b>Anzahl an ECTS</b>? <span style="font-size:11px">(5,0 = unverh&auml;tnism&auml;&szlig;ig hoher Workload)</span>
 </td><td class="tablea"><select name="course_<?php echo"$courseID";?>_3"><option value="0"></option><option value="1.0">1,0</option><option value="1.3">1,3</option><option value="1.7">1,7</option><option value="2.0">2,0</option><option value="2.3">2,3</option>
 <option value="2.7">2,7</option><option value="3.0">3,0</option><option value="3.3">3,3</option><option value="3.7">3,7</option><option value="4.0">4,0</option><option value="4.3">4,3</option>
 <option value="4.7">4,7</option><option value="5.0">5,0</option></select></td>
@@ -146,26 +146,26 @@ Wie <b>fair war die Klausur/Hausarbeit</b>? <span style="font-size:11px">(Schwie
 <option value="4.7">4,7</option><option value="5.0">5,0</option></select></td>
 </tr><tr>
 <td class="tableb" style="font-size:13px">
-Welche Qualität hatten die <b>Materialien</b>?  <span style="font-size:11px">(Skript & Folien, Verfügbarkeit, Aktualität, Fehlerfreiheit, Verständlichk.)</span>
+Welche Qualit&auml;t hatten die <b>Materialien</b>?  <span style="font-size:11px">(Skript & Folien, Verf&uuml;gbarkeit, Aktualit&auml;t, Fehlerfreiheit, Verst&auml;ndlichk.)</span>
 </td><td class="tablea"><select name="course_<?php echo"$courseID";?>_5"><option value="0"></option><option value="1.0">1,0</option><option value="1.3">1,3</option><option value="1.7">1,7</option><option value="2.0">2,0</option><option value="2.3">2,3</option>
 <option value="2.7">2,7</option><option value="3.0">3,0</option><option value="3.3">3,3</option><option value="3.7">3,7</option><option value="4.0">4,0</option><option value="4.3">4,3</option>
 <option value="4.7">4,7</option><option value="5.0">5,0</option></select></td>
 </tr><tr>
 <td class="tableb" style="font-size:12px">
-Hat die Veranstaltung dein <b>Interesse an diesem Themengebiet</b> steigern können?
+Hat die Veranstaltung dein <b>Interesse an diesem Themengebiet</b> steigern k&ouml;nnen?
 </td><td class="tablea"><select name="course_<?php echo"$courseID";?>_6"><option value="0"></option><option value="1.0">1,0</option><option value="1.3">1,3</option><option value="1.7">1,7</option><option value="2.0">2,0</option><option value="2.3">2,3</option>
 <option value="2.7">2,7</option><option value="3.0">3,0</option><option value="3.3">3,3</option><option value="3.7">3,7</option><option value="4.0">4,0</option><option value="4.3">4,3</option>
 <option value="4.7">4,7</option><option value="5.0">5,0</option></select></td>
 </tr><!--tr>
 <td class="tableb" style="font-size:12px">
-Hat diese Veranstaltung deine Persönlichkeit gestärkt? <span style="font-size:11px">(z.B. Erhalt fachlicher oder sozialer Fähigkeiten)</span>
+Hat diese Veranstaltung deine Pers&ouml;nlichkeit gest&auml;rkt? <span style="font-size:11px">(z.B. Erhalt fachlicher oder sozialer F&auml;higkeiten)</span>
 </td><td class="tablea"><select name="course_<?php echo"$courseID";?>_7"><option value="0"></option><option value="1.0">1,0</option><option value="1.3">1,3</option><option value="1.7">1,7</option><option value="2.0">2,0</option><option value="2.3">2,3</option>
 <option value="2.7">2,7</option><option value="3.0">3,0</option><option value="3.3">3,3</option><option value="3.7">3,7</option><option value="4.0">4,0</option><option value="4.3">4,3</option>
 <option value="4.7">4,7</option><option value="5.0">5,0</option></select></td>
 </tr><tr-->
 <td class="tableb" style="font-size:12px" colspan="2" align="center">
 <br>
-Hier kannst du noch <b>weitere Anmerkungen</b> zu dieser Veranstaltung hinterlassen: <span style="font-size:11px">(max. 200 Wörter)</span>
+Hier kannst du noch <b>weitere Anmerkungen</b> zu dieser Veranstaltung hinterlassen: <span style="font-size:11px">(max. 200 W&ouml;rter)</span>
 <br>    <br>
 <textarea style="width:700px" class="tablea" rows="3" name="course_<?php echo"$courseID";?>_8"></textarea>
 
@@ -190,11 +190,11 @@ Hier kannst du noch <b>weitere Anmerkungen</b> zu dieser Veranstaltung hinterlas
 
     <td class="tableb" align="center">
             <span style="font-size:13px">
-Diese Umfrage läuft noch bis zum <b>05.04.2009</b>.
+Diese Umfrage l&auml;uft noch bis zum <b>05.04.2009</b>.
 
 <br><br>
 
-Die Ergebnisse werden voraussichtlich Mitte April auf <b>wiwistud.de</b> veröffentlicht.
+Die Ergebnisse werden voraussichtlich Mitte April auf <b>wiwistud.de</b> ver&ouml;ffentlicht.
                                          </span>
 </td></tr></table>
 

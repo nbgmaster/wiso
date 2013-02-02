@@ -25,6 +25,6 @@
 
   else  {
 
-      echo"Ungültiger Seitenaufruf.";
+      echo"Ung&uuml;ltiger Seitenaufruf.";
 
   }

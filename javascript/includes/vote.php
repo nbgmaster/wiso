@@ -22,13 +22,13 @@
     
               $result_votes = @mysql_query($query_votes) OR die(mysql_error());
 
-              $text01       = "Deine Stimme wurde gezählt!";
+              $text01       = "Deine Stimme wurde gez&auml;hlt!";
 
           }
 
           else  {
 
-              $text01       = "Du hast keine Antwort ausgewählt!";
+              $text01       = "Du hast keine Antwort ausgew&auml;hlt!";
 
           }
 
@@ -37,7 +37,7 @@
 
       else  {
 
-          $text01       = "Du hast bereits für diese Umfrage abgestimmt!";
+          $text01       = "Du hast bereits f&uuml;r diese Umfrage abgestimmt!";
 
       }
 

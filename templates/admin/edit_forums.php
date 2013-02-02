@@ -35,7 +35,7 @@
     <td class="tablea" align="center">
 
     <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif">
-    <a href="index.php?do=admin&sec=edit_cat&module=delete&f=<?php  echo"".$row_forums["id"].""; ?>">löschen</a>
+    <a href="index.php?do=admin&sec=edit_cat&module=delete&f=<?php  echo"".$row_forums["id"].""; ?>">l&ouml;schen</a>
 
     </td>
 

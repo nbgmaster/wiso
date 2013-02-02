@@ -1,5 +1,7 @@
-
 <?php
+
+  session_start();
+  ob_start();
 
 
  if (isset($_GET['fileID']))  {
@@ -174,14 +176,6 @@ exit();
 }
 
 
-  // Start Session
-/*
-  session_cache_limiter('none');
-
-  ini_set('session.gc_maxlifetime',300);
-*/
-  session_start();
-  ob_start();
 
 
 ?><noscript><meta http-equiv="refresh" content="0;URL=noscript.htm"></noscript>
@@ -215,7 +209,8 @@ exit();
 <html>
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!--meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"-->
+   <meta charset="utf-8">
 
        <title>Wirtschaftswissenschaften an der Universit&auml;t Erlangen - N&uuml;rnberg</title>
 
@@ -223,7 +218,7 @@ exit();
         <META NAME="Author" CONTENT="Stefan Richter">
         <META NAME="Publisher" CONTENT="Stefan Richter">
         <META NAME="Copyright" CONTENT="www.richter-stefan.info (Stefan Richter)">
-        <META NAME="Keywords" CONTENT="Studentenportal,kostenlos,Bachelor,International,WiSo,RW,ReWi,Studenten,Student,Studium,BWL,VWL,Uni,Hochschule,Unterlagen,Forum,Betriebswirtschaft,Hausarbeiten,Klausur,Mitschriften,Nürnberg,Erlangen,Bildung,Management,Controlling,Marketing,Statistik,Mathematik,Recht,Privatrecht,Makro,Mikro,Ökonomik,Wirtschaftswissenschaften,Wirtschaftspädagogik,Skript,Zusammenfassungen">
+        <META NAME="Keywords" CONTENT="Studentenportal,kostenlos,Bachelor,International,WiSo,RW,ReWi,Studenten,Student,Studium,BWL,VWL,Uni,Hochschule,Unterlagen,Forum,Betriebswirtschaft,Hausarbeiten,Klausur,Mitschriften,Nürnberg,Erlangen,Bildung,Management,Controlling,Marketing,Statistik,Mathematik,Recht,Privatrecht,Makro,Mikro,Ökonomik,Wirtschaftswissenschaften,Wirtschaftsp&auml;dagogik,Skript,Zusammenfassungen">
         <META NAME="Description" CONTENT="Forum für die Bachelor Studenten im Fach Wirtschaftswissenschaften an der WiSo Nürnberg">
         <META NAME="Abstract" CONTENT="Forum für die Bachelor Studenten im Fach Wirtschaftswissenschaften an der WiSo Nürnberg">
         <META NAME="Robots" CONTENT="INDEX,FOLLOW">
@@ -385,10 +380,69 @@ init();
   $max_number = 10;                  
  // include("rssfeed/extern.php");
                
-  $tpl->assign("blank", true);
-  $tpl->display("rssfeed_extern.tpl");
+  //$tpl->assign("blank", true);
+  //$tpl->display("rssfeed_extern.tpl");
 
  /************/
+ ?>
+ 
+ 
+   <table cellpadding="3" cellspacing="1" class="tableinborder" width="180">
+
+    <tr>
+
+     <td class="catbg" align="left">
+
+     <b>Forum fehlt?</b>
+
+     </td>
+
+    </tr>
+
+    <tr>
+
+
+   <td valign="top" align="left" class="tableb" style="padding:5px;line-height:16px">
+
+<b>Es gibt f&uuml;r einen Kurs noch kein Forum?</b> <br><br> Einfach eine Mail an admin@wiwistud.de und der Kurs wird
+umgehend angelegt.
+  
+       </td>
+   </tr>
+</table>
+  
+      <br>
+      
+     <table cellpadding="3" cellspacing="1" class="tableinborder" width="180">
+
+    <tr>
+
+     <td class="catbg" align="left">
+
+     <b>Werbung</b>
+
+     </td>
+
+    </tr>
+
+    <tr>
+
+
+   <td valign="top" align="left" style="padding: 5px 4px 7px 4px;" align="center" class="tableb">
+
+<span style="padding-left:4px"><a href="https://www.facebook.com/kdstvostmark" target="_blank"><img src="images/flyer/2013ostmark_whisky.jpg" border="1" onclick="hits(3)"></a></span>
+<br><br>
+
+    <a href="mailto:werbung@wiwistud.de" class="small"><span class="small"><u>Hier k&ouml;nnte Ihre Werbung stehen!</u></span></a>
+
+  
+       </td>
+   </tr>
+</table>
+  
+  
+  
+  <?php
         
   
 if ($userdata_id != "" && $update_profile == 1 && $update_award == 1) { ?>
@@ -452,9 +506,9 @@ if ($userdata_id != "" && $update_profile == 1 && $update_award == 1) { ?>
 <tr>
 
 <td class="tablec" align="center" style="font-size:11px;padding-top:5px;padding-bottom:5px;" onMouseOver="this.className='mouseover2';" onMouseOut="this.className='mouseout3';" onClick="document.formXX.submit()">
-<b>Die Umfrage für das Wintersemester 2008/2009 läuft! <br><br><span style="color:red">Bewerte jetzt deine Lehrveranstaltungen!</span></b>
+<b>Die Umfrage für das Wintersemester 2008/2009 l&auml;uft! <br><br><span style="color:red">Bewerte jetzt deine Lehrveranstaltungen!</span></b>
 
-</td></tr><input type="hidden" name="woohoo"><input type="hidden" name="userXX" value="<?phpecho"$userdata_id";?>"></form></table>
+</td></tr><input type="hidden" name="woohoo"><input type="hidden" name="userXX" value="<?php echo "$userdata_id" ;?>"></form></table>
 
 <?php }  ?>
 
@@ -699,7 +753,7 @@ Neue Prüfungsergebnisse erfahrt ihr <a href="https://www.campus.uni-erlangen.de
 
      <table cellspacing="0" cellpadding="0" style="height:17px"><tr><td class="catbg">
 
-     <a href="index.php?hidecounter=<?phpecho"$countK";?>">
+     <a href="index.php?hidecounter=<?php echo "$countK" ; ?>">
 
      <img src="images/templates/<?php echo"$template"; ?>/<?php echo"$imgK"; ?>.gif" border="0"></a>
 
@@ -745,7 +799,7 @@ Neue Prüfungsergebnisse erfahrt ihr <a href="https://www.campus.uni-erlangen.de
 
 <table cellspacing="0" cellpadding="0" style="line-height:18px">
 
-<?php  klausurCounter("09.02.2009","Wirt.-völkerrecht"); ?>
+<?php  klausurCounter("09.02.2009","Wirt.-v&ouml;lkerrecht"); ?>
 <?php  klausurCounter("09.02.2009","Datenanalyse"); ?>
 <?php  klausurCounter("10.02.2009","PEWI II"); ?>
 <?php  klausurCounter("10.02.2009","Statistik"); ?>
@@ -765,12 +819,12 @@ Neue Prüfungsergebnisse erfahrt ihr <a href="https://www.campus.uni-erlangen.de
 
 <?php  klausurCounter("16.02.2009","U.-& Gesellschaftsrecht I"); ?>
 <?php  klausurCounter("16.02.2009","Ö-Recht I"); ?>
-<?php  klausurCounter("17.02.2009","Arbeitsmarktökonomik"); ?>
-<?php  klausurCounter("18.02.2009","Personalökonomik"); ?>
+<?php  klausurCounter("17.02.2009","Arbeitsmarkt&ouml;konomik"); ?>
+<?php  klausurCounter("18.02.2009","Personal&ouml;konomik"); ?>
 <?php  klausurCounter("18.02.2009","Konsumentenverhalten"); ?>
 
-<?php  klausurCounter("18.02.2009","Präs. & Mod.-techniken I"); ?>
-<?php  klausurCounter("18.02.2009","Präsentationsfähigkeiten"); ?>
+<?php  klausurCounter("18.02.2009","Pr&auml;s. & Mod.-techniken I"); ?>
+<?php  klausurCounter("18.02.2009","Pr&auml;sentationsf&auml;higkeiten"); ?>
 <?php  klausurCounter("19.02.2009","Bilanzpolitik und -analyse"); ?>
 <?php  klausurCounter("20.02.2009","Spieltheorie"); ?>
 <?php  klausurCounter("20.02.2009","Marketing Mngm. I"); ?>

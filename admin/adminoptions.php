@@ -90,7 +90,7 @@
 
           else  { 
   
-              $text01 = "Dieses Thema wirklich löschen?";
+              $text01 = "Dieses Thema wirklich l&ouml;schen?";
    
               $link = "javascript:history.back();";
  

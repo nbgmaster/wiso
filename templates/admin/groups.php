@@ -16,7 +16,7 @@
 
     <?php  } ?>
 
-    <b>löschen</b>
+    <b>l&ouml;schen</b>
 
     <?php  if ($row_groups[id] != "1" && $row_groups[id] != "2" && $row_groups[id] != "3" && $row_groups[id] != "4")  { ?> 
     

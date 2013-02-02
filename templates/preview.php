@@ -158,9 +158,9 @@
             <?php  if ($user_studyt == "bwl")  { echo"Schwerpunkt BWL"; } ?> 
             <?php  if ($user_studyt == "vwl")  { echo"Schwerpunkt VWL"; } ?> 
             <?php  if ($user_studyt == "info")  { echo"Wirtschaftsinformatik"; } ?> 
-            <?php  if ($user_studyt == "paed")  { echo"Schwerpunkt Pädagogik"; } ?> 
+            <?php  if ($user_studyt == "paed")  { echo"Schwerpunkt P&auml;dagogik"; } ?> 
             <?php  if ($user_studyt == "int")  { echo"International Business"; } ?> 
-            <?php  if ($user_studyt == "sozi")  { echo"Sozialökonomik"; } ?> 
+            <?php  if ($user_studyt == "sozi")  { echo"Sozial&ouml;konomik"; } ?> 
 
             </b>
 <br>
@@ -197,7 +197,7 @@
 
             <td align="left">
 
-            <b>Beiträge:</b> <?php  echo"$postnumbers_user"; ?>
+            <b>Beitr&auml;ge:</b> <?php  echo"$postnumbers_user"; ?>
 
             </td>
 

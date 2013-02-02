@@ -24,7 +24,7 @@
 <table width="100%" cellpadding="3" cellspacing="1" class="tableinborder">
 <tr><td class="tablea">
 <span style="line-height:22px" class="big">
-<b> Du bist nicht eingeloggt oder hast keine Berechtigung, diese Seite zu betreten. Das könnte aus einem der folgenden Gründe der Fall sein:</b>
+<b> Du bist nicht eingeloggt oder hast keine Berechtigung, diese Seite zu betreten. Das k&ouml;nnte aus einem der folgenden Gr&uuml;nde der Fall sein:</b>
 </span>
 </td></tr></table>
 
@@ -41,22 +41,22 @@
 
 <li>
 
-  Du bist nicht eingeloggt. Fülle die Login-Felder rechts oben mit deinem Nickname und deinem Passwort aus und probiere es erneut!
+  Du bist nicht eingeloggt. F&uuml;lle die Login-Felder rechts oben mit deinem Nickname und deinem Passwort aus und probiere es erneut!
 
 </li>
 <br>
 <li>
-     Du hast keine Berechtigung, die Seite, die Du aufrufen wolltest, zu betreten. Versuchst Du, den Beitrag eines anderen zu editieren oder eine Moderatoren-/Administrator-Funktion aufzurufen? Möglicherweise ist diese Funktion nur Administratoren zugänglich.
+     Du hast keine Berechtigung, die Seite, die Du aufrufen wolltest, zu betreten. Versuchst Du, den Beitrag eines anderen zu editieren oder eine Moderatoren-/Administrator-Funktion aufzurufen? M&ouml;glicherweise ist diese Funktion nur Administratoren zug&auml;nglich.
 
 </li>
 <br>
 <li>
-    Wenn Du versuchst, einen Beitrag zu schreiben, könnte es sein, daß der Administrator Deinen Account gesperrt hat; oder aber er wurde noch nicht aktiviert.
+    Wenn Du versuchst, einen Beitrag zu schreiben, k&ouml;nnte es sein, da&szlig; der Administrator Deinen Account gesperrt hat; oder aber er wurde noch nicht aktiviert.
 </li>
 
   <br>
 <li>
-Wenn keiner der oben genannten Gründe auf dich zutrifft kannst Du jederzeit einen Admin kontaktieren. Mehr dazu findest Du in den <a href="index.php?do=faq"><u>FAQ</u></a>.
+Wenn keiner der oben genannten Gr&uuml;nde auf dich zutrifft kannst Du jederzeit einen Admin kontaktieren. Mehr dazu findest Du in den <a href="index.php?do=faq"><u>FAQ</u></a>.
 </li>
 
 </span>

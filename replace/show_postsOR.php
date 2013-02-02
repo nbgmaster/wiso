@@ -42,7 +42,7 @@
 
                if ($img_size[0] > $max_w)  {
 
-                   $str = str_replace("[IMG]$content[1][/IMG]", "<img src=\"$img_var\" width=\"$max_w\"><br><a href=\"$img_var\" target=\"_blank\"> <b><u>Volle Bildgröße anzeigen</u></b></a><br><br>", $str);
+                   $str = str_replace("[IMG]$content[1][/IMG]", "<img src=\"$img_var\" width=\"$max_w\"><br><a href=\"$img_var\" target=\"_blank\"> <b><u>Volle Bildgr&ouml;&szlig;e anzeigen</u></b></a><br><br>", $str);
 
                }
 

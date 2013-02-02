@@ -71,7 +71,7 @@
 
                       }
 
-                      $text01 = "Nachrichten gelöscht!";
+                      $text01 = "Nachrichten gel&ouml;scht!";
 
                   }
 
@@ -81,7 +81,7 @@
 
                       mysql_query($delete_messages) OR die(mysql_error());
 
-                      $text01 = "Nachrichten gelöscht!";
+                      $text01 = "Nachrichten gel&ouml;scht!";
 
                   }
 
@@ -105,7 +105,7 @@
 
                          mysql_query($delete_messages) OR die(mysql_error());
 
-                         $text01 = "Nachricht gelöscht!";
+                         $text01 = "Nachricht gel&ouml;scht!";
 
                          include("templates/refresh.php");
 
@@ -226,7 +226,7 @@
 
                  $query_msg_user = mysql_query("SELECT UserID, UserName from $user_tblname WHERE UserID = '$row_messages[$pmbox2]'");
 
-                 $msg_user_name = "User gelöscht";
+                 $msg_user_name = "User gel&ouml;scht";
 
                  while ($row_msg_user  =  mysql_fetch_assoc($query_msg_user))  {
 

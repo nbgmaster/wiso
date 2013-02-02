@@ -70,11 +70,11 @@
 
 <?php  if ($resultDBnewOne > 0 or $newAdsResult > 0 or $newpms > 0 or $newpms2 > 0) { ?>
 
-<td class="tablec" onmouseover="this.className='mouseover2';return overlib('Neue Beiträge anzeigen.');" onmouseout="this.className='mouseout3';return nd();" onclick="location.href='index.php?do=showNewPosts'" style="border-bottom:1px solid #000">
+<td class="tablec" onmouseover="this.className='mouseover2';return overlib('Neue Beitr&auml;ge anzeigen.');" onmouseout="this.className='mouseout3';return nd();" onclick="location.href='index.php?do=showNewPosts'" style="border-bottom:1px solid #000">
 
 <?php  } else  { ?>
 
-<td class="tablec" onmouseover="this.className='mouseover2';return overlib('Neue Beiträge anzeigen.');" onmouseout="this.className='mouseout3';return nd();" onclick="location.href='index.php?do=showNewPosts'">
+<td class="tablec" onmouseover="this.className='mouseover2';return overlib('Neue Beitr&auml;ge anzeigen.');" onmouseout="this.className='mouseout3';return nd();" onclick="location.href='index.php?do=showNewPosts'">
 
 
 <?php  } ?>
@@ -92,7 +92,7 @@
 
 <td align="left" width="80" class="mfont">
 
-<b><u>Beiträge:</u></b>
+<b><u>Beitr&auml;ge:</u></b>
 
 </td>
 
@@ -261,7 +261,7 @@ if ($resultDBnewOne > 0) { ?>
 ?>
 <table width="160" cellspacing="1" cellpadding="5" class="tableinborder">
 <tr><td class="tablea" align="center">
-<i>keine neuen Aktivitäten</i>
+<i>keine neuen Aktivit&auml;ten</i>
 </td></tr></table>
 
 <?php  } /* if ($userdata_admin == "0")  { ?>
@@ -283,11 +283,11 @@ if ($resultDBnewOne > 0) { ?>
 
  <?php  if ($myCurs == 0)  { ?>
 
-         <table width="114" cellspacing="0" cellpadding="0" onmouseover="return overlib('Dein momentaner Punktestand beträgt:<br> <b><?php  echo"$userdata_credits"; ?> von 10 Punkten!</b><br><br>Gesamtpunktzahl: <b><?php echo"$pointstot2";?></b><br><br>Anzahl positiver Bewertungen gesamt:<br>Beiträge: <b><?php  echo"$resultmycreP"; ?></b>&nbsp;&nbsp;Unterlagen: <b><?php  echo"$resultmycreD"; ?></b><br><br>Bedankungen erhalten: <b><?php echo"$tha_numbm";?></b>');" onmouseout="return nd();">
+         <table width="114" cellspacing="0" cellpadding="0" onmouseover="return overlib('Dein momentaner Punktestand betr&auml;gt:<br> <b><?php  echo"$userdata_credits"; ?> von 10 Punkten!</b><br><br>Gesamtpunktzahl: <b><?php echo"$pointstot2";?></b><br><br>Anzahl positiver Bewertungen gesamt:<br>Beitr&auml;ge: <b><?php  echo"$resultmycreP"; ?></b>&nbsp;&nbsp;Unterlagen: <b><?php  echo"$resultmycreD"; ?></b><br><br>Bedankungen erhalten: <b><?php echo"$tha_numbm";?></b>');" onmouseout="return nd();">
    
 <?php  } else { ?>
 
-         <table width="114" cellspacing="0" cellpadding="0" style="cursor:pointer" onclick="location.href='index.php?do=showCredits&user_id=<?php echo"$userdata_id";?>&show=p';" onmouseover="return overlib('Dein momentaner Punktestand beträgt:<br> <b><?php  echo"$userdata_credits"; ?> von 10 Punkten!</b><br><br>Gesamtpunktzahl: <b><?php echo"$pointstot2";?></b><br><br>Anzahl positiver Bewertungen gesamt:<br>Beiträge: <b><?php  echo"$resultmycreP"; ?></b>&nbsp;&nbsp;Unterlagen: <b><?php  echo"$resultmycreD"; ?></b><br><br>Bedankungen erhalten: <b><?php echo"$tha_numbm";?></b><br><br><i>(Mausklick auf Balken zur Detailansicht)</i>');" onmouseout="return nd();">
+         <table width="114" cellspacing="0" cellpadding="0" style="cursor:pointer" onclick="location.href='index.php?do=showCredits&user_id=<?php echo"$userdata_id";?>&show=p';" onmouseover="return overlib('Dein momentaner Punktestand betr&auml;gt:<br> <b><?php  echo"$userdata_credits"; ?> von 10 Punkten!</b><br><br>Gesamtpunktzahl: <b><?php echo"$pointstot2";?></b><br><br>Anzahl positiver Bewertungen gesamt:<br>Beitr&auml;ge: <b><?php  echo"$resultmycreP"; ?></b>&nbsp;&nbsp;Unterlagen: <b><?php  echo"$resultmycreD"; ?></b><br><br>Bedankungen erhalten: <b><?php echo"$tha_numbm";?></b><br><br><i>(Mausklick auf Balken zur Detailansicht)</i>');" onmouseout="return nd();">
 
 <?php  } ?>
 
@@ -333,7 +333,7 @@ if ($resultDBnewOne > 0) { ?>
 <?php  if ($percent_mycred == "100")  { ?>
 <br>
 <a href="javascript:popthis2(500,400,'credits_cash.php','window');">
-<u><span style="font-size:11px"><b>Punkte jetzt einlösen!</b></span></u>
+<u><span style="font-size:11px"><b>Punkte jetzt einl&ouml;sen!</b></span></u>
 </a>
 <br>
 <br>

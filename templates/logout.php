@@ -171,7 +171,7 @@
               </td>    
 
         <td align="center" onclick="location.href='index.php?do=markread'" style="border-right:<?php  echo"$bordergage"; ?>px solid #<?php  echo"$bordercolor"; ?>" onmouseover="this.className='mouseover';" onmouseout="this.className='mouseout';">
-        <b>Alle ungelesenen Beiträge als gelesen markieren</b>
+        <b>Alle ungelesenen Beitr&auml;ge als gelesen markieren</b>
         </td>
 
         <td align="center" width="95">

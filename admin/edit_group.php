@@ -4,7 +4,7 @@
 
       if ($g_id == "1" or $g_id == "2" or $g_id == "3" or $g_id == "4")  {
 
-          $text01 = "Diese Standardgruppe kann nicht gelöscht werden!";
+          $text01 = "Diese Standardgruppe kann nicht gel&ouml;scht werden!";
 
       }
 
@@ -14,7 +14,7 @@
 
          mysql_query($delete_group) OR die(mysql_error());  
    
-                  $text01 = "Gruppe gelöscht!";
+                  $text01 = "Gruppe gel&ouml;scht!";
 
       }
 
@@ -45,7 +45,7 @@
 
              mysql_query($sql_group) OR die(mysql_error());
  
-             $text01 = "Gruppe geändert!";
+             $text01 = "Gruppe ge&auml;ndert!";
 
              $link   = "index.php?do=admin&sec=groups";
 

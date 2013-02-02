@@ -38,7 +38,7 @@
 
                 if ($_POST[nickname] == "$nickname_members" && $userdata_id != $row_members_free_data["UserID"])  { 
 
-                    $text01   = "Der gewählte Nickname ist bereits registriert!";
+                    $text01   = "Der gew&auml;hlte Nickname ist bereits registriert!";
                     $link     = "index.php?do=usercp&sec=edit_nickname";
 
                     $usercp_data = "wrong";
@@ -68,7 +68,7 @@
  
           mysql_query($update_nickname) OR die(mysql_error());
 
-          $text01   = "Nickname wurde geändert!";         
+          $text01   = "Nickname wurde ge&auml;ndert!";         
           $link     = "index.php?do=usercp";
 
       }

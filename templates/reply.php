@@ -147,11 +147,11 @@ Thema als <b>"Wichtig"</b> einstufen?
             &nbsp;&nbsp;&nbsp;&nbsp;
             <select id="sizeselect"  style="width:100px;" onchange="insert('[SIZE', '[/SIZE]', this.options[this.selectedIndex].value, '', '')">
 
-            <option value="0">Textgröße</option>
+            <option value="0">Textgr&ouml;&szlig;e</option>
 
             <option value="1">klein</option>
             <option value="2">mittel</option>
-            <option value="3">groß</option>
+            <option value="3">gro&szlig;</option>
             <option value="4">riesig</option>
 
             </select>
@@ -199,7 +199,7 @@ Thema als <b>"Wichtig"</b> einstufen?
 
 
 
-    Markiere den gewünschten Text und wähle anschließend die gewünschte Formatierung aus.
+    Markiere den gew&uuml;nschten Text und w&auml;hle anschlie&szlig;end die gew&uuml;nschte Formatierung aus.
 
 
        </td>
@@ -271,12 +271,12 @@ else  {
 
 if ($do == "edit" && $attach != "")  { 
 
-echo"<br><table cellspacing=\"0\" cellpadding=\"0\"><tr><td>Du hast bereits eine Datei angehängt.</td><td width=\"10\"></td><td>";
+echo"<br><table cellspacing=\"0\" cellpadding=\"0\"><tr><td>Du hast bereits eine Datei angeh&auml;ngt.</td><td width=\"10\"></td><td>";
 echo"<table cellspacing=\"0\" cellpadding=\"0\"><tr><td>";
-echo"<b>Datei löschen:</b></td><td><input type=\"checkbox\" id=\"checkbox\" value=\"1\" name=\"del_attach\">";
+echo"<b>Datei l&ouml;schen:</b></td><td><input type=\"checkbox\" id=\"checkbox\" value=\"1\" name=\"del_attach\">";
 echo"</td></tr></table></td></tr></table>";
 
-echo"<br>Solltest du eine neue Datei auswählen wird die alte automatisch überschrieben!<br>";
+echo"<br>Solltest du eine neue Datei ausw&auml;hlen wird die alte automatisch &uuml;berschrieben!<br>";
 
 
 }
@@ -284,7 +284,7 @@ echo"<br>Solltest du eine neue Datei auswählen wird die alte automatisch übersch
 ?>
 
         <br>
-        <b>Datei anhängen:</b>     <input name="file" type="file" size="36">
+        <b>Datei anh&auml;ngen:</b>     <input name="file" type="file" size="36">
         <br><br>
 
 
@@ -294,7 +294,7 @@ echo"<br>Solltest du eine neue Datei auswählen wird die alte automatisch übersch
         &nbsp;<img src="images/database/zip.gif" title="Zip-Archiv">&nbsp;<img src="images/database/rar.gif" title="RAR-Archiv">
 &nbsp;<img src="images/database/pdf.gif" title="PDF-Datei">
 &nbsp;<img src="images/database/txt.gif" title="Textdatei">
-        </td><td>&nbsp; max. Dateigröße: <b><?php  echo"$file_max_size2"; ?></b>
+        </td><td>&nbsp; max. Dateigr&ouml;&szlig;e: <b><?php  echo"$file_max_size2"; ?></b>
 </td></tr></table>
 <br>
         </td>
@@ -312,7 +312,7 @@ echo"<br>Solltest du eine neue Datei auswählen wird die alte automatisch übersch
         Umfrage starten:     <input type="radio" value="1" name="poll" class="checkbox"> Ja <input type="radio" value="0" name="poll" checked class="checkbox"> Nein
         <br>
         <font class="small">
-        (Umfrageerstellung erfolgt im nächsten Fenster nach dem Klick auf "Beitrag absenden")
+        (Umfrageerstellung erfolgt im n&auml;chsten Fenster nach dem Klick auf "Beitrag absenden")
         </small>
 
         </td>
@@ -364,11 +364,11 @@ echo"<br>Solltest du eine neue Datei auswählen wird die alte automatisch übersch
 
      <input class="buttons" type="submit" name="preview" accesskey="S" onclick="closeall(this.form)" value="Vorschau" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
 
-   <input class="buttons" type="submit" name="send_postdata" accesskey="S" onclick="closeall(this.form)" value="Beitrag ändern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
+   <input class="buttons" type="submit" name="send_postdata" accesskey="S" onclick="closeall(this.form)" value="Beitrag &auml;ndern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
    
    <?php  }  if ($do == "usercp")  { ?>
 
-   <input class="buttons" type="submit" name="send_postdata" accesskey="S" onclick="closeall(this.form)" value="Signatur ändern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
+   <input class="buttons" type="submit" name="send_postdata" accesskey="S" onclick="closeall(this.form)" value="Signatur &auml;ndern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
    
    <?php  }  if ($do != "usercp" && $do != "edit" && $do != "newpm")  { ?>
 

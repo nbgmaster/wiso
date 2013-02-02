@@ -70,7 +70,7 @@
 
       }
 
-      $text01 ="Diesen Beitrag wirklich löschen?";
+      $text01 ="Diesen Beitrag wirklich l&ouml;schen?";
  
       include("templates/delete.php");
 
@@ -263,13 +263,13 @@
 
           if ($del_thread == "1")  {
 
-          $text01 = "Thema wurde gelöscht!";
+          $text01 = "Thema wurde gel&ouml;scht!";
 
           }
 
           else  {
 
-          $text01 = "Beitrag wurde gelöscht!";
+          $text01 = "Beitrag wurde gel&ouml;scht!";
 
           }
 

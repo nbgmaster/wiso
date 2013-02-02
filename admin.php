@@ -19,7 +19,7 @@ if ($userdata_admin == "1")  {
 
       if ($module == "edit")  { 
 
-         $admin_navi2 = "Template ändern";
+         $admin_navi2 = "Template &auml;ndern";
 
       } 
  
@@ -50,7 +50,7 @@ if ($userdata_admin == "1")  {
 
   if ($sec == "ranks")  { 
 
-      $admin_navi = "<a href=\"index.php?do=admin&sec=ranks\">Benutzerränge</a>";
+      $admin_navi = "<a href=\"index.php?do=admin&sec=ranks\">Benutzerr&auml;nge</a>";
 
       if ($module == "new")  {  
 
@@ -71,7 +71,7 @@ if ($userdata_admin == "1")  {
 
   if ($sec == "edit_user")  {
 
-      $admin_navi = "<a href=\"index.php?do=admin&sec=edit_user\">Userdaten ändern</a>";
+      $admin_navi = "<a href=\"index.php?do=admin&sec=edit_user\">Userdaten &auml;ndern</a>";
 
   }
 
@@ -80,7 +80,7 @@ if ($userdata_admin == "1")  {
 
   if ($sec == "edit_cat")  {
   
-      $admin_navi = "<a href=\"index.php?do=admin&sec=edit_cat\">Kategorien & Foren ändern</a>";
+      $admin_navi = "<a href=\"index.php?do=admin&sec=edit_cat\">Kategorien & Foren &auml;ndern</a>";
 
   }
 

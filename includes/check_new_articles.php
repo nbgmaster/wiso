@@ -6,7 +6,7 @@
 
   /* 10 Tage, wenn jemand einen Monat nicht online war, werden nur die neuen Posts der letzten 10 Tage eingetragen
 
-  zudem werden Beiträge in der newposts nach 10 Tagen gelöscht */
+  zudem werden Beitr&auml;ge in der newposts nach 10 Tagen gel&ouml;scht */
     /*
   $tores = mysql_query("SELECT COUNT( id ) AS toold_numbers from $newposts_tblname WHERE posttime < $add_tooold LIMIT 1");
 

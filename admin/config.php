@@ -37,7 +37,7 @@
          mysql_query($update_config5) OR die(mysql_error());
          mysql_query($update_config6) OR die(mysql_error());
 
-         $text01   = "Einstellungen wurden geändert!";         
+         $text01   = "Einstellungen wurden ge&auml;ndert!";         
          $link     = "index.php?do=admin&sec=config";
 
      

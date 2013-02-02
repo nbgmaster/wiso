@@ -17,11 +17,11 @@
     </td>
 
     <td class="cellbg" align="left" width="150">
-    <b>Angebot läuft ab in...</b>
+    <b>Angebot l&auml;uft ab in...</b>
     </td>
 
     <td class="cellbg" width="30" align="center">
-    <b>löschen</b>
+    <b>l&ouml;schen</b>
     </td>
 
   </tr>
@@ -149,8 +149,8 @@
 
         <select name="deloption">
 
-        <option value="del_myad">Markierte Anzeigen löschen</option>
-        <option value="del_all_ads">Alle Anzeigen löschen</option>
+        <option value="del_myad">Markierte Anzeigen l&ouml;schen</option>
+        <option value="del_all_ads">Alle Anzeigen l&ouml;schen</option>
 
         </select>
 

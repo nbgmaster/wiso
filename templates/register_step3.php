@@ -19,7 +19,7 @@
 
          <td class="tableb" align="left" width="50%">
 
-         <b>Mitglieder dürfen dir Emails per Formmailer schicken?
+         <b>Mitglieder d&uuml;rfen dir Emails per Formmailer schicken?
 
          </td>
 
@@ -60,7 +60,7 @@
 
       </td><td>
 
-      &nbsp;<b>Deine Emailadresse bleibt unabhängig von dieser Einstellung unsichtbar für alle Mitglieder.</b>
+      &nbsp;<b>Deine Emailadresse bleibt unabh&auml;ngig von dieser Einstellung unsichtbar f&uuml;r alle Mitglieder.</b>
 
       </td></tr></table>
 

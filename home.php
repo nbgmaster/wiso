@@ -20,8 +20,8 @@
    <br>
 <span style="font-size:11px;line-height:24px">
 
-    wiwistud.de - die Plattform für alle Bachelor- & Masterstudenten des Fachbereichs Wirtschaftswissenschaften <br>der
-    Universität Erlangen-Nürnberg</b>
+    wiwistud.de - die Plattform f&uuml;r alle Bachelor- & Masterstudenten des Fachbereichs Wirtschaftswissenschaften <br>der
+    Universit&auml;t Erlangen-N&uuml;rnberg</b>
     </span>
 
     </td>
@@ -50,7 +50,7 @@
 <table cellspacing="0" cellpadding="5" style="line-height:24px;width:100%"><tr><td class="tableb" align="center" width="60">
 <img src="images/home/community_big.gif"></td><td class="tableb" valign="middle">
 <span style="font-size:11px">
-Diskutiere über <b>aktuelle Ereignisse und Vorlesungen</b> an deiner Fakultät
+Diskutiere &uuml;ber <b>aktuelle Ereignisse und Vorlesungen</b> an deiner Fakult&auml;t
     </span>
 </td></tr><tr><td class="tablea" align="center">
 <img src="images/home/info.gif"></td><td class="tablea" valign="middle">
@@ -66,13 +66,13 @@ Unsere <b>Unterlagendatenbank</b> liefert dir Mitschriften aus Vorlesungen und Z
 </td></tr><tr><td class="tablea" align="center">
 <img src="images/home/package.gif"></td><td class="tablea" valign="middle">
 <span style="font-size:11px">
-Durch unsere neue <b>Börse</b> kannst du bares Geld sparen, beispielsweise durch Kauf eines gebrauchten Buches
+Durch unsere neue <b>B&ouml;rse</b> kannst du bares Geld sparen, beispielsweise durch Kauf eines gebrauchten Buches
 
     </span>
 </td></tr><tr><td class="tableb" align="center">
 <img src="images/home/find.gif"></td><td class="tableb" valign="middle">
 <span style="font-size:11px">
-<b>Lehrstuhlwebsites</b> sowie wichtige Weblinks (z.B. zur Prüfungsanmeldung) erreichbar mit nur einem Mausklick
+<b>Lehrstuhlwebsites</b> sowie wichtige Weblinks (z.B. zur Pr&uuml;fungsanmeldung) erreichbar mit nur einem Mausklick
     </span>
 </td></tr>
 </table>
@@ -103,13 +103,13 @@ Durch unsere neue <b>Börse</b> kannst du bares Geld sparen, beispielsweise durch
 <table style="width:100%"><tr>
 <td width="65" align="center"><img src="images/home/warning.gif"></td>
 <td style="line-height:20px;">
-Dein Browser muss <b>Javascript</b> unterstützen und es darf nicht deaktiviert sein.
+Dein Browser muss <b>Javascript</b> unterst&uuml;tzen und es darf nicht deaktiviert sein.
 Desweiteren muss er <b>Cookies</b> akzeptieren.
 <br>
 Zur optimalen Darstellung von wiwistud.de empfehlen wir den <a href="http://www.firefox-browser.de" target="_blank">
 <b><u>Firefox</u></b></a> oder einen verwandten Browser mit der Gecko-Engine.
 <?php  if ($browser != "Netscape") { echo"<br>"; } ?>
-Solltest du weitere Fragen haben, so kannst du einen Administrator kontaktieren. Wie das geht erfährst du in den 
+Solltest du weitere Fragen haben, so kannst du einen Administrator kontaktieren. Wie das geht erf&auml;hrst du in den 
 <a href="index.php?do=faq"><u><b>FAQ</b></u></a>.
 </td>
 </tr></table>

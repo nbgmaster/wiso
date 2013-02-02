@@ -78,7 +78,7 @@
   mysql_query($update_profile5) OR die(mysql_error());
 
 
-  $text01   = "Profildaten wurden geändert!";         
+  $text01   = "Profildaten wurden ge&auml;ndert!";         
   $link     = "index.php?do=usercp&sec=edit_profile";
 
      

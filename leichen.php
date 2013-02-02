@@ -63,7 +63,7 @@
 
   */
 
-  $rt = count($Ay_userids); echo"Anzahl gelöschter User: $rt<br><br>";
+  $rt = count($Ay_userids); echo"Anzahl gel&ouml;schter User: $rt<br><br>";
  
  
   $query_p = mysql_query("SELECT user_id from posts ORDER by user_id");  

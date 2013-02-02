@@ -20,9 +20,9 @@
 
       <td class="tableb"> 
 
-      <b>Benutzer hinzufügen:</b> 
+      <b>Benutzer hinzuf&uuml;gen:</b> 
       <input type="hidden" name="buddyfunction" value="<?php  echo"$this_function"; ?>">
-      <input type="text" name="buddyname" size="30">&nbsp;<input type="submit" value="Hinzufügen" class="buttons" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
+      <input type="text" name="buddyname" size="30">&nbsp;<input type="submit" value="Hinzuf&uuml;gen" class="buttons" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
      
       <font class="small">
 
@@ -30,13 +30,13 @@
 
       <?php  if ($sec == "buddylist")  { ?>
 
-      Gebe hier den Namen eines Benutzers ein, der deiner Freundesliste hinzugefügt werden soll.
+      Gebe hier den Namen eines Benutzers ein, der deiner Freundesliste hinzugef&uuml;gt werden soll.
       <br>
-      Alternativ kannst du den gewünschten Benutzer auch über die <a href="index.php?do=members">Mitgliederliste</a> suchen und hinzufügen.
+      Alternativ kannst du den gew&uuml;nschten Benutzer auch &uuml;ber die <a href="index.php?do=members">Mitgliederliste</a> suchen und hinzuf&uuml;gen.
 
       <?php  } if ($sec == "ignorelist")  { ?>
 
-      Gebe hier den Namen eines Benutzers ein, der deiner Ignorier-Liste hinzugefügt werden soll. 
+      Gebe hier den Namen eines Benutzers ein, der deiner Ignorier-Liste hinzugef&uuml;gt werden soll. 
       <br>
       Der User kann dir dann keine privaten Nachrichten oder Emails mehr schreiben.
 

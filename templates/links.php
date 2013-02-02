@@ -76,7 +76,7 @@
 
 
 
-   Lehrstühle :: Semester 4 - 6
+   Lehrst&uuml;hle :: Semester 4 - 6
 
 
 
@@ -226,7 +226,7 @@
         <td class="cellbg" align="left">
 
 
-        <b>Einführung in das wissenschaftliche Arbeiten</b>
+        <b>Einf&uuml;hrung in das wissenschaftliche Arbeiten</b>
 
 
         </td>
@@ -338,7 +338,7 @@
 
 
 
-        <b>Präsentationsfähigkeiten</b>
+        <b>Pr&auml;sentationsf&auml;higkeiten</b>
 
 
 
@@ -662,7 +662,7 @@
 
 
 
-   Lehrstühle :: Semester 3
+   Lehrst&uuml;hle :: Semester 3
 
 
 
@@ -1166,7 +1166,7 @@
 
 
 
-        <b>Öffentliches Recht</b>
+        <b>&Ouml;ffentliches Recht</b>
 
 
 
@@ -1279,7 +1279,7 @@
 
 
 
-   Lehrstühle :: Semester 2
+   Lehrst&uuml;hle :: Semester 2
 
 
 
@@ -1327,7 +1327,7 @@
 
 
 
-        <b>Grundzüge der mikroökonomischen Theorie</b>
+        <b>Grundz&uuml;ge der mikro&ouml;konomischen Theorie</b>
 
 
 
@@ -1433,7 +1433,7 @@
 
 
 
-        <b>Makroökonomie</b>
+        <b>Makro&ouml;konomie</b>
 
 
 
@@ -1885,7 +1885,7 @@
 
 
 
-   Lehrstühle :: Semester 1
+   Lehrst&uuml;hle :: Semester 1
 
 
 
@@ -2056,7 +2056,7 @@
         <td class="cellbg" align="left">
 
 
-        <b>Unternehmer, Märkte & Volkswirtschaften</b>
+        <b>Unternehmer, M&auml;rkte & Volkswirtschaften</b>
 
 
 
@@ -2170,7 +2170,7 @@
 
 
 
-        <b>Buchführung</b>
+        <b>Buchf&uuml;hrung</b>
 
 
 
@@ -2592,7 +2592,7 @@
 
          
 
-         Was Dienste Uni Erlangen-Nürnberg
+         Was Dienste Uni Erlangen-N&uuml;rnberg
 
  
 
@@ -2662,7 +2662,7 @@
 
 
 
-        <b>Portalseite zur Prüfungsanmeldung</b>
+        <b>Portalseite zur Pr&uuml;fungsanmeldung</b>
 
 
 
@@ -2828,7 +2828,7 @@
 
          
 
-         Sprachkurse Uni Erlangen-Nürnberg
+         Sprachkurse Uni Erlangen-N&uuml;rnberg
 
  
 
@@ -3064,7 +3064,7 @@
 
          
 
-         Bibliothek Uni Erlangen-Nürnberg
+         Bibliothek Uni Erlangen-N&uuml;rnberg
 
  
 
@@ -3180,7 +3180,7 @@
 
          
 
-         Alle aktuellen Vorlesungen, Übungen & Tutorien
+         Alle aktuellen Vorlesungen, &Uuml;bungen & Tutorien
 
  
 
@@ -3255,7 +3255,7 @@
 
 
 
-        <b>Mensa Insel Schütt</b>
+        <b>Mensa Insel Sch&uuml;tt</b>
 
 
 
@@ -3299,7 +3299,7 @@
 
 
 
-         Speiseplan der Mensa Insel Schütt
+         Speiseplan der Mensa Insel Sch&uuml;tt
 
  
 
@@ -3371,7 +3371,7 @@
 
 
 
-        <b>Prüfungsamt</b>
+        <b>Pr&uuml;fungsamt</b>
 
 
 
@@ -3536,7 +3536,7 @@
 
          
 
-         Online Lernsoftware für Englisch Sprachkurse
+         Online Lernsoftware f&uuml;r Englisch Sprachkurse
 
  
 

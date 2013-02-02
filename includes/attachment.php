@@ -173,13 +173,13 @@
 
           if ($upload_access == "no")  { 
 
-              $text04        = "Das Dateiformat ist ung¸ltig!";  
+              $text04        = "Das Dateiformat ist ung&uuml;ltig!";  
 
           }
 
           else if ($size > $file_max_size)   {  
 
-              $text04        = "Datei darf max. $file_max_size2 groﬂ sein!";  
+              $text04        = "Datei darf max. $file_max_size2 gro&szlig; sein!";  
               $upload_access = "no";
 
           }

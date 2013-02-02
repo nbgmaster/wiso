@@ -72,7 +72,7 @@
 
     <a href="index.php?do=search&user_id=<?php  echo"".$row_members["UserID"].""; ?>" onmouseover="<?php  echo"$imgsearch"; ?>.src='images/templates/<?php  echo"$template"; ?>/search_hover.gif';" onmouseout="<?php  echo"$imgsearch"; ?>.src='images/templates/<?php  echo"$template"; ?>/search.gif';">
       
-    <img src="images/templates/<?php  echo"$template"; ?>/search.gif" name="<?php  echo"$imgsearch"; ?>" title="Beiträge suchen" border="0"></a>
+    <img src="images/templates/<?php  echo"$template"; ?>/search.gif" name="<?php  echo"$imgsearch"; ?>" title="Beitr&auml;ge suchen" border="0"></a>
     
     </td>
 
@@ -88,7 +88,7 @@
 
     <?php  echo"$addbuddylink"; ?>
 
-    <img src="images/templates/<?php  echo"$template"; ?>/buddy.gif" name="<?php  echo"$imghomie"; ?>" title="Zur Freundesliste hinzufügen" border="0"> 
+    <img src="images/templates/<?php  echo"$template"; ?>/buddy.gif" name="<?php  echo"$imghomie"; ?>" title="Zur Freundesliste hinzuf&uuml;gen" border="0"> 
 
     <?php  echo"$addbuddylink2"; ?>
  

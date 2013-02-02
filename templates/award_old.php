@@ -29,7 +29,7 @@ Bitte bewerte deshalb nur Veranstaltungen, <br>
 
 <br> <br>
 
-Nur so können wir eine aussagekräftige Umfrage gewährleisten und Manipulationsversuche verhindern!
+Nur so k&ouml;nnen wir eine aussagekr&auml;ftige Umfrage gew&auml;hrleisten und Manipulationsversuche verhindern!
 
 <br><br>
 
@@ -37,11 +37,11 @@ Nur so können wir eine aussagekräftige Umfrage gewährleisten und Manipulationsve
 
 <br><br>
 
-Diese Umfrage läuft noch bis zum <b>13.04.2008</b>.
+Diese Umfrage l&auml;uft noch bis zum <b>13.04.2008</b>.
 
 <br><br>
 
-Die Ergebnisse werden anschließend auf <b>wiwistud.de</b> veröffentlicht.
+Die Ergebnisse werden anschlie&szlig;end auf <b>wiwistud.de</b> ver&ouml;ffentlicht.
 
 </span>
 
@@ -213,7 +213,7 @@ Die Ergebnisse werden anschließend auf <b>wiwistud.de</b> veröffentlicht.
           if ($userdata_study == "bwl")  { $ud_study = "Schwerpunkt BWL"; }
           if ($userdata_study == "vwl")  { $ud_study = "Schwerpunkt VWL";  }
           if ($userdata_study == "info") { $ud_study = "Schwerpunkt Informatik"; }
-          if ($userdata_study == "paed") { $ud_study = "Schwerpunkt Pädagogik";  }
+          if ($userdata_study == "paed") { $ud_study = "Schwerpunkt P&auml;dagogik";  }
           if ($userdata_study == "int")  { $ud_study = "International Business Studies";  }
 
 ?>
@@ -259,7 +259,7 @@ Die Ergebnisse werden anschließend auf <b>wiwistud.de</b> veröffentlicht.
           if ($userdata_study == "bwl")  { $ud_study = "Schwerpunkt BWL"; }
           if ($userdata_study == "vwl")  { $ud_study = "Schwerpunkt VWL";  }
           if ($userdata_study == "info") { $ud_study = "Schwerpunkt Informatik"; }
-          if ($userdata_study == "paed") { $ud_study = "Schwerpunkt Pädagogik";  }
+          if ($userdata_study == "paed") { $ud_study = "Schwerpunkt P&auml;dagogik";  }
           if ($userdata_study == "int")  { $ud_study = "International Business Studies";  }
 
 ?>

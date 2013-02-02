@@ -52,7 +52,7 @@
 
         <span style="font-size : 13px;line-height:22px">
 
-        <b>...und zum Schluss ein kleines EasterEGG von uns für euch!</b>
+        <b>...und zum Schluss ein kleines EasterEGG von uns f&uuml;r euch!</b>
 
         </span>
 
@@ -85,10 +85,10 @@
       <tr><td class="tablea">
                 <span style="font-size:13px;line-height:26px">
 
-Wir möchten mit eurer Hilfe die
+Wir m&ouml;chten mit eurer Hilfe die
 <br><br><span style="font-size:18px;"><center><b><span style="color:green">beste</span> sowie die
 <span style="color:red">schlechteste</span> Lehrveranstaltung</center></span><br>
-des vergangenen Wintersemesters 07/08</b> mit einem Award prämieren.
+des vergangenen Wintersemesters 07/08</b> mit einem Award pr&auml;mieren.
 
 </span>
       </td></tr></table>
@@ -100,11 +100,11 @@ des vergangenen Wintersemesters 07/08</b> mit einem Award prämieren.
 
       <tr><td class="tableb">
                 <span style="font-size : 13px;line-height:26px">
-                Deshalb kannst du hier den Lehrstühlen Schulnoten zwischen 1 und 6 vergeben.
+                Deshalb kannst du hier den Lehrst&uuml;hlen Schulnoten zwischen 1 und 6 vergeben.
 <b><u>Bitte urteile fair und objektiv!</u></b>
 
-Wenn du nicht an dieser Umfrage teilnehmen möchtest, kannst du die Auswahlboxen einfach
-unverändert lassen.
+Wenn du nicht an dieser Umfrage teilnehmen m&ouml;chtest, kannst du die Auswahlboxen einfach
+unver&auml;ndert lassen.
    </td></tr></table>
 
       <br>
@@ -114,8 +114,8 @@ unverändert lassen.
       <tr><td class="tablea">
                 <span style="font-size : 13px;line-height:26px">
 
-<b>Unter allen Teilnehmern verlosen wir 2 Kinogutscheine für das Cinecitta, einen
-Büchergutschein vom Hugendubel sowie einen Cocktailgutschein in der Skybar.</b>
+<b>Unter allen Teilnehmern verlosen wir 2 Kinogutscheine f&uuml;r das Cinecitta, einen
+B&uuml;chergutschein vom Hugendubel sowie einen Cocktailgutschein in der Skybar.</b>
 
    </td></tr></table>
 
@@ -125,7 +125,7 @@ Büchergutschein vom Hugendubel sowie einen Cocktailgutschein in der Skybar.</b>
 
       <tr><td class="tableb">
                 <span style="font-size : 13px;line-height:26px">
-<b><span style="color:red">Beachte:</span></b> Eine spätere Teilnahme / Änderung ist nicht mehr möglich!
+<b><span style="color:red">Beachte:</span></b> Eine sp&auml;tere Teilnahme / &Auml;nderung ist nicht mehr m&ouml;glich!
 <br>
 <b>Deine Daten werden <u>anonym</u> und <u>streng vertraulich</u> behandelt und an keine Dritten
 weitergegeben.
@@ -146,7 +146,7 @@ weitergegeben.
 
         <span class="big">
 
-        <b>Welche Gesamtnote würdest du den folgenden Veranstaltungen geben? Note 1 (sehr gut) bis 6 (ungenügend)</b>
+        <b>Welche Gesamtnote w&uuml;rdest du den folgenden Veranstaltungen geben? Note 1 (sehr gut) bis 6 (ungen&uuml;gend)</b>
 
         </span>
 

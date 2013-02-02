@@ -32,7 +32,7 @@
 
   <tr>
 
-    <td class="tableb" width="50%">Verzeichnis, in dem alle Template Bilder liegen müssen</td>
+    <td class="tableb" width="50%">Verzeichnis, in dem alle Template Bilder liegen m&uuml;ssen</td>
 
     <td class="tablea" width="50%"><?php  echo"http://$board_domain$board_direction"; ?>images/templates/"Template Name"</td>
 
@@ -52,7 +52,7 @@
 
   <tr>
 
-    <td class="tableb" width="50%">Forum Breite (Wert sollte ungefähr zwischen 800 und 1000 liegen!)</td>
+    <td class="tableb" width="50%">Forum Breite (Wert sollte ungef&auml;hr zwischen 800 und 1000 liegen!)</td>
 
     <td class="tablea" width="50%"><input class="input" type="text" name="new_width" maxlength="4"> px</td>
 
@@ -68,7 +68,7 @@
 
     <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif"> 
 
-    Für eine optimale Forumsansicht mit Banner sollte der Banner genau <b>"Forum Breite - 2 Pixel" Pixel breit</b> sein!
+    F&uuml;r eine optimale Forumsansicht mit Banner sollte der Banner genau <b>"Forum Breite - 2 Pixel" Pixel breit</b> sein!
 
     </td>
 
@@ -138,7 +138,7 @@
 
   <tr>
 
-    <td class="tableb">Hintergrundfarbe außen</td>
+    <td class="tableb">Hintergrundfarbe au&szlig;en</td>
 
     <td class="tablea"><input class="input" type="text" name="new_bgcolor" maxlength="6"></td>
 
@@ -192,7 +192,7 @@
 
     <td class="cellbg" align="center">
 
-    Schriftgröße
+    Schriftgr&ouml;&szlig;e
 
     </td>
 
@@ -204,7 +204,7 @@
 
   <tr>
 
-    <td class="tableb" width="50%">Schriftgröße klein</td>
+    <td class="tableb" width="50%">Schriftgr&ouml;&szlig;e klein</td>
 
     <td class="tablea" width="50%"><input class="input" type="text" name="new_fontsize_small" maxlength="2"> px</td>
 
@@ -212,7 +212,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftgröße normal</td>
+    <td class="tableb">Schriftgr&ouml;&szlig;e normal</td>
 
     <td class="tablea"><input class="input" type="text" name="new_fontsize" maxlength="2"> px</td>
 
@@ -220,7 +220,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftgröße groß</td>
+    <td class="tableb">Schriftgr&ouml;&szlig;e gro&szlig;</td>
 
     <td class="tablea"><input class="input" type="text" name="new_fontsize_big" maxlength="2"> px</td>
 
@@ -228,7 +228,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftgröße Header Links</td>
+    <td class="tableb">Schriftgr&ouml;&szlig;e Header Links</td>
 
     <td class="tablea"><input class="input" type="text" name="new_fontsize_header" maxlength="2"> px</td>
 
@@ -236,7 +236,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftgröße Überschriften, Titel</td>
+    <td class="tableb">Schriftgr&ouml;&szlig;e &Uuml;berschriften, Titel</td>
 
     <td class="tablea"><input class="input" type="text" name="new_fontsize_title" maxlength="2"> px</td>
 
@@ -244,7 +244,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftgröße Kategorien</td>
+    <td class="tableb">Schriftgr&ouml;&szlig;e Kategorien</td>
 
     <td class="tablea"><input class="input" type="text" name="new_fontsize_cat" maxlength="2"> px</td>
 
@@ -252,7 +252,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftgröße Buttons, Textarea, Select & Inputfelder</td>
+    <td class="tableb">Schriftgr&ouml;&szlig;e Buttons, Textarea, Select & Inputfelder</td>
 
     <td class="tablea"><input class="input" type="text" name="new_fontsize_buttons" maxlength="2"> px</td>
 
@@ -350,7 +350,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftfarbe Überschriften Links</td>
+    <td class="tableb">Schriftfarbe &Uuml;berschriften Links</td>
 
     <td class="tablea"><input class="input" type="text" name="new_fontcolor_title" maxlength="6"></td>
 
@@ -358,7 +358,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftfarbe Überschriften Hover</td>
+    <td class="tableb">Schriftfarbe &Uuml;berschriften Hover</td>
 
     <td class="tablea"><input class="input" type="text" name="new_title_hovercolor" maxlength="6"></td>
 

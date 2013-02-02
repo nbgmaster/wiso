@@ -93,7 +93,7 @@
 
           if ($size > 500000)   { 
 
-              $text04        = "<br><br>Datei darf max. 0.5 MB groﬂ sein!<br>";  
+              $text04        = "<br><br>Datei darf max. 0.5 MB gro&szlig; sein!<br>";  
               $upload_access = "false"; $noSize = "1";
 
           }

@@ -43,7 +43,7 @@
 
                <?php  echo"(<b>$ghost_members</b>"; if($ghost_members == "1") { echo" Geist)"; } else { echo" Geister)"; } ?>
 
-               <?php  if ($no_members < 0)  {  $no_members = "0"; } echo"und <b>$no_members</b>"; if($no_members == "1") { echo" Gast"; } else { echo" Gäste"; } ?>
+               <?php  if ($no_members < 0)  {  $no_members = "0"; } echo"und <b>$no_members</b>"; if($no_members == "1") { echo" Gast"; } else { echo" G&auml;ste"; } ?>
 
                im Forum unterwegs. 
 
@@ -152,11 +152,11 @@
 
            Themen: <b><?php  echo"$ThdTot"; ?></b> | 
    
-           Beiträge: <b><?php  echo"$posTot"; ?></b> (Durchschnitt <?php  echo"$postsperday"; ?> Beiträge/Tag)
+           Beitr&auml;ge: <b><?php  echo"$posTot"; ?></b> (Durchschnitt <?php  echo"$postsperday"; ?> Beitr&auml;ge/Tag)
 
            <br>
 
-           Unser neuestes Mitglied heißt: <a href="index.php?do=profile&user_id=<?php  echo"$newest_user_id"; ?>"><b><?php  echo"$newest_user_name"; ?></b></a>.
+           Unser neuestes Mitglied hei&szlig;t: <a href="index.php?do=profile&user_id=<?php  echo"$newest_user_id"; ?>"><b><?php  echo"$newest_user_name"; ?></b></a>.
 
            </td>           <td width="40" align="left">
 

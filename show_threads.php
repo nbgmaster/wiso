@@ -76,7 +76,7 @@
 
             }     
 
-// Darf User neues Topic eröffnen?
+// Darf User neues Topic er&ouml;ffnen?
 
 
               if ($row_rights[f_write] == "all")  {
@@ -314,7 +314,7 @@
 
              } 
 
-             if ($thread_author_name == "")  $thread_author_name = "User gelöscht";
+             if ($thread_author_name == "")  $thread_author_name = "User gel&ouml;scht";
 
 
              $query_last_post = mysql_query("SELECT id, user_id, time from $posts_tblname WHERE t = '$row_threads[id]' ORDER by id DESC LIMIT 1");
@@ -341,7 +341,7 @@
 
              if ($lp_user_id == "")  {
 
-	         $last_post_username   = "User gelöscht";
+	         $last_post_username   = "User gel&ouml;scht";
 
              }
 

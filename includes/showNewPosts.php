@@ -21,7 +21,7 @@
   <table cellspacing="0" cellpadding="3" width="<?php  echo"$width"; ?>" style="border:1px solid #000000;height:20px">
   <form action="index.php?do=showNewPosts" method="post"><tr>
   <td class="tableb" style="border-right:0;">
-  Hinweis: Beiträge, die länger als 21 Tage zurückliegen werden nicht mehr erfasst.
+  Hinweis: Beitr&auml;ge, die l&auml;nger als 21 Tage zur&uuml;ckliegen werden nicht mehr erfasst.
   </td><td class="tableb" align="right">
 
 
@@ -50,7 +50,7 @@
 
   if ($check_rows > 0)  { 
 
-  $add_tooold = $timestamp - 1814400; // Beiträge, die länger als 21 Tage zurückliegen werden nicht mehr erfasst 
+  $add_tooold = $timestamp - 1814400; // Beitr&auml;ge, die l&auml;nger als 21 Tage zur&uuml;ckliegen werden nicht mehr erfasst 
 
 
   if ($lastOnlineTime < $add_tooold)  {

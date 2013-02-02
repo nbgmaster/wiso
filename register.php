@@ -4,7 +4,7 @@
 
       if ($reg_disable == "1")  {
 
-      $text01 = "Die Registrierung ist zur Zeit leider nicht möglich!";
+      $text01 = "Die Registrierung ist zur Zeit leider nicht m&ouml;glich!";
       $link   = "javascript:history.back();";
       include('templates/refresh.php');
 

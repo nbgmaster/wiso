@@ -47,7 +47,7 @@ if (strnobr.length < 2)  {
    if( document.bbform.message.value == "" )
 
       {
-       alert( "Fehler: Sie müssen eine Nachricht eingeben!" );
+       alert( "Fehler: Sie m&uuml;ssen eine Nachricht eingeben!" );
        document.bbform.message.focus();
        return false;
       }

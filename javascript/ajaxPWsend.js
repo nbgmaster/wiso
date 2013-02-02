@@ -63,14 +63,14 @@ function ajaxPWsend()  {
 
           else if (ajaxRequest.responseText == 'MailCorrect')  { 
 
-              alert("Deine Logindaten wurden an \n\n\'" + mail + "\'\n\n versendet. Überprüfe dein Postfach!");
+              alert("Deine Logindaten wurden an \n\n\'" + mail + "\'\n\n versendet. &Uuml;berpr&uuml;fe dein Postfach!");
 
           }
 
 
           else if (ajaxRequest.responseText == 'Locked')  { 
 
-              alert("Du hast erst vor kurzem Logindaten angefordert. Überprüfe dein Postfach!");
+              alert("Du hast erst vor kurzem Logindaten angefordert. &Uuml;berpr&uuml;fe dein Postfach!");
 
           }
 

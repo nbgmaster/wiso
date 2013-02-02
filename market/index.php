@@ -156,13 +156,13 @@
 
              if ($netscapeC != "0" or $lecture == "empty") { 
 
-                 echo"Wähle oben eine Kategorie und die gewünschte Vorlesung aus.";
+                 echo"W&auml;hle oben eine Kategorie und die gew&uuml;nschte Vorlesung aus.";
 
              }
 
              else  {
 
-                 echo"Es sind noch keine Einträge in dieser Kategorie vorhanden.";
+                 echo"Es sind noch keine Eintr&auml;ge in dieser Kategorie vorhanden.";
 
              }
 
@@ -236,7 +236,7 @@
                   $result_boerse = @mysql_query($query_boerse) OR die(mysql_error());
 
 
-                  $text01 = "Anzeige wurde veröffentlicht!";
+                  $text01 = "Anzeige wurde ver&ouml;ffentlicht!";
  
                   $link   = "index.php?do=market&category=$category&lecture=$lecture";
   
@@ -287,7 +287,7 @@
 
               mysql_query($upad) OR die(mysql_error());
 
-              $text04 = "Anzeige wurde geändert!";
+              $text04 = "Anzeige wurde ge&auml;ndert!";
  
               $link   = "index.php?do=market&sec=myads";
 
@@ -362,7 +362,7 @@
    
                       }
 
-                      $text01 = "Anzeige wurde gelöscht!";
+                      $text01 = "Anzeige wurde gel&ouml;scht!";
  
                   }
 
@@ -383,7 +383,7 @@
                       mysql_query($delete_ads) OR die(mysql_error());  
 
 
-                      $text01 = "Deine Anzeigen wurden gelöscht!";
+                      $text01 = "Deine Anzeigen wurden gel&ouml;scht!";
  
                   }
 

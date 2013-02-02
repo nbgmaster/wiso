@@ -30,7 +30,7 @@ Dein
 wiwistud.de Team
 
 
-- Achtung: Keine Antwort an diese Emailadresse möglich!";
+- Achtung: Keine Antwort an diese Emailadresse m&ouml;glich!";
 
       mail($to, $subject, $message, $Header) 
       or $efalse = "1"; 
@@ -67,7 +67,7 @@ wiwistud.de Team
 
           if ($check_ignorer > 0)  { 
 
-              $text01 = "Der User hat dich auf seiner Ignorierliste! Versendung nicht möglich!";
+              $text01 = "Der User hat dich auf seiner Ignorierliste! Versendung nicht m&ouml;glich!";
 
               $link   = "javascript:history.back();";
 
@@ -91,7 +91,7 @@ wiwistud.de Team
 
           if ($formm == "0" )  { 
 
-              $text01 = "Der User möchte keine Emails per Formmailer erhalten! Versendung nicht möglich!";
+              $text01 = "Der User m&ouml;chte keine Emails per Formmailer erhalten! Versendung nicht m&ouml;glich!";
 
               $link   = "javascript:history.back();";
 

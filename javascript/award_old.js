@@ -47,7 +47,7 @@ function checkN(totalN, selection)  {
 
               if (ayN.length == 0 && alert_X == 0)  { 
 
-                  alert("Denke daran, dass du nur Veranstaltungen bewertest,\n\n - die du im WS07/08 auch tatsächlich besucht hast\n\n und/oder \n\n - an deren Klausur du teilgenommen hast.\n\n --> siehe linke Infoleiste!\n\n DANKE!!");
+                  alert("Denke daran, dass du nur Veranstaltungen bewertest,\n\n - die du im WS07/08 auch tats&auml;chlich besucht hast\n\n und/oder \n\n - an deren Klausur du teilgenommen hast.\n\n --> siehe linke Infoleiste!\n\n DANKE!!");
 
                   alert_X = 1;
 

@@ -11,7 +11,7 @@
 
         <td class="catbg">
 
-        <a href="index.php?do=market" class="catFont">Börse</a>
+        <a href="index.php?do=market" class="catFont">B&ouml;rse</a>
 
         </td>
         <td align="right" class="catbg">
@@ -48,11 +48,11 @@
 <td width="65" align="center"><img src="images/templates/<?php  echo"$template"; ?>/critical.gif"></td>
       <td style="line-height:22px;" align="left">
 
-<b>Hier findest du kostengünstige Angebote anderer Studenten und hast selbst die Möglichkeit etwas zu offerieren, 
-<br>beispielsweise deine gebrauchten Lehrbücher.</b>
+<b>Hier findest du kosteng&uuml;nstige Angebote anderer Studenten und hast selbst die M&ouml;glichkeit etwas zu offerieren, 
+<br>beispielsweise deine gebrauchten Lehrb&uuml;cher.</b>
 <br>
-Der Artikel verschwindet erst aus der Auswahl, wenn der Verkäufer diesen wieder entfernt hat, spätestens jedoch nach<br> 4 Wochen. 
-Es kann somit unter Umständen vorkommen, dass bereits verkaufte Artikel noch ausgewiesen werden. 
+Der Artikel verschwindet erst aus der Auswahl, wenn der Verk&auml;ufer diesen wieder entfernt hat, sp&auml;testens jedoch nach<br> 4 Wochen. 
+Es kann somit unter Umst&auml;nden vorkommen, dass bereits verkaufte Artikel noch ausgewiesen werden. 
 
        </td>
 

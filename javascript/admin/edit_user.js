@@ -61,7 +61,7 @@ function check_admin()
    if (!mailOK) 
 
       {
-       alert ("Die E-Mail-Adresse ist ungültig!");
+       alert ("Die E-Mail-Adresse ist ung&uuml;ltig!");
        document.admin_form.email.focus();
        return false;
       }

@@ -308,7 +308,7 @@
 
          <td class="tablea">
 
-         <b>User Style überschreiben</b>
+         <b>User Style &uuml;berschreiben</b>
 
          </td>
 
@@ -666,7 +666,7 @@
 
          <td class="tablea">
 
-         <b>Nickname ändern erlauben</b>
+         <b>Nickname &auml;ndern erlauben</b>
 
          </td>
 
@@ -879,7 +879,7 @@
 
          <td class="tablea">
 
-         <b>max. Avatar Breite x Höhe</b>
+         <b>max. Avatar Breite x H&ouml;he</b>
 
          </td>
 
@@ -897,7 +897,7 @@
 
          <td class="tablea">
 
-         <b>max. Avatar Dateigröße</b>
+         <b>max. Avatar Dateigr&ouml;&szlig;e</b>
 
          </td>
 
@@ -1010,7 +1010,7 @@
 
          <td class="tablea">
 
-         <b>max. Dateigröße</b>
+         <b>max. Dateigr&ouml;&szlig;e</b>
 
          </td>
 
@@ -1031,7 +1031,7 @@
 
        <td align="center" class="cellbg">
 
-       <input class="input" type="submit" name="send_admin_data" value="Einstellungen ändern">
+       <input class="input" type="submit" name="send_admin_data" value="Einstellungen &auml;ndern">
 
        </td>
 

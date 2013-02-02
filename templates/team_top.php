@@ -10,7 +10,7 @@
 
         <td class="cellbg">
 
-        <b>Das Team im Überblick :: <?php  echo"$team_group"; ?></b>
+        <b>Das Team im &Uuml;berblick :: <?php  echo"$team_group"; ?></b>
 
         </td>
 

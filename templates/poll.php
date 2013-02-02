@@ -8,7 +8,7 @@
 
      <td class="catbg" align="left">
 
-     &nbsp;<b>Du kannst nun deine Umfrage zu dem Thema "<?php  echo"$title"; ?>" hinzufügen</b>
+     &nbsp;<b>Du kannst nun deine Umfrage zu dem Thema "<?php  echo"$title"; ?>" hinzuf&uuml;gen</b>
 
      </td></tr>
 

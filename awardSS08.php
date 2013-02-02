@@ -44,13 +44,13 @@
 
         <span style="line-height:24px;font-size:12px;">
         Zur Ermittlung einer Rangliste der einzelnen <b>Bachelor-Lehrveranstaltungen</b> wurde eine Umfrage am Ende des <b>Sommersemesters 08</b>
-        durchgeführt. Jede(r) Bachelor Student/in hatte dazu auf <u><a href="http://www.wiwistud.de">wiwistud.de</a></u> die Möglichkeit
+        durchgef&uuml;hrt. Jede(r) Bachelor Student/in hatte dazu auf <u><a href="http://www.wiwistud.de">wiwistud.de</a></u> die M&ouml;glichkeit
         seine/ihre Veranstaltungen anhand verschiedener Kriterien zu bewerten (von 1,0 = sehr gut bis 5,0 = sehr schlecht).
 
         <br><br>
 
-        Diese Rangliste soll <b>Bachelor-Student(inn)en der WiSo Nürnberg</b> helfen, die Qualität verschiedener Veranstaltungen besser einschätzen
-        zu können und soll sie folglich auch bei der Wahl der eigenen Kurse unterstützen.
+        Diese Rangliste soll <b>Bachelor-Student(inn)en der WiSo N&uuml;rnberg</b> helfen, die Qualit&auml;t verschiedener Veranstaltungen besser einsch&auml;tzen
+        zu k&ouml;nnen und soll sie folglich auch bei der Wahl der eigenen Kurse unterst&uuml;tzen.
         <br> <br>
 
         <b>Kurse mit weniger als 3 Bewertungen werden nicht gelistet.</b>
@@ -89,8 +89,8 @@
         <br>
          <table class="tableinborder" cellspacing="1" cellpadding="4"><tr><td class="tablea" style="font-size:12px;line-height:22px">
          <b>Wichtige Anmerkung:</b>
-         Diese Veranstaltungen sind für das Wintersemester vorgesehen. Daher gab es im Sommersemester zumeist keine Vorlesungen oder Übungen sondern lediglich
-         Nachholklausuren im Angebot. <br>Deshalb sind einige Kriterien der vorliegenen Ergebnisse nur bedingt aussagekräftig.
+         Diese Veranstaltungen sind f&uuml;r das Wintersemester vorgesehen. Daher gab es im Sommersemester zumeist keine Vorlesungen oder &Uuml;bungen sondern lediglich
+         Nachholklausuren im Angebot. <br>Deshalb sind einige Kriterien der vorliegenen Ergebnisse nur bedingt aussagekr&auml;ftig.
          </td></tr></table><br> <br>
 
 <?php 
@@ -133,8 +133,8 @@ include("includes/awaSS08_main.php");
          <div id="sem3" style="height: 0%; visibility: hidden; display: none;" class="tabPage">
            <br>   <table class="tableinborder" cellspacing="1" cellpadding="4"><tr><td class="tablea" style="font-size:12px;line-height:22px">
          <b>Wichtige Anmerkung:</b>
-         Diese Veranstaltungen sind für das Wintersemester vorgesehen. Daher gab es zumeist keine Vorlesungen sondern lediglich
-         Nachschreibeklausuren im Angebot. Dies sollte bei der Beurteilung der vorliegenen Ergebnissen berücksichtigt werden.
+         Diese Veranstaltungen sind f&uuml;r das Wintersemester vorgesehen. Daher gab es zumeist keine Vorlesungen sondern lediglich
+         Nachschreibeklausuren im Angebot. Dies sollte bei der Beurteilung der vorliegenen Ergebnissen ber&uuml;cksichtigt werden.
          </td></tr></table><br><br>
 <?php 
 

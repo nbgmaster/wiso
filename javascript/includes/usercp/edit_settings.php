@@ -14,7 +14,7 @@
 
           mysql_query($update_settings) OR die(mysql_error());
 
-          $text01   = "Einstellungen wurden geändert!";         
+          $text01   = "Einstellungen wurden ge&auml;ndert!";         
           $link     = "index.php?do=usercp";
 
           include("templates/refresh.php");

@@ -66,7 +66,7 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
                if ($row_database[lecture] == "UMV")  {
 
-                   $lecture = "Unternehmen, Märkte, Volkswirtschaften";
+                   $lecture = "Unternehmen, M&auml;rkte, Volkswirtschaften";
 
                }
 
@@ -84,7 +84,7 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
                if ($row_database[lecture] == "BF")  {
 
-                   $lecture = "Buchführung";
+                   $lecture = "Buchf&uuml;hrung";
 
                }
 
@@ -108,13 +108,13 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
                if ($row_database[lecture] == "mikro")  {
 
-                   $lecture = "Mikrookönomie";
+                   $lecture = "Mikrook&ouml;nomie";
 
                }
 
                if ($row_database[lecture] == "makro")  {
 
-                   $lecture = "Makrookönomie";
+                   $lecture = "Makrook&ouml;nomie";
 
                }
 
@@ -175,7 +175,7 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
                if ($row_database[lecture] == "oerecht")  {
 
-                   $lecture = "Öffentliches Recht I";
+                   $lecture = "&Ouml;ffentliches Recht I";
 
                }
 
@@ -194,19 +194,19 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
                if ($row_database[lecture] == "EwA")  {
 
-                   $lecture = "Einführung in das wissenschaftl. Arbeiten";
+                   $lecture = "Einf&uuml;hrung in das wissenschaftl. Arbeiten";
 
                }
 
                if ($row_database[lecture] == "praes")  {
 
-                   $lecture = "Präsentationsfähigkeiten";
+                   $lecture = "Pr&auml;sentationsf&auml;higkeiten";
 
                }
 
                if ($row_database[lecture] == "oerecht2")  {
 
-                   $lecture = "Öffentliches Recht II";
+                   $lecture = "&Ouml;ffentliches Recht II";
 
                }
 
@@ -224,7 +224,7 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
                if ($row_database[lecture] == "intuf")  {
 
-                   $lecture = "Internationale Unternehmensführung";
+                   $lecture = "Internationale Unternehmensf&uuml;hrung";
 
                }
 
@@ -284,7 +284,7 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
                
                if ($row_database[lecture] == "bpaed")  {
 
-                   $lecture = "Betriebspädagogik";
+                   $lecture = "Betriebsp&auml;dagogik";
 
                }
 
@@ -296,13 +296,13 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
                if ($row_database[lecture] == "auw")  {
 
-                   $lecture = "Außenwirtschaft";
+                   $lecture = "Au&szlig;enwirtschaft";
 
                }
 
                if ($row_database[lecture] == "OeoeS")  {
 
-                   $lecture = "Ökonomie des öffentlichen Sektors";
+                   $lecture = "&Ouml;konomie des &ouml;ffentlichen Sektors";
 
                }
 
@@ -388,17 +388,17 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
            if ($row_database[category] == "wipaed")  {
 
-               $category = "(B.A.) Wipäd";
+               $category = "(B.A.) Wip&auml;d";
 
                if ($row_database[lecture] == "gwip")  {
 
-                   $lecture = "Grundlagen der Wipäd";
+                   $lecture = "Grundlagen der Wip&auml;d";
 
                }
 
                if ($row_database[lecture] == "praesmod")  {
 
-                   $lecture = "Präsentations- und Moderationstechniken";
+                   $lecture = "Pr&auml;sentations- und Moderationstechniken";
 
                }
 
@@ -410,7 +410,7 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
                if ($row_database[lecture] == "paedseminar")  {
 
-                   $lecture = "Betriebspädagogisches Seminar";
+                   $lecture = "Betriebsp&auml;dagogisches Seminar";
 
                }
 
@@ -434,7 +434,7 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
                if ($row_database[lecture] == "intrecht1")  {
 
-                   $lecture = "Europäisches und Internationales Recht";
+                   $lecture = "Europ&auml;isches und Internationales Recht";
 
                }
 
@@ -446,7 +446,7 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
                if ($row_database[lecture] == "europglob")  {
 
-                   $lecture = "Europäisierung & Globalisierung";
+                   $lecture = "Europ&auml;isierung & Globalisierung";
 
                }
 
@@ -478,7 +478,7 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
                        
            if ($row_database[category] == "sozi")  {
 
-               $category = "(B.A.) Sozialökönomik";
+               $category = "(B.A.) Sozial&ouml;k&ouml;nomik";
 
                if ($row_database[lecture] == "sozio")  {
 
@@ -506,13 +506,13 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
                if ($row_database[lecture] == "empsozi")  {
 
-                   $lecture = "Einführung in emp. Sozialforschung";
+                   $lecture = "Einf&uuml;hrung in emp. Sozialforschung";
 
                }
 
                if ($row_database[lecture] == "compana")  {
 
-                   $lecture = "Computergestützte Datenanalyse";
+                   $lecture = "Computergest&uuml;tzte Datenanalyse";
 
                }
 
@@ -616,7 +616,7 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
            if ($row_database[category] == "master")  {
 
-               $category = "Masterstudiengänge";
+               $category = "Masterstudieng&auml;nge";
 
                if ($row_database[lecture] == "m_aup")   $lecture = "(M.Sc.) Arbeitsmarkt u. Personal"; 
                if ($row_database[lecture] == "m_eco")   $lecture = "(M.Sc.) Economics";
@@ -626,8 +626,8 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
                if ($row_database[lecture] == "m_iis")   $lecture = "(M.Sc.) IIS"; 
                if ($row_database[lecture] == "m_mgm")   $lecture = "(M.A.) Management";
                if ($row_database[lecture] == "m_mark")  $lecture = "(M.A.) Marketing";
-               if ($row_database[lecture] == "m_sozi")  $lecture = "(M.A.) Sozialökonomik";
-               if ($row_database[lecture] == "m_paed")  $lecture = "(M.A.) Wirtschaftspädagogik";
+               if ($row_database[lecture] == "m_sozi")  $lecture = "(M.A.) Sozial&ouml;konomik";
+               if ($row_database[lecture] == "m_paed")  $lecture = "(M.A.) Wirtschaftsp&auml;dagogik";
                
            }
            
@@ -649,7 +649,7 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
 <?php  if ($thisUser != "") { ?>
 <a href="index.php?do=profile&user_id=<?php  echo"$row_database[user_id]"; ?>"><?php  echo"$thisUser"; ?></a> 
-<?php  $thisUser = ""; } else  { echo"User gelöscht"; } ?>
+<?php  $thisUser = ""; } else  { echo"User gel&ouml;scht"; } ?>
 
     </td></tr><tr><td align="left" class="tablea">
     eingetragen am: </td><td align="right" class="tablea"> <?php   echo"$this_date"; ?>
@@ -659,7 +659,7 @@ echo"<a href=\"javascript:popthis('$row_database[id]',300,200,'includes/rate.php
 
     Downloads: <?php  echo"$row_database[downloads]"; ?> </td><td align="right" class="tablea">
     <a href="index.php?do=database&sec=delete&category=<?php  echo"$row_database[category]&lecture=$row_database[lecture]"; ?>&u_id=<?php  echo"$row_database[id]"; ?>">
-    löschen?
+    l&ouml;schen?
     </a>
 
     <?php  } else  { ?>

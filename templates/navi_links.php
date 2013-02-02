@@ -4,7 +4,7 @@
 
     <td class="catbg" width="50%" align="left">
 
-    <a class="catbg" href="index.php">Forum Übersicht</a>&nbsp;
+    <a class="catbg" href="index.php">Forum &Uuml;bersicht</a>&nbsp;
  
     <a class="catbg" href="index.php?f=<?php  echo"$f"; ?>">:: <?php  
 

@@ -52,7 +52,7 @@ function ajaxFunction2()  {
       {
 
 
-       alert( "Fehler: Nickname ungültig!" );
+       alert( "Fehler: Nickname ung&uuml;ltig!" );
 
        document.reg_form.r_nickname.focus();
 
@@ -141,7 +141,7 @@ function ajaxFunction2()  {
 
       {
 
-       alert ("Die E-Mail-Adresse ist ungültig!");
+       alert ("Die E-Mail-Adresse ist ung&uuml;ltig!");
 
        document.reg_form.email.focus();
 
@@ -154,7 +154,7 @@ function ajaxFunction2()  {
 
    if (results == -1)  {
    
-       alert("Keine gültige Uni-Emailadresse!");
+       alert("Keine g&uuml;ltige Uni-Emailadresse!");
        blaaa = 1;
        return false;
 
@@ -165,7 +165,7 @@ function ajaxFunction2()  {
     
        if (results == -1)  {
        
-           alert("Keine gültige Uni-Emailadresse!");
+           alert("Keine g&uuml;ltige Uni-Emailadresse!");
            return false;
     
        }
@@ -258,7 +258,7 @@ function ajaxFunction2()  {
 
       {
 
-       alert( "Die Passwörter stimmen nicht überein!" );
+       alert( "Die Passw&ouml;rter stimmen nicht &uuml;berein!" );
 
        document.reg_form.r_password.focus();
 
@@ -294,7 +294,7 @@ function ajaxFunction2()  {
       {
 
 
-       alert( "Fehler: Vorname  ungültig!" );
+       alert( "Fehler: Vorname  ung&uuml;ltig!" );
 
        document.reg_form.firstname.focus();
 
@@ -328,7 +328,7 @@ function ajaxFunction2()  {
 
       {
 
-       alert( "Fehler: Nachname ungültig!" );
+       alert( "Fehler: Nachname ung&uuml;ltig!" );
 
        document.reg_form.lastname.focus();
 

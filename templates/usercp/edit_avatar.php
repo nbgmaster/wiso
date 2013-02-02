@@ -32,7 +32,7 @@
  
         <?php  if($userdata_avatar != "") { ?>
 
-        <b>Bild löschen:</b> <input type="checkbox" value="1" name="del_avatar">
+        <b>Bild l&ouml;schen:</b> <input type="checkbox" value="1" name="del_avatar">
 
         <br><br>
 
@@ -58,7 +58,7 @@
 
         <br><br>
 
-        <input type="submit" name="send_data" class="buttons" value="Avatareinstellungen ändern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
+        <input type="submit" name="send_data" class="buttons" value="Avatareinstellungen &auml;ndern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
 
         <br><br>
 

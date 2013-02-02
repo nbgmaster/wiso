@@ -48,7 +48,7 @@
     <td class="cellbg" align="center" width="60">
 
     <?php  } ?>
-    <b>Beiträge
+    <b>Beitr&auml;ge
     </td>
 
   </tr>

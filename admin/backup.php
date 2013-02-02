@@ -14,7 +14,7 @@
 
     <td class="tablea">
 
-    <b>Vollständige Datensicherung</b>
+    <b>Vollst&auml;ndige Datensicherung</b>
 
     </td>
 

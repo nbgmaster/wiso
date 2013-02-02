@@ -77,7 +77,7 @@
 if ($userdata_id != "" && $c == "")  {
 
 echo"<table cellspacing=\"0\" cellpadding=\"2\" width=\"100%\"><tr><td align=\"right\">";
-echo"<a href=\"index.php?do=markread\"><u>alle ungelesenen Beiträge als gelesen markieren</u></a></td></tr></table>";
+echo"<a href=\"index.php?do=markread\"><u>alle ungelesenen Beitr&auml;ge als gelesen markieren</u></a></td></tr></table>";
 
 }
 

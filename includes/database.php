@@ -161,13 +161,13 @@
 
              if ($netscapeC != "0" or $lecture == "empty") { 
 
-                 echo"Wähle oben eine Kategorie und die gewünschte Vorlesung aus.";
+                 echo"W&auml;hle oben eine Kategorie und die gew&uuml;nschte Vorlesung aus.";
 
              }
 
              else  {
 
-                 echo"Es sind noch keine Einträge in dieser Kategorie vorhanden.";
+                 echo"Es sind noch keine Eintr&auml;ge in dieser Kategorie vorhanden.";
 
              }
 

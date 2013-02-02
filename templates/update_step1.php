@@ -75,7 +75,7 @@ function confirmSem() {
 
    <span style="font-size : 12px;">
 
-  <b>Bitte helfe mit das Forum auf dem neuesten Stand zu halten, indem du deine Angaben überprüfst
+  <b>Bitte helfe mit das Forum auf dem neuesten Stand zu halten, indem du deine Angaben &uuml;berpr&uuml;fst
   und ggf. anpasst.
    </span>
 
@@ -215,13 +215,13 @@ function confirmSem() {
          >Wirtschaftswissenschaften (Schwerpunkt Informatik)</option>
          <option value="paed"
          <?php  if ($userdata_study == "paed")  { echo" selected"; } ?>
-         >Wirtschaftswissenschaften (Schwerpunkt Pädagogik)</option>
+         >Wirtschaftswissenschaften (Schwerpunkt P&auml;dagogik)</option>
          <option value="int"
          <?php  if ($userdata_study == "int")  { echo" selected"; } ?>
          >International Business Studies</option>
          <option value="sozi"
          <?php  if ($userdata_study == "sozi")  { echo" selected"; } ?>
-         >Sozialökonomik</option>
+         >Sozial&ouml;konomik</option>
 
          </select>
 
@@ -284,11 +284,11 @@ function confirmSem() {
                    
          <option value="m_sozi"
          <?php  if ($userdata_study == "m_sozi")  { echo" selected"; } ?>
-         >Sozialökonomik</option>
+         >Sozial&ouml;konomik</option>
 
          <option value="m_paed"
          <?php  if ($userdata_study == "m_paed")  { echo" selected"; } ?>
-         >Wirtschaftspädagogik</option>
+         >Wirtschaftsp&auml;dagogik</option>
          
          </select>
 
@@ -370,7 +370,7 @@ function confirmSem() {
 
    <span style="font-size : 13px;">
 
-  <b><span style="color:red">Hinweis:</span> Überprüfe deine Semesterzahl auf Richtigkeit.
+  <b><span style="color:red">Hinweis:</span> &Uuml;berpr&uuml;fe deine Semesterzahl auf Richtigkeit.
 
    </span>
 

@@ -10,7 +10,7 @@ echo "<?php xml version=\"1.0\" encoding=\"ISO-8859-1\" ?>";
 
 <rss version="2.0">
 <channel> 
-    <title>wiwistud.de - Bachelorstudiengang Wirtschaftswissenschaften an der Universität Erlangen - Nürnberg</title>
+    <title>wiwistud.de - Bachelorstudiengang Wirtschaftswissenschaften an der Universit&auml;t Erlangen - N&uuml;rnberg</title>
     <link>http://www.wiwistud.de</link>
     <description>Die letzten 10 aktiven Themen im Forum</description>
     <language>de-de</language>
@@ -142,23 +142,23 @@ $SqlSelect = "SELECT id, rankingtime, threadname, f FROM threads order by rankin
 
    /*
      $str = str_replace("&", "&amp;", $str);
-     $str = str_replace("ä", "&auml;", $str);
-     $str = str_replace("Ä", "&Auml;", $str);
-     $str = str_replace("ö", "&ouml;", $str);
-     $str = str_replace("ö", "&Ouml;", $str);
-     $str = str_replace("ü", "&uuml;", $str);
-     $str = str_replace("Ü", "&Uuml;", $str);
+     $str = str_replace("&auml;", "&auml;", $str);
+     $str = str_replace("&Auml;", "&Auml;", $str);
+     $str = str_replace("&ouml;", "&ouml;", $str);
+     $str = str_replace("&ouml;", "&Ouml;", $str);
+     $str = str_replace("&uuml;", "&uuml;", $str);
+     $str = str_replace("&Uuml;", "&Uuml;", $str);
      $str = str_replace("\"", "&quot;", $str);
      $str = str_replace("<", "&lt;", $str);
      $str = str_replace(">", "&gt;", $str);
 
      $threadi = str_replace("&", "&amp;", $threadi);
-     $threadi = str_replace("ä", "&auml;", $threadi);
-     $threadi = str_replace("Ä", "&Auml;", $threadi);
-     $threadi = str_replace("ö", "&ouml;", $threadi);
-     $threadi = str_replace("ö", "&Ouml;", $threadi);
-     $threadi = str_replace("ü", "&uuml;", $threadi);
-     $threadi = str_replace("Ü", "&Uuml;", $threadi);
+     $threadi = str_replace("&auml;", "&auml;", $threadi);
+     $threadi = str_replace("&Auml;", "&Auml;", $threadi);
+     $threadi = str_replace("&ouml;", "&ouml;", $threadi);
+     $threadi = str_replace("&ouml;", "&Ouml;", $threadi);
+     $threadi = str_replace("&uuml;", "&uuml;", $threadi);
+     $threadi = str_replace("&Uuml;", "&Uuml;", $threadi);
      $threadi = str_replace("<", "&lt;", $threadi);
      $threadi = str_replace(">", "&gt;", $threadi);
 
@@ -166,12 +166,12 @@ $SqlSelect = "SELECT id, rankingtime, threadname, f FROM threads order by rankin
      $forum = str_replace("<", "&lt;", $forum);
      $forum = str_replace(">", "&gt;", $forum);
      $forum = str_replace("&", "&amp;", $forum);
-     $forum = str_replace("ä", "&auml;", $forum);
-     $forum = str_replace("Ä", "&Auml;", $forum);
-     $forum = str_replace("ö", "&ouml;", $forum);
-     $forum = str_replace("ö", "&Ouml;", $forum);
-     $forum = str_replace("ü", "&uuml;", $forum);
-     $forum = str_replace("Ü", "&Uuml;", $forum);
+     $forum = str_replace("&auml;", "&auml;", $forum);
+     $forum = str_replace("&Auml;", "&Auml;", $forum);
+     $forum = str_replace("&ouml;", "&ouml;", $forum);
+     $forum = str_replace("&ouml;", "&Ouml;", $forum);
+     $forum = str_replace("&uuml;", "&uuml;", $forum);
+     $forum = str_replace("&Uuml;", "&Uuml;", $forum);
  //    $forum = str_replace("\"", "&quot;", $forum);
      $forum = str_replace("<", "&lt;", $forum);
      $forum = str_replace(">", "&gt;", $forum);

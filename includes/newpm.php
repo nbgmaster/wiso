@@ -17,7 +17,7 @@ if ($pm_disable == "0")  {
 
         $refresh_time = "2";
 
-        $text01 = "Senden nicht möglich! Der Posteingang des Empfängers ist voll!";
+        $text01 = "Senden nicht m&ouml;glich! Der Posteingang des Empf&auml;ngers ist voll!";
 
         $link   = "javascript:history.back();";
 
@@ -33,7 +33,7 @@ if ($pm_disable == "0")  {
 
     if ($message_numbers2 >= $max_pm_outbox)  {
 
-        $text01 = "Dein Postausgang ist voll! Lösche erst einige Nachrichten!";
+        $text01 = "Dein Postausgang ist voll! L&ouml;sche erst einige Nachrichten!";
 
         $link   = "index.php?do=outbox";
 
@@ -51,7 +51,7 @@ if ($pm_disable == "0")  {
 
     if ($check_ignorer > 0)  { 
 
-        $text01 = "Der User hat dich auf seiner Ignorierliste! Versendung nicht möglich!";
+        $text01 = "Der User hat dich auf seiner Ignorierliste! Versendung nicht m&ouml;glich!";
 
         $link   = "javascript:history.back();";
 
@@ -79,7 +79,7 @@ if ($pm_disable == "0")  {
                    while ($row_a_id  =  mysql_fetch_assoc($query_a_id))  {
 
                           $title   = "Re: $row_a_id[title]";
-                          $message = "\n\n\n"; $message .= "-----------------ursprüngliche Nachricht-----------------"; $message .= "\n\n$row_a_id[message]";
+                          $message = "\n\n\n"; $message .= "-----------------urspr&uuml;ngliche Nachricht-----------------"; $message .= "\n\n$row_a_id[message]";
 
                     }
 

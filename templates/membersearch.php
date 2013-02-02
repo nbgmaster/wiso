@@ -71,7 +71,7 @@
         <select name="gender">
 
          <option value=""></option>
-        <option value="m">männlich</option>
+        <option value="m">m&auml;nnlich</option>
         <option value="w">weiblich</option>
          
         </select>
@@ -153,9 +153,9 @@
          <option value="bwl">Wirtschaftswissenschaften (Schwerpunkt BWL)</option>
          <option value="vwl">Wirtschaftswissenschaften (Schwerpunkt VWL)</option>
          <option value="info">Wirtschaftswissenschaften (Schwerpunkt Informatik)</option>
-         <option value="paed">Wirtschaftswissenschaften (Schwerpunkt Pädagogik)</option>
+         <option value="paed">Wirtschaftswissenschaften (Schwerpunkt P&auml;dagogik)</option>
          <option value="int">International Business Studies</option>
-         <option value="sozi">Sozialökonomik</option>
+         <option value="sozi">Sozial&ouml;konomik</option>
 
         </select>
 

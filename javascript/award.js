@@ -29,7 +29,7 @@ function checkN(totalN)  {
       if (ayN.length == 1)  {
 
 
-                  alert("Denke daran, dass du nur Veranstaltungen auswählst,\n\n - die du im WS 08/09 auch tatsächlich besucht hast\n\n und/oder \n\n - an deren Klausur du teilgenommen hast.\n\n DANKE!!");
+                  alert("Denke daran, dass du nur Veranstaltungen ausw&auml;hlst,\n\n - die du im WS 08/09 auch tats&auml;chlich besucht hast\n\n und/oder \n\n - an deren Klausur du teilgenommen hast.\n\n DANKE!!");
 
       }
 
@@ -67,7 +67,7 @@ function checkN2(totalN)  {
       if (ayN.length == 1)  {
 
 
-                  alert("Denke daran, dass du nur Veranstaltungen auswählst,\n\n - die du im WS 08/09 auch tatsächlich besucht hast\n\n und/oder \n\n - an deren Klausur du teilgenommen hast.\n\n DANKE!!");
+                  alert("Denke daran, dass du nur Veranstaltungen ausw&auml;hlst,\n\n - die du im WS 08/09 auch tats&auml;chlich besucht hast\n\n und/oder \n\n - an deren Klausur du teilgenommen hast.\n\n DANKE!!");
 
       }
 

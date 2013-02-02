@@ -213,15 +213,15 @@ exit();
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 
-       <title>Bachelorstudiengang Wirtschaftswissenschaften an der Universität Erlangen - Nürnberg</title>
+       <title>Bachelorstudiengang Wirtschaftswissenschaften an der Universit&auml;t Erlangen - N&uuml;rnberg</title>
 
-        <META NAME="Title" CONTENT="Bachelor WiSo Nürnberg">
+        <META NAME="Title" CONTENT="Bachelor WiSo N&uuml;rnberg">
         <META NAME="Author" CONTENT="Stefan Richter">
         <META NAME="Publisher" CONTENT="Stefan Richter">
         <META NAME="Copyright" CONTENT="www.nbg-master.de (Stefan Richter)">
-        <META NAME="Keywords" CONTENT="Studentenportal,kostenlos,Bachelor,International,WiSo,RW,ReWi,Studenten,Student,Studium,BWL,VWL,Uni,Hochschule,Unterlagen,Forum,Betriebswirtschaft,Hausarbeiten,Klausur,Mitschriften,Nürnberg,Erlangen,Bildung,Management,Controlling,Marketing,Statistik,Mathematik,Recht,Privatrecht,Makro,Mikro,Ökonomik,Wirtschaftswissenschaften,Wirtschaftspädagogik,Skript,Zusammenfassungen">
-        <META NAME="Description" CONTENT="Forum für die Bachelor Studenten im Fach Wirtschaftswissenschaften an der WiSo Nürnberg">
-        <META NAME="Abstract" CONTENT="Forum für die Bachelor Studenten im Fach Wirtschaftswissenschaften an der WiSo Nürnberg">
+        <META NAME="Keywords" CONTENT="Studentenportal,kostenlos,Bachelor,International,WiSo,RW,ReWi,Studenten,Student,Studium,BWL,VWL,Uni,Hochschule,Unterlagen,Forum,Betriebswirtschaft,Hausarbeiten,Klausur,Mitschriften,N&uuml;rnberg,Erlangen,Bildung,Management,Controlling,Marketing,Statistik,Mathematik,Recht,Privatrecht,Makro,Mikro,&Ouml;konomik,Wirtschaftswissenschaften,Wirtschaftsp&auml;dagogik,Skript,Zusammenfassungen">
+        <META NAME="Description" CONTENT="Forum f&uuml;r die Bachelor Studenten im Fach Wirtschaftswissenschaften an der WiSo N&uuml;rnberg">
+        <META NAME="Abstract" CONTENT="Forum f&uuml;r die Bachelor Studenten im Fach Wirtschaftswissenschaften an der WiSo N&uuml;rnberg">
         <META NAME="Robots" CONTENT="INDEX,FOLLOW">
 
        <?php 
@@ -380,7 +380,7 @@ init();
 
      <td class="catbg" align="left">
 
-     <b>Für unsere Erstsemestler</b>
+     <b>F&uuml;r unsere Erstsemestler</b>
 
      </td>
 
@@ -466,7 +466,7 @@ init();
 <tr>
 
 <td class="tablec" align="center" style="font-size:11px;padding-top:5px;padding-bottom:5px;" onMouseOver="this.className='mouseover2';" onMouseOut="this.className='mouseout3';" onClick="document.formXX.submit()">
-<b>Die Umfrage für das Wintersemester 2008/2009 läuft! <br><br><span style="color:red">Bewerte jetzt deine Lehrveranstaltungen!</span></b>
+<b>Die Umfrage f&uuml;r das Wintersemester 2008/2009 l&auml;uft! <br><br><span style="color:red">Bewerte jetzt deine Lehrveranstaltungen!</span></b>
 
 </td></tr><input type="hidden" name="woohoo"><input type="hidden" name="userXX" value="<?php echo"$userdata_id";?>"></form></table>
 
@@ -520,9 +520,9 @@ NR #2: Vorschaubild, Link auf Flyer
 <!--<a href="images/flyer/09-11-05.jpg" rel="lightbox"><img src="images/flyer/09-11-05-small.jpg" border="1"></a>-->
 <!--table><tr><td align="left">
 <span style="font-size:12px;">
-<b>Das wiwistud.de Team wünscht allen Mitgliedern viel Erfolg bei den anstehenden Prüfungen!</b>
+<b>Das wiwistud.de Team w&uuml;nscht allen Mitgliedern viel Erfolg bei den anstehenden Pr&uuml;fungen!</b>
 <br><br>
-Neue Prüfungsergebnisse erfahrt ihr <a href="https://www.campus.uni-erlangen.de/feed/rss.xml" target="_blank"><b><u>hier</u></b></a>.
+Neue Pr&uuml;fungsergebnisse erfahrt ihr <a href="https://www.campus.uni-erlangen.de/feed/rss.xml" target="_blank"><b><u>hier</u></b></a>.
     </span>
 </td></tr></table>
 <br-->
@@ -588,7 +588,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <table cellspacing="0" cellpadding="0" style="line-height:18px">
 
-<?php   klausurCounter("09.02.2009","Buchführung"); ?>
+<?php   klausurCounter("09.02.2009","Buchf&uuml;hrung"); ?>
 <?php   klausurCounter("13.02.2009","E-Business"); ?>
 <?php   klausurCounter("17.02.2009","UMV II"); ?>
 <?php   klausurCounter("19.02.2009","Mikro"); ?>
@@ -608,7 +608,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <table cellspacing="0" cellpadding="0" style="line-height:18px">
 
-<?php   klausurCounter("09.02.2009","Wirt.-völkerrecht"); ?>
+<?php   klausurCounter("09.02.2009","Wirt.-v&ouml;lkerrecht"); ?>
 <?php   klausurCounter("09.02.2009","Datenanalyse"); ?>
 <?php   klausurCounter("10.02.2009","PEWI II"); ?>
 <?php   klausurCounter("10.02.2009","Statistik"); ?>
@@ -621,19 +621,19 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <?php   klausurCounter("12.02.2009","Entrepreneurship"); ?>
 
 <?php   klausurCounter("13.02.2009","Topics in Micro."); ?>
-<?php   klausurCounter("13.02.2009","Mon. Außenwirt.-theorie"); ?>
+<?php   klausurCounter("13.02.2009","Mon. Au&szlig;enwirt.-theorie"); ?>
 <?php   klausurCounter("13.02.2009","Arbeitsrecht I"); ?>
 <?php   klausurCounter("16.02.2009","Europarecht II"); ?>
 <?php   klausurCounter("16.02.2009","Controlling (Bus. Develop.)"); ?>
 
 <?php   klausurCounter("16.02.2009","U.-& Gesellschaftsrecht I"); ?>
-<?php   klausurCounter("16.02.2009","Ö-Recht I"); ?>
-<?php   klausurCounter("17.02.2009","Arbeitsmarktökonomik"); ?>
-<?php   klausurCounter("18.02.2009","Personalökonomik"); ?>
+<?php   klausurCounter("16.02.2009","&Ouml;-Recht I"); ?>
+<?php   klausurCounter("17.02.2009","Arbeitsmarkt&ouml;konomik"); ?>
+<?php   klausurCounter("18.02.2009","Personal&ouml;konomik"); ?>
 <?php   klausurCounter("18.02.2009","Konsumentenverhalten"); ?>
 
-<?php   klausurCounter("18.02.2009","Präs. & Mod.-techniken I"); ?>
-<?php   klausurCounter("18.02.2009","Präsentationsfähigkeiten"); ?>
+<?php   klausurCounter("18.02.2009","Pr&auml;s. & Mod.-techniken I"); ?>
+<?php   klausurCounter("18.02.2009","Pr&auml;sentationsf&auml;higkeiten"); ?>
 <?php   klausurCounter("19.02.2009","Bilanzpolitik und -analyse"); ?>
 <?php   klausurCounter("20.02.2009","Spieltheorie"); ?>
 <?php   klausurCounter("20.02.2009","Marketing Mngm. I"); ?>
@@ -644,7 +644,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <?php   klausurCounter("24.02.2009","BWL Logistik"); ?>
 <?php   klausurCounter("24.02.2009","Public Management"); ?>
 
-<?php   klausurCounter("24.02.2009","Reale Außenwirt.-theorie"); ?>
+<?php   klausurCounter("24.02.2009","Reale Au&szlig;enwirt.-theorie"); ?>
 <?php   klausurCounter("25.02.2009","PIM"); ?>
 <?php   klausurCounter("25.02.2009","Int. UF"); ?>
 <?php   klausurCounter("26.02.2009","Arbeitsmarktpolitik"); ?>
@@ -657,7 +657,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <?php   klausurCounter("05.03.2009","PLB"); ?>
 
 <?php   klausurCounter("06.03.2009","Unternehmensbewertung"); ?>
-<?php   klausurCounter("06.03.2009","Ö-Recht II"); ?>
+<?php   klausurCounter("06.03.2009","&Ouml;-Recht II"); ?>
 <?php   klausurCounter("09.03.2009","Volkswirtschaftspolitik"); ?>
 <?php   klausurCounter("10.03.2009","PEWI"); ?>
 <?php   klausurCounter("11.03.2009","Intercultural Competence"); ?>

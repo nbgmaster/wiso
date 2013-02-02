@@ -57,7 +57,7 @@
 
   <tr>
 
-    <td class="tableb">Ab Beiträge</td>
+    <td class="tableb">Ab Beitr&auml;ge</td>
 
     <td class="tablea">
 
@@ -112,7 +112,7 @@
 
     <input type="hidden" name="actual_rankname" value="<?php  echo"$row_rank_data[r_rankname]"; ?>">
 
-    <input class="input" type="submit" value="Rang ändern" name="send_rank_data">
+    <input class="input" type="submit" value="Rang &auml;ndern" name="send_rank_data">
 
     </td> 
 

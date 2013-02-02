@@ -54,7 +54,7 @@
 
         <b>
 
-        Semesterübergang: Aktualisierung deiner Daten und Bewertung vergangener Lehrveranstaltungen 
+        Semester&uuml;bergang: Aktualisierung deiner Daten und Bewertung vergangener Lehrveranstaltungen 
 
  
         </span></b>

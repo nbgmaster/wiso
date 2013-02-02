@@ -1,12 +1,12 @@
 
-        // für optimale Kompatibilität mit anderen Javascripten schmeißen wir alles in ein Objekt
+        // f&uuml;r optimale Kompatibilit&auml;t mit anderen Javascripten schmei&szlig;en wir alles in ein Objekt
         optionHover = new Object();
 
         // Die Meldungen legen wir in ein Unterobjekt "infos". Jede Meldung bekommt sozusagen einen Namen (z.B. "meineErsteInfoMeldung")
         optionHover.infos = new Object();
         optionHover.infos.meineErsteInfoMeldung = "Achtung, das ist jetzt Javascript-Magie!";
         optionHover.infos.meineZweiteMeldung = "Und wieder erscheint eine Meldung...";
-        optionHover.infos.test = "Test, test, test... Hört man mich?";
+        optionHover.infos.test = "Test, test, test... H&ouml;rt man mich?";
 
         // Funktion zum Einblenden der Meldung
         optionHover.anzeigen = function (meldung) {
@@ -31,7 +31,7 @@
             div.id = "optionHoverDiv"; // ID geben
             div.style.display = "none"; // unsichtbar
 
-            // Diverse CSS-Eigenschaften für die Darstellung... könnte man auch über echten CSS-Code in einer CSS-Datei steuern...
+            // Diverse CSS-Eigenschaften f&uuml;r die Darstellung... k&ouml;nnte man auch &uuml;ber echten CSS-Code in einer CSS-Datei steuern...
             div.style.position = "absolute";
             div.style.top = "10px";
             div.style.left = "10px";
@@ -40,12 +40,12 @@
             div.style.padding = "20px";
             div.style.width = "200px";
 
-            // DIV in das Dokument am Ende einfügen
+            // DIV in das Dokument am Ende einf&uuml;gen
             document.body.appendChild(div);
         };
 
-        optionHover.oldWinOnLoad = window.onload; // alten Wert für onload speichern (damit andere Scripte nicht blockiert werden)
-        // optionHover.init() beim Laden der Seite ausführen lassen
+        optionHover.oldWinOnLoad = window.onload; // alten Wert f&uuml;r onload speichern (damit andere Scripte nicht blockiert werden)
+        // optionHover.init() beim Laden der Seite ausf&uuml;hren lassen
         window.onload = function () {
             if (typeof(optionHover.oldWinOnLoad) == "function")
                 optionHover.oldWinOnLoad();

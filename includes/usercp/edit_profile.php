@@ -70,8 +70,8 @@
 
   $len_lastname = strlen($str_lastname);
 
-  if ($len_firstname < 3)  {  $wrong_par = 1; $text01 = "Vorname ungültig!"; }
-  if ($len_lastname < 3)  {  $wrong_par = 1; $text01 = "Nachname ungültig!"; }
+  if ($len_firstname < 3)  {  $wrong_par = 1; $text01 = "Vorname ung&uuml;ltig!"; }
+  if ($len_lastname < 3)  {  $wrong_par = 1; $text01 = "Nachname ung&uuml;ltig!"; }
 
   if ($wrong_par == 0)  { 
 
@@ -129,7 +129,7 @@
       mysql_query($update_profile5) OR die(mysql_error());
 
 
-      $text01   = "Profildaten wurden geändert!";  
+      $text01   = "Profildaten wurden ge&auml;ndert!";  
 
   }
     

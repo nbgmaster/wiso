@@ -25,7 +25,7 @@
     </td>
 
     <td class="cellbg" width="50" align="center">
-    <b>löschen</b>
+    <b>l&ouml;schen</b>
     </td>
 
   </tr>

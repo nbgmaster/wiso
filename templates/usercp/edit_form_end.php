@@ -4,7 +4,7 @@
 
     <td class="tablea" align="center">
 
-    <input type="submit" class="buttons" name="send_usercp_data" value="Profildaten ändern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
+    <input type="submit" class="buttons" name="send_usercp_data" value="Profildaten &auml;ndern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
 
     </td>
 

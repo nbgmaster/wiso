@@ -69,7 +69,7 @@ if ($childnumbers > 1)  {
        ?>
 </td></tr><tr><td>
 
-       Das nächste Geburtstagkind:
+       Das n&auml;chste Geburtstagkind:
 
        <?php   $countbirths = "1";
   

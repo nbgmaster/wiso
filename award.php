@@ -30,14 +30,14 @@ $gesA = mysql_num_rows($qy_gesA);
 
         <span style="line-height:24px;font-size:12px;">
         Zur Ermittlung einer Rangliste der einzelnen <b>Bachelor-Lehrveranstaltungen</b> wurde eine Umfrage am Ende des <b>Wintersemesters 07/08</b> 
-        durchgeführt. Jede(r) Bachelor Student/in hatte dazu auf <u><a href="http://www.wiwistud.de">wiwistud.de</a></u> die Möglichkeit 
+        durchgef&uuml;hrt. Jede(r) Bachelor Student/in hatte dazu auf <u><a href="http://www.wiwistud.de">wiwistud.de</a></u> die M&ouml;glichkeit 
         seine/ihre Veranstaltungen mit einer Gesamtnote zu bewerten. 
         Insgesamt haben <b><?php echo"$gesA";?></b> Studentinnen und Studenten teilgenommen.
 
         <br><br>
 
-        Diese Rangliste soll <b>Bachelor-Student(inn)en der WiSo Nürnberg</b> helfen, die Qualität verschiedener Veranstaltungen besser einschätzen 
-        zu können und soll sie folglich auch bei der Wahl der eigenen Kurse unterstützen.
+        Diese Rangliste soll <b>Bachelor-Student(inn)en der WiSo N&uuml;rnberg</b> helfen, die Qualit&auml;t verschiedener Veranstaltungen besser einsch&auml;tzen 
+        zu k&ouml;nnen und soll sie folglich auch bei der Wahl der eigenen Kurse unterst&uuml;tzen.
 
         </span>
 

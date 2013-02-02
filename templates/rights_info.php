@@ -4,11 +4,11 @@
 
     <td>
 
-Du kannst <?php  echo"$info_posts"; ?> Beiträge in dieses Forum schreiben.
+Du kannst <?php  echo"$info_posts"; ?> Beitr&auml;ge in dieses Forum schreiben.
 <br>
-Du kannst deine Beiträge in diesem Forum nicht bearbeiten.
+Du kannst deine Beitr&auml;ge in diesem Forum nicht bearbeiten.
 <br>
-Du kannst deine Beiträge in diesem Forum nicht löschen.
+Du kannst deine Beitr&auml;ge in diesem Forum nicht l&ouml;schen.
 <br>
 Du kannst an Umfragen in diesem Forum nicht mitmachen.
 <br>

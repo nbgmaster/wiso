@@ -4,7 +4,7 @@
 
     <td class="tablea" align="center">
 
-    <br><font class="big"><b>Deine Auswahl enthält keine Treffer.</b></font>
+    <br><font class="big"><b>Deine Auswahl enth&auml;lt keine Treffer.</b></font>
 
     <br><br>
 

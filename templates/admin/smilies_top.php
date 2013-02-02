@@ -58,7 +58,7 @@ function update_smiley(newimage)
 
     <td class="tableb">
 
-    Alle Smilies müssen im Verzeichnis images/smiles liegen!
+    Alle Smilies m&uuml;ssen im Verzeichnis images/smiles liegen!
 
     </td>
 

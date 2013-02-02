@@ -42,7 +42,7 @@ $img_size[0] = 1000;
 
                if ($img_size[0] > $max_w)  { echo"HH";
 
-                   $str = str_replace("[IMG]$content[1][/IMG]", "<iframe width=\"$max_w\" height=\"400\" src=\"$img_var\"></iframe><br><a href=\"$img_var\" target=\"_blank\"> <b><u>Volle Bildgröße anzeigen</u></b></a><br><br>", $str);
+                   $str = str_replace("[IMG]$content[1][/IMG]", "<iframe width=\"$max_w\" height=\"400\" src=\"$img_var\"></iframe><br><a href=\"$img_var\" target=\"_blank\"> <b><u>Volle Bildgr&ouml;&szlig;e anzeigen</u></b></a><br><br>", $str);
 
                }
 

@@ -6,7 +6,7 @@
 
     <br>
 
-    <font class="big"><b>Keine Berechtigung für diese Seite!!</b></font>
+    <font class="big"><b>Keine Berechtigung f&uuml;r diese Seite!!</b></font>
 
     <br><br>
 

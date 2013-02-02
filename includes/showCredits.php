@@ -45,7 +45,7 @@ $Ay_credP[] = "";
            <td class="catbg" align="left">
 
 
-<b>Bonuspunktesystem :: Alle positiv bewerteten Beiträge und Unterlagen von <?php  GetUser($user_id); ?> im Überblick</b>
+<b>Bonuspunktesystem :: Alle positiv bewerteten Beitr&auml;ge und Unterlagen von <?php  GetUser($user_id); ?> im &Uuml;berblick</b>
 
                </td></tr></table>
 
@@ -53,7 +53,7 @@ $Ay_credP[] = "";
   <table cellspacing="0" cellpadding="3" width="<?php  echo"$width"; ?>" style="border:1px solid #000000;height:20px">
   <form action="index.php?do=showCredits" method="get"><tr>
   <td class="tableb" style="border-right:0;">
-  Wähle hier aus, ob du die Beiträge oder Unterlagen sehen willst:
+  W&auml;hle hier aus, ob du die Beitr&auml;ge oder Unterlagen sehen willst:
   </td><td class="tableb" align="right">
 
   <input name="do" value="showCredits" type="hidden">
@@ -63,7 +63,7 @@ $Ay_credP[] = "";
 
   <option value="p"
   <?php  if ($show == p)  { echo" selected"; } ?>
-  >Beiträge anzeigen</option>
+  >Beitr&auml;ge anzeigen</option>
 
   <option value="d"
   <?php  if ($show == d)  { echo" selected"; } ?>
@@ -177,11 +177,11 @@ if ($howmuch > 0)  {
 
                      if ($browser == "Opera")  {
 
-                        $attachment = "<br><br> <img style=\"width:50px\" src=\"attachments/$rw_myP[attachment]\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\"> <a href=\"attachments/$rw_myP[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgröße anzeigen\" border=\"0\"> </a>";
+                        $attachment = "<br><br> <img style=\"width:50px\" src=\"attachments/$rw_myP[attachment]\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\"> <a href=\"attachments/$rw_myP[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgr&ouml;&szlig;e anzeigen\" border=\"0\"> </a>";
 
                      }  else  {
 
-                        $attachment = "<br><br> <img style=\"max-width: $max_w;width: expression(this.width > 560 ? 560: true);\" src=\"attachments/$rw_myP[attachment]\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\"> <a href=\"attachments/$rw_myP[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgröße anzeigen\" border=\"0\"> </a>";
+                        $attachment = "<br><br> <img style=\"max-width: $max_w;width: expression(this.width > 560 ? 560: true);\" src=\"attachments/$rw_myP[attachment]\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\"> <a href=\"attachments/$rw_myP[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgr&ouml;&szlig;e anzeigen\" border=\"0\"> </a>";
 
                      }
 
@@ -189,7 +189,7 @@ if ($howmuch > 0)  {
 
                  else  {
 
-                         $attachment = "<i>Angehängtes Bild konnte nicht gefunden werden</i>";
+                         $attachment = "<i>Angeh&auml;ngtes Bild konnte nicht gefunden werden</i>";
 
                  }
 
@@ -366,7 +366,7 @@ $countMYP++;
 
     <br>
 
-    <font class="big"><b> <?php  GetUser($user_id); ?> hat noch keine Punkte auf Beiträge erhalten.</b></font>
+    <font class="big"><b> <?php  GetUser($user_id); ?> hat noch keine Punkte auf Beitr&auml;ge erhalten.</b></font>
 
     <br><br>
   
@@ -392,7 +392,7 @@ if ($show == "d")  {
            <td class="catbg" align="left">
 
 
-<b>Bonuspunktesystem :: Alle positiv bewerteten Beiträge und Unterlagen von <?php  GetUser($user_id); ?> im Überblick</b>
+<b>Bonuspunktesystem :: Alle positiv bewerteten Beitr&auml;ge und Unterlagen von <?php  GetUser($user_id); ?> im &Uuml;berblick</b>
 
                </td></tr></table>
 
@@ -400,7 +400,7 @@ if ($show == "d")  {
   <table cellspacing="0" cellpadding="3" width="<?php  echo"$width"; ?>" style="border:1px solid #000000;height:20px">
   <form action="index.php?do=showCredits" method="get"><tr>
   <td class="tableb" style="border-right:0;">
-  Wähle hier aus, ob du die Beiträge oder Unterlagen sehen willst:
+  W&auml;hle hier aus, ob du die Beitr&auml;ge oder Unterlagen sehen willst:
   </td><td class="tableb" align="right">
 
   <input name="do" value="showCredits" type="hidden">
@@ -410,7 +410,7 @@ if ($show == "d")  {
 
   <option value="p"
   <?php  if ($show == p)  { echo" selected"; } ?>
-  >Beiträge anzeigen</option>
+  >Beitr&auml;ge anzeigen</option>
 
   <option value="d"
   <?php  if ($show == d)  { echo" selected"; } ?>

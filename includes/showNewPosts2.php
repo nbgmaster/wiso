@@ -199,7 +199,7 @@
                     } 
              }
 
-             if ($last_post_username == "")  $last_post_username = "User gelöscht";
+             if ($last_post_username == "")  $last_post_username = "User gel&ouml;scht";
 
              if ($last_post_user_id == "0")  {
 

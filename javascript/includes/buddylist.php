@@ -5,7 +5,7 @@
       if ($sec == "buddylist")   {
 
           $this_function = "friend"; 
-          $text01 = "Der Benutzer wurde aus deiner Freundesliste gelöscht!";
+          $text01 = "Der Benutzer wurde aus deiner Freundesliste gel&ouml;scht!";
           $link   = "index.php?do=usercp&sec=buddylist";
 
       }
@@ -13,7 +13,7 @@
       if ($sec == "ignorelist")  {
 
           $this_function = "ignore";
-          $text01 = "Der Benutzer wurde aus deiner Ignorierliste gelöscht!";
+          $text01 = "Der Benutzer wurde aus deiner Ignorierliste gel&ouml;scht!";
           $link   = "index.php?do=usercp&sec=ignorelist";
 
       }

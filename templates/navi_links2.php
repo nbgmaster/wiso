@@ -4,9 +4,9 @@
 
     <td class="catbg" width="70%" align="left">
 
-    <a class="catbg" href="index.php">Forum Übersicht</a>
+    <a class="catbg" href="index.php">Forum &Uuml;bersicht</a>
  
-    &nbsp;:: Neue Beiträge seit letztem Besuch am   
+    &nbsp;:: Neue Beitr&auml;ge seit letztem Besuch am   
 
     <?php  
 
@@ -18,7 +18,7 @@
 
     <td class="catbg" align="right" width="30%">
 
-    neue Beiträge gesamt: <b><?php  echo"$newPostsResult"; ?></b>
+    neue Beitr&auml;ge gesamt: <b><?php  echo"$newPostsResult"; ?></b>
 
     </td>
 

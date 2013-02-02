@@ -4,7 +4,7 @@
 
     <td align="center">
 
-    <br><font class="big"><b>Forum wurde gelöscht.</b></font>
+    <br><font class="big"><b>Forum wurde gel&ouml;scht.</b></font>
     <br><br>
 
     </td>

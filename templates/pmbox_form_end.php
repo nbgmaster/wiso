@@ -14,8 +14,8 @@
 
         <select name="deloption">
 
-        <option value="del_pm">Markierte Nachrichten löschen</option>
-        <option value="del_all_pm">Alle Nachrichten löschen</option>
+        <option value="del_pm">Markierte Nachrichten l&ouml;schen</option>
+        <option value="del_all_pm">Alle Nachrichten l&ouml;schen</option>
 
         </select>
 
@@ -55,7 +55,7 @@
 
     <td>
 &nbsp;
-    <?php  if ($do == "outbox")  { echo"vom Empfänger"; } else { echo"Nachricht"; } ?> ungelesen
+    <?php  if ($do == "outbox")  { echo"vom Empf&auml;nger"; } else { echo"Nachricht"; } ?> ungelesen
 </td></tr></table>
 
     </td>
@@ -70,7 +70,7 @@
 
     <td>&nbsp;
 
-    <?php  if ($do == "outbox")  { echo"vom Empfänger"; } else { echo"Nachricht"; } ?> gelesen
+    <?php  if ($do == "outbox")  { echo"vom Empf&auml;nger"; } else { echo"Nachricht"; } ?> gelesen
 </td></tr></table>
     </td>
 

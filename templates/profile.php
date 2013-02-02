@@ -111,11 +111,11 @@ echo"<br>";
 
 if ($curs == 0)  { ?>
 
-         <table width="80" cellspacing="0" cellpadding="0" onmouseover="return overlib('Der aktuelle Punktestand von <b><?php  echo"".$row_user["UserName"].""; ?></b> betr‰gt:<br> <?php  echo"$creditnumber"; ?> von 10 Punkten!</b><br><br>Gesamtpunktzahl: <b><?php echo"$pointstot";?></b><br><br>Anzahl positiver Bewertungen gesamt:<br>Beitr‰ge: <b><?php  echo"$resultcreP"; ?></b>&nbsp;&nbsp;Unterlagen: <b><?php  echo"$resultcreD"; ?></b><br><br>Bedankungen erhalten: <b><?php echo"$tha_numb";?></b>');" onmouseout="return nd();"><tr>
+         <table width="80" cellspacing="0" cellpadding="0" onmouseover="return overlib('Der aktuelle Punktestand von <b><?php  echo"".$row_user["UserName"].""; ?></b> betr&auml;gt:<br> <?php  echo"$creditnumber"; ?> von 10 Punkten!</b><br><br>Gesamtpunktzahl: <b><?php echo"$pointstot";?></b><br><br>Anzahl positiver Bewertungen gesamt:<br>Beitr&auml;ge: <b><?php  echo"$resultcreP"; ?></b>&nbsp;&nbsp;Unterlagen: <b><?php  echo"$resultcreD"; ?></b><br><br>Bedankungen erhalten: <b><?php echo"$tha_numb";?></b>');" onmouseout="return nd();"><tr>
      
 <?php  } else { ?>
 
-         <table width="80" cellspacing="0" cellpadding="0" style="cursor:pointer" onclick="location.href='index.php?do=showCredits&user_id=<?php echo"$row_user[UserID]";?>&show=p';" onmouseover="return overlib('Der aktuelle Punktestand von <b><?php  echo"".$row_user["UserName"].""; ?></b> betr‰gt:<br> <?php  echo"$creditnumber"; ?> von 10 Punkten!</b><br><br>Gesamtpunktzahl: <b><?php echo"$pointstot";?></b><br><br>Anzahl positiver Bewertungen gesamt:<br>Beitr‰ge: <b><?php  echo"$resultcreP"; ?></b>&nbsp;&nbsp;Unterlagen: <b><?php  echo"$resultcreD"; ?></b><br><br>Bedankungen erhalten: <b><?php echo"$tha_numb";?></b><br><br><i>(Mausklick auf Balken zur Detailansicht)</i>');" onmouseout="return nd();"><tr>
+         <table width="80" cellspacing="0" cellpadding="0" style="cursor:pointer" onclick="location.href='index.php?do=showCredits&user_id=<?php echo"$row_user[UserID]";?>&show=p';" onmouseover="return overlib('Der aktuelle Punktestand von <b><?php  echo"".$row_user["UserName"].""; ?></b> betr&auml;gt:<br> <?php  echo"$creditnumber"; ?> von 10 Punkten!</b><br><br>Gesamtpunktzahl: <b><?php echo"$pointstot";?></b><br><br>Anzahl positiver Bewertungen gesamt:<br>Beitr&auml;ge: <b><?php  echo"$resultcreP"; ?></b>&nbsp;&nbsp;Unterlagen: <b><?php  echo"$resultcreD"; ?></b><br><br>Bedankungen erhalten: <b><?php echo"$tha_numb";?></b><br><br><i>(Mausklick auf Balken zur Detailansicht)</i>');" onmouseout="return nd();"><tr>
    
 <?php  } ?>
 
@@ -150,9 +150,9 @@ if ($curs == 0)  { ?>
             <?php  if ($row_user[study] == "bwl")  { echo"Schwerpunkt BWL"; } ?> 
             <?php  if ($row_user[study] == "vwl")  { echo"Schwerpunkt VWL"; } ?> 
             <?php  if ($row_user[study] == "info")  { echo"Wirtschaftsinformatik"; } ?> 
-            <?php  if ($row_user[study] == "paed")  { echo"Schwerpunkt P‰dagogik"; } ?> 
+            <?php  if ($row_user[study] == "paed")  { echo"Schwerpunkt P&auml;dagogik"; } ?> 
             <?php  if ($row_user[study] == "int")  { echo"International Business"; } ?> 
-            <?php  if ($row_user[study] == "sozi")  { echo"Sozialˆkonomik"; } ?> 
+            <?php  if ($row_user[study] == "sozi")  { echo"Sozial&ouml;konomik"; } ?> 
             <?php  if ($row_user[study] == "ing")  { echo"Wirtschaftsingenieurwesen"; } ?> 
 
             </b>
@@ -171,8 +171,8 @@ if ($curs == 0)  { ?>
             <?php  if ($row_user[study] == "m_iis")  { echo"IIS"; } ?> 
             <?php  if ($row_user[study] == "m_mgm")  { echo"Management"; } ?> 
             <?php  if ($row_user[study] == "m_marketing")  { echo"Marketing"; } ?> 
-            <?php  if ($row_user[study] == "m_sozu")  { echo"Sozialˆkonomik"; } ?> 
-            <?php  if ($row_user[study] == "m_paed")  { echo"Wirtschaftsp‰dagogik"; } ?> 
+            <?php  if ($row_user[study] == "m_sozu")  { echo"Sozial&ouml;konomik"; } ?> 
+            <?php  if ($row_user[study] == "m_paed")  { echo"Wirtschaftsp&auml;dagogik"; } ?> 
          
             </b>
             
@@ -221,7 +221,7 @@ if ($row_user[wisostudent] == 1 && $row_user[semester] > 0 || $row_user[wisostud
 
                <td align="left">
 
-               <b>Beitr‰ge:</b>&nbsp;&nbsp; <?php  echo"".$row_user["postnumbers"]."<br><br><center> ($user_postsperday"; ?> Beitr‰ge pro Tag)</center>
+               <b>Beitr&auml;ge:</b>&nbsp;&nbsp; <?php  echo"".$row_user["postnumbers"]."<br><br><center> ($user_postsperday"; ?> Beitr&auml;ge pro Tag)</center>
 
                </td>
 
@@ -544,7 +544,7 @@ if ($row_user[wisostudent] == 1 && $row_user[semester] > 0 || $row_user[wisostud
                    <td class="tablea" align="left">
 
                    
-                   <b>Straﬂe</b>
+                   <b>Stra&szlig;e</b>
 
                    </td>
 
@@ -638,13 +638,13 @@ if ($row_user[wisostudent] == 1 && $row_user[semester] > 0 || $row_user[wisostud
            
     <a href="index.php?do=search&user_id=<?php  echo"$row_user[UserID]"; ?>" onmouseover="imgsearch.src='images/templates/<?php  echo"$template"; ?>/search_hover.gif';" onmouseout="imgsearch.src='images/templates/<?php  echo"$template"; ?>/search.gif';">
       
-    <img src="images/templates/<?php  echo"$template"; ?>/search.gif" name="imgsearch" title="Beitr‰ge suchen" border="0"></a>
+    <img src="images/templates/<?php  echo"$template"; ?>/search.gif" name="imgsearch" title="Beitr&auml;ge suchen" border="0"></a>
          
     &nbsp;           
          
     <a href="index.php?do=addbuddy&user_id=<?php  echo"$row_user[UserID]"; ?>" onmouseover="imghomie.src='images/templates/<?php  echo"$template"; ?>/buddy_hover.gif';" onmouseout="imghomie.src='images/templates/<?php  echo"$template"; ?>/buddy.gif';">
 
-    <img src="images/templates/<?php  echo"$template"; ?>/buddy.gif" name="imghomie" title="Zur Freundesliste hinzuf¸gen" border="0"></a>
+    <img src="images/templates/<?php  echo"$template"; ?>/buddy.gif" name="imghomie" title="Zur Freundesliste hinzuf&uuml;gen" border="0"></a>
 
     </td>
 
@@ -684,7 +684,7 @@ if ($howmuch > 0)  {
            <td class="catbg" align="left">
 
 
-<b>Die letzten 5 Beitr‰ge von <?php  echo"".$row_user["UserName"].""; ?></b>
+<b>Die letzten 5 Beitr&auml;ge von <?php  echo"".$row_user["UserName"].""; ?></b>
 
                </td></tr></table>
 
@@ -800,11 +800,11 @@ $countMYP = "1";
 
                      if ($browser == "Opera")  {
 
-                        $attachment = "<br><br> <img style=\"width:50px\" src=\"attachments/$rw_myP[attachment]\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\"> <a href=\"attachments/$rw_myP[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgrˆﬂe anzeigen\" border=\"0\"> </a>";
+                        $attachment = "<br><br> <img style=\"width:50px\" src=\"attachments/$rw_myP[attachment]\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\"> <a href=\"attachments/$rw_myP[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgr&ouml;&szlig;e anzeigen\" border=\"0\"> </a>";
 
                      }  else  {
 
-                        $attachment = "<br><br> <img style=\"max-width: $max_w;width: expression(this.width > 560 ? 560: true);\" src=\"attachments/$rw_myP[attachment]\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\"> <a href=\"attachments/$rw_myP[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgrˆﬂe anzeigen\" border=\"0\"> </a>";
+                        $attachment = "<br><br> <img style=\"max-width: $max_w;width: expression(this.width > 560 ? 560: true);\" src=\"attachments/$rw_myP[attachment]\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\"> <a href=\"attachments/$rw_myP[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgr&ouml;&szlig;e anzeigen\" border=\"0\"> </a>";
 
                      }
 
@@ -812,7 +812,7 @@ $countMYP = "1";
 
                  else  {
 
-                         $attachment = "<i>Angeh‰ngtes Bild konnte nicht gefunden werden</i>";
+                         $attachment = "<i>Angeh&auml;ngtes Bild konnte nicht gefunden werden</i>";
 
                  }
 

@@ -7,7 +7,7 @@
       mysql_query($delete_rank) OR die(mysql_error());  
    
 
-      $text01 = "Benutzerrang gelöscht!";
+      $text01 = "Benutzerrang gel&ouml;scht!";
 
       $link = "index.php?do=admin&sec=ranks";
 
@@ -36,7 +36,7 @@
 
              mysql_query($sql_rank) OR die(mysql_error());
  
-             $text01 = "Gruppe geändert!";
+             $text01 = "Gruppe ge&auml;ndert!";
 
              $link   = "index.php?do=admin&sec=ranks";
 

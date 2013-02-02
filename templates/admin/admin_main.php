@@ -8,9 +8,9 @@
 
        <br><br>
 
-       Neue Kategorien & Foren erstellen, bearbeiten oder löschen
+       Neue Kategorien & Foren erstellen, bearbeiten oder l&ouml;schen
        <br>
-       Foren öffnen/schliessen, Rechte vergeben oder verschieben
+       Foren &ouml;ffnen/schliessen, Rechte vergeben oder verschieben
 
        </td>
 
@@ -34,7 +34,7 @@
 
        <br><br>
 
-       Hier kann das aktuelle Template geändert werden oder ein neues erstellt werden.
+       Hier kann das aktuelle Template ge&auml;ndert werden oder ein neues erstellt werden.
 
        </td>
 
@@ -45,7 +45,7 @@
 
        <br><br>
 
-       Festlegen, welche User welche Kategorien sehen können.
+       Festlegen, welche User welche Kategorien sehen k&ouml;nnen.
 
        </td>
 
@@ -57,7 +57,7 @@
 
        <span class="title">Backup Database</span>
        <br> 
-       (Funktion nicht verfügbar!)
+       (Funktion nicht verf&uuml;gbar!)
 
        <br><br>
 
@@ -69,7 +69,7 @@
 
        <span class="title">Mass Email</span>
        <br> 
-       (Funktion nicht verfügbar!)
+       (Funktion nicht verf&uuml;gbar!)
 
        <br><br>
 
@@ -87,7 +87,7 @@
 
        <br><br>
 
-       Userdaten eines Mitglieds ändern.
+       Userdaten eines Mitglieds &auml;ndern.
 
        </td>
 
@@ -98,7 +98,7 @@
 
        <br><br>
 
-       Smilies hinzufügen oder entfernen.
+       Smilies hinzuf&uuml;gen oder entfernen.
 
        </td>
 
@@ -112,7 +112,7 @@
 
        <br><br>
 
-       Erstellen oder bearbeiten von Userrängen.
+       Erstellen oder bearbeiten von Userr&auml;ngen.
 
        </td>
 

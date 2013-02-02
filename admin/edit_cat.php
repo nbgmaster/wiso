@@ -142,7 +142,7 @@ if ($module == "change")  {
         $update_category = "UPDATE $c_tblname SET title = '$_POST[category]' WHERE id = '$c'";     
         mysql_query($update_category);
 
-        $text01 = "Kategorie geändert!";
+        $text01 = "Kategorie ge&auml;ndert!";
         $link   = "index.php?do=admin&sec=edit_cat";
 
         include("./templates/refresh.php");
@@ -204,7 +204,7 @@ if ($module == "change")  {
          }
 
 
-         $text01 = "Forum geändert!";
+         $text01 = "Forum ge&auml;ndert!";
          $link   = "index.php?do=admin&sec=edit_cat";
 
          include("./templates/refresh.php");

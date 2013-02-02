@@ -21,9 +21,9 @@
     <br><br><br>
     <span class="big" style="line-height:24px">
     Dies kann zum Beispiel daran liegen, dass der Administrator Verbesserungen
-    an der Foren Software vornimmt, diverse Updates installiert oder grundsätzliche Veränderungen am System
+    an der Foren Software vornimmt, diverse Updates installiert oder grunds&auml;tzliche Ver&auml;nderungen am System
     gestaltet.
-    Bitte besuche die Seite zu einem späteren Zeitpunkt noch einmal.
+    Bitte besuche die Seite zu einem sp&auml;teren Zeitpunkt noch einmal.
       </span>
     <br><br><br>
 

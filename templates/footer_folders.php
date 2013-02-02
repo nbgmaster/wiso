@@ -12,7 +12,7 @@
 
          <td align="center">
 
-         keine neuen Beiträge
+         keine neuen Beitr&auml;ge
 
          </td>
 
@@ -30,7 +30,7 @@
 
          <td align="center">
 
-         Neue Beiträge
+         Neue Beitr&auml;ge
 
          </td>
 

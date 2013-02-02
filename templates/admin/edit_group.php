@@ -149,7 +149,7 @@
 
   <tr>
 
-    <td class="tableb">Beiträge lesen</td>
+    <td class="tableb">Beitr&auml;ge lesen</td>
 
     <td class="tablea">
 
@@ -173,7 +173,7 @@
 
   <tr>
 
-    <td class="tableb">Beiträge schreiben</td>
+    <td class="tableb">Beitr&auml;ge schreiben</td>
 
     <td class="tablea">
 
@@ -230,7 +230,7 @@
 
     <input type="hidden" name="actual_groupname" value="<?php  echo"$row_group_data[groupname]"; ?>">
 
-    <input class="input" type="submit" value="Gruppe ändern" name="send_group_data">
+    <input class="input" type="submit" value="Gruppe &auml;ndern" name="send_group_data">
 
     </td> 
 

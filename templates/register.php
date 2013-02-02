@@ -78,7 +78,7 @@
 
       <td colspan="2" class="tablea" align="left">
 
-      <b>Achtung:</b> Die Emailadresse muss gültig sein, damit du deinen Account freischalten kannst!
+      <b>Achtung:</b> Die Emailadresse muss g&uuml;ltig sein, damit du deinen Account freischalten kannst!
 
       </td>
 
@@ -132,19 +132,19 @@
 
          if($gender == "m") { ?>
 
-         <option value="m" selected>männlich</option>   
+         <option value="m" selected>m&auml;nnlich</option>   
          <option value="w">weiblich</option> 
 
          <?php  } else { ?>
 
-         <option value="m">männlich</option>   
+         <option value="m">m&auml;nnlich</option>   
          <option value="w" selected>weiblich</option> 
 
          <?php  } 
 
          } else { ?>
 
-         <option value="m">männlich</option>   
+         <option value="m">m&auml;nnlich</option>   
          <option value="w">weiblich</option> 
 
          <?php  } ?>
@@ -202,9 +202,9 @@
          <option value="bwl">Wirtschaftswissenschaften (Schwerpunkt BWL)</option>
          <option value="vwl">Wirtschaftswissenschaften (Schwerpunkt VWL)</option>
          <option value="info">Wirtschaftswissenschaften (Schwerpunkt Informatik)</option>
-         <option value="paed">Wirtschaftswissenschaften (Schwerpunkt Pädagogik)</option>
+         <option value="paed">Wirtschaftswissenschaften (Schwerpunkt P&auml;dagogik)</option>
          <option value="int">International Business Studies</option>
-         <option value="sozi">Sozialökonomik</option>
+         <option value="sozi">Sozial&ouml;konomik</option>
 
          </select>
 
@@ -325,7 +325,7 @@
 
          <td class="tablea" align="left">
 
-         <b>Straße, Hausnummer, etc.</b>
+         <b>Stra&szlig;e, Hausnummer, etc.</b>
 
          </td>
 
@@ -501,7 +501,7 @@
 
          <td class="tablea" align="left">
 
-         <b>Lieblingsgetränk</b>
+         <b>Lieblingsgetr&auml;nk</b>
 
          </td>
 
@@ -600,7 +600,7 @@
 
          <td class="tablea" align="left" width="50%">
 
-         <b>Emailadresse für andere Miglieder sichtbar?</b>
+         <b>Emailadresse f&uuml;r andere Miglieder sichtbar?</b>
 
          </td>
 
@@ -794,7 +794,7 @@
 
     <td class="tablea" align="center">
 
-    <input type="submit" class="input" name="send_reg_data" value="Registrierung abschließen">
+    <input type="submit" class="input" name="send_reg_data" value="Registrierung abschlie&szlig;en">
 
     </td>
  

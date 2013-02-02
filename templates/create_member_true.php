@@ -42,7 +42,7 @@
 
 
 
-              Wir wünschen Dir viel Spaß auf der Homepage!
+              Wir w&uuml;nschen Dir viel Spa&szlig; auf der Homepage!
 
 
               Dein 
@@ -53,7 +53,7 @@
   if ($m_account_activation == "email")  {
 
 
-  $text02 = "<br><b>Überprüfe deine Emails um deinen Account freizuschalten!</b>";
+  $text02 = "<br><b>&Uuml;berpr&uuml;fe deine Emails um deinen Account freizuschalten!</b>";
 
   $message = 
 
@@ -61,7 +61,7 @@
 
 Deine Registrierung auf http://www.wiwistud.de war erfolgreich!
 
-Du musst deine Registrierung noch mit folgendem Link bestätigen:
+Du musst deine Registrierung noch mit folgendem Link best&auml;tigen:
 
 http://$board_domain$board_direction$act_link$act_code
 
@@ -74,20 +74,20 @@ Passwort: $_Sre_password
 Du solltest diese Email speichern, damit Du deine Logindaten nachschauen kannst falls Du sie einmal vergisst.
 
 
-Bei Aktivierungs- oder Loginproblemen gibt es folgende Lösungen:
+Bei Aktivierungs- oder Loginproblemen gibt es folgende L&ouml;sungen:
 
 1. Wenn du den Internet Explorer verwenden solltest, musst du den Datenschutz Regler
 in den Browser Einstellungen nach unten setzen!
 
-2. Solltest Du dich immer noch nicht einloggen können, dann schreib einfach eine kurze Mail an EINEN Administrator.
-Wie du einen Admin kontaktieren kannst erfährst du in den FAQ: http://www.wiwistud.de/index.php?do=faq
+2. Solltest Du dich immer noch nicht einloggen k&ouml;nnen, dann schreib einfach eine kurze Mail an EINEN Administrator.
+Wie du einen Admin kontaktieren kannst erf&auml;hrst du in den FAQ: http://www.wiwistud.de/index.php?do=faq
  
 
 Dein 
 wiwistud.de Team
 
 
-- Achtung: Keine Antwort an diese Emailadresse möglich!";
+- Achtung: Keine Antwort an diese Emailadresse m&ouml;glich!";
 
   }
 
@@ -97,7 +97,7 @@ wiwistud.de Team
 
               Deine Registrierung auf $board_domain war erfolgreich!<br><br>
 
-              In den nächsten Stunden werden deine Daten überprüft und dann ggf. vom Admin freigeschalten.
+              In den n&auml;chsten Stunden werden deine Daten &uuml;berpr&uuml;ft und dann ggf. vom Admin freigeschalten.
 
               ";
 

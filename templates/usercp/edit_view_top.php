@@ -12,10 +12,10 @@
 
 Mit dieser Einstellung kannst Du bestimmen, welche Foren auf der Startseite angezeigt werden sollen.
 <br>
-Um das Forum übersichtlich zu halten, solltest Du nur Foren auswählen, die Du wirklich benötigst!
+Um das Forum &uuml;bersichtlich zu halten, solltest Du nur Foren ausw&auml;hlen, die Du wirklich ben&ouml;tigst!
 </b>
 <br>
-Du kannst anschließend jederzeit zwischen einer <u>Vollansicht aller Foren</u> und deiner <u>individuellen Ansicht</u> wechseln.
+Du kannst anschlie&szlig;end jederzeit zwischen einer <u>Vollansicht aller Foren</u> und deiner <u>individuellen Ansicht</u> wechseln.
 
    </span>
 
@@ -35,7 +35,7 @@ Du kannst anschließend jederzeit zwischen einer <u>Vollansicht aller Foren</u> u
 
    <b>
 
-   Wähle zum Beispiel solche Veranstaltungen aus, die Du dieses Semester besuchst. Aktiviere dazu die Checkbox links daneben.
+   W&auml;hle zum Beispiel solche Veranstaltungen aus, die Du dieses Semester besuchst. Aktiviere dazu die Checkbox links daneben.
 
    </b>
 

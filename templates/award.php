@@ -36,19 +36,19 @@ function atleast1() {
 
 if (ayN.length == 0) {
 
-alert("Du musst mindestens 1 Lehrveranstaltung auswählen!");
+alert("Du musst mindestens 1 Lehrveranstaltung ausw&auml;hlen!");
 return false;
 }
 
 else if (ayN.length == 1) {
 
-return confirm ('Du hast '+ayN.length+' Lehrveranstaltung ausgewählt. Fortfahren?');
+return confirm ('Du hast '+ayN.length+' Lehrveranstaltung ausgew&auml;hlt. Fortfahren?');
 
 }
 
 else  {
 
-return confirm ('Du hast '+ayN.length+' Lehrveranstaltungen ausgewählt. Fortfahren?');
+return confirm ('Du hast '+ayN.length+' Lehrveranstaltungen ausgew&auml;hlt. Fortfahren?');
 
 }
 
@@ -68,7 +68,7 @@ return confirm ('Du hast '+ayN.length+' Lehrveranstaltungen ausgewählt. Fortfahr
 <tr><td class="tableb" height="200" valign="top" style="padding-left:8px;padding-top:5px;padding-right:8px" height="100%">
   <br>
 <span style="font-size:13px;line-height:24px;">
-Normalerweise bekommst <b>DU</b> am Ende des Semesters eines Note in deinen belegten Fächern, aber <b>jetzt kannst Du den Spieß umdrehen!</b>
+Normalerweise bekommst <b>DU</b> am Ende des Semesters eines Note in deinen belegten F&auml;chern, aber <b>jetzt kannst Du den Spie&szlig; umdrehen!</b>
 <br><br><center>
 <b><span style="font-size:14px">Bewerte deshalb deine besuchten Lehrveranstaltungen <br>aus dem letzten Semester (WS 08/09) auf wiwistud.de!</span></b> </center>
 <br>
@@ -79,16 +79,16 @@ Normalerweise bekommst <b>DU</b> am Ende des Semesters eines Note in deinen bele
 <br>
   <ul type="square">
 
-   <li> Deine Daten werden <b>anonym</b> gespeichert (Bewertungen können nicht auf deinen Account zurückverfolgt werden) </li>
+   <li> Deine Daten werden <b>anonym</b> gespeichert (Bewertungen k&ouml;nnen nicht auf deinen Account zur&uuml;ckverfolgt werden) </li>
 <li>Du kannst noch bis zum <b>05.04.2009</b> an dieser Umfrage teilnehmen!</b></li>
 <li>Die Umfrage nimmt <b>maximal 5-10 Minuten</b> in Anspruch.</b></li>
 </ul>        <br>
 <table width="100%"><tr><td align="center">
-<input type="button" class="buttons" onclick="changeDIVS()" value="Ich möchte an dieser Umfrage jetzt teilnehmen" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
+<input type="button" class="buttons" onclick="changeDIVS()" value="Ich m&ouml;chte an dieser Umfrage jetzt teilnehmen" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
 
-</td><form onsubmit="return confirm('Willst du wirklich nicht an dieser Umfrage teilnehmen?\nDie Teilnahme ist noch bis zum 05.04.2009 möglich.');">
+</td><form onsubmit="return confirm('Willst du wirklich nicht an dieser Umfrage teilnehmen?\nDie Teilnahme ist noch bis zum 05.04.2009 m&ouml;glich.');">
 <td align="center">
-<input type="submit" class="buttons" name="NOpoll" value="Ich möchte an dieser Umfrage jetzt NICHT teilnehmen" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
+<input type="submit" class="buttons" name="NOpoll" value="Ich m&ouml;chte an dieser Umfrage jetzt NICHT teilnehmen" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
 
 </td></tr> </form></table>
              <br>
@@ -112,14 +112,14 @@ Normalerweise bekommst <b>DU</b> am Ende des Semesters eines Note in deinen bele
   <ul type="square">  <li>
 <u>1. Schritt:</u>
 <br>
-Wähle unten zunächst die Veranstaltungen aus, <b>die du im WINTERSEMESTER 08/09 entweder BESUCHT hast</b> und/oder
+W&auml;hle unten zun&auml;chst die Veranstaltungen aus, <b>die du im WINTERSEMESTER 08/09 entweder BESUCHT hast</b> und/oder
 an <b>deren Klausur du LETZTES SEMESTER <u>teilgenommen</u> hast</b></li> <br>
-<ul type="square"><li>du kannst <b>maximal 12 Veranstaltungen</b> auswählen und anschließend bewerten</li></ul>
+<ul type="square"><li>du kannst <b>maximal 12 Veranstaltungen</b> ausw&auml;hlen und anschlie&szlig;end bewerten</li></ul>
 
 <br>
 <li><u>2. Schritt:</u>
 <br>
-Bewertung deiner ausgewählten Veranstaltungen  </li>
+Bewertung deiner ausgew&auml;hlten Veranstaltungen  </li>
 </ul>
 </span>
 
@@ -239,7 +239,7 @@ Bewertung deiner ausgewählten Veranstaltungen  </li>
           if ($userdata_study == "bwl")  { $ud_study = "Schwerpunkt BWL"; }
           if ($userdata_study == "vwl")  { $ud_study = "Schwerpunkt VWL";  }
           if ($userdata_study == "info") { $ud_study = "Schwerpunkt Informatik"; }
-          if ($userdata_study == "paed") { $ud_study = "Schwerpunkt Pädagogik";  }
+          if ($userdata_study == "paed") { $ud_study = "Schwerpunkt P&auml;dagogik";  }
           if ($userdata_study == "int")  { $ud_study = "International Business Studies";  }
 
 ?>
@@ -286,7 +286,7 @@ for ($ii=0;$ii<6;$ii++) {
           if ($ii == "0")  { $userdata_studyX = "bwl";  $ud_study = "Schwerpunkt BWL"; }
           if ($ii == "1") { $userdata_studyX = "vwl";  $ud_study = "Schwerpunkt VWL";  }
           if ($ii == "2") { $userdata_studyX = "info"; $ud_study = "Schwerpunkt Informatik"; }
-          if ($ii == "3") { $userdata_studyX = "paed";  $ud_study = "Schwerpunkt Pädagogik";  }
+          if ($ii == "3") { $userdata_studyX = "paed";  $ud_study = "Schwerpunkt P&auml;dagogik";  }
           if ($ii == "4") { $userdata_studyX = "int";  $ud_study = "International Business Studies";  }
           if ($ii == "5") { $userdata_studyX = "sonst";  $ud_study = "Sonstige";  }
 

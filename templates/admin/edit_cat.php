@@ -26,7 +26,7 @@
     <td class="main" bgcolor="<?php  echo"#$cell_bg02"; ?>" align="center">
 
     <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif">
-    <a href="index.php?do=admin&sec=edit_cat&module=delete&c=<?php  echo"".$row_cats["id"].""; ?>">löschen</a>
+    <a href="index.php?do=admin&sec=edit_cat&module=delete&c=<?php  echo"".$row_cats["id"].""; ?>">l&ouml;schen</a>
 
     </td>
 

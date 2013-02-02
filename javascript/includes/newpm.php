@@ -13,7 +13,7 @@ if ($pm_disable == "0")  {
 
     if ($message_numbers >= $max_pm_inbox)  {
 
-        $text01 = "Senden nicht möglich! <br>Der Posteingang des Empfängers ist voll!";
+        $text01 = "Senden nicht m&ouml;glich! <br>Der Posteingang des Empf&auml;ngers ist voll!";
 
         $link   = "javascript:history.back();";
 
@@ -29,7 +29,7 @@ if ($pm_disable == "0")  {
 
     if ($message_numbers2 >= $max_pm_outbox)  {
 
-        $text01 = "Ihr Postausgang ist voll!<br> Löschen Sie erst einige Nachrichten!";
+        $text01 = "Ihr Postausgang ist voll!<br> L&ouml;schen Sie erst einige Nachrichten!";
 
         $link   = "index.php?do=outbox";
 
@@ -45,7 +45,7 @@ if ($pm_disable == "0")  {
 
     if ($check_ignorer != "0" or $check_ignorer != "")  { 
 
-        $text01 = "Der User hat dich auf seiner Ignorierliste!<br> Versendnung nicht möglich!";
+        $text01 = "Der User hat dich auf seiner Ignorierliste!<br> Versendnung nicht m&ouml;glich!";
 
         $link   = "javascript:history.back();";
 

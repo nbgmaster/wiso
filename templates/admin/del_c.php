@@ -7,12 +7,12 @@
 
     <?php  if ($del_f_numbers != "0")  { ?>
 
-    <br><font class="big"><b>Sie müssen erst alle Foren in der ausgewählten Kategorie verschieben oder löschen.</b></font>
+    <br><font class="big"><b>Sie m&uuml;ssen erst alle Foren in der ausgew&auml;hlten Kategorie verschieben oder l&ouml;schen.</b></font>
     <br><br>
 
     <?php  } else { ?>
 
-    <br><font class="big"><b>Kategorie wurde gelöscht.</b></font>
+    <br><font class="big"><b>Kategorie wurde gel&ouml;scht.</b></font>
     <br><br>
 
     <?php  } ?>

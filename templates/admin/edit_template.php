@@ -22,7 +22,7 @@
                
   <tr>
 
-    <td class="tableb" width="50%">Verzeichnis, in dem alle Template Bilder liegen müssen</td>
+    <td class="tableb" width="50%">Verzeichnis, in dem alle Template Bilder liegen m&uuml;ssen</td>
 
     <td class="tablea" width="50%"><?php  echo"http://$board_domain$board_direction"; ?>images/templates/<?php  echo"$template_name"; ?></td>
 
@@ -46,7 +46,7 @@
 
     <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif"> 
 
-    Für eine optimale Forumsansicht mit Banner sollte der Banner genau <b><?php  echo"$width4"; ?> Pixel breit</b> sein!
+    F&uuml;r eine optimale Forumsansicht mit Banner sollte der Banner genau <b><?php  echo"$width4"; ?> Pixel breit</b> sein!
 
     </td>
 
@@ -62,7 +62,7 @@
 
     <tr>
 
-    <td class="tableb"><b>Template löschen</b></td>
+    <td class="tableb"><b>Template l&ouml;schen</b></td>
 
     <td class="tablea"><input class="input" type="checkbox" name="del_tpl" value="<?php  echo"$template_name"; ?>"></td>
 
@@ -80,7 +80,7 @@
 
   <tr>
 
-    <td class="tableb">Forum Breite (Wert sollte ungefähr zwischen 800 und 1000 liegen!)</td>
+    <td class="tableb">Forum Breite (Wert sollte ungef&auml;hr zwischen 800 und 1000 liegen!)</td>
 
     <td class="tablea"><input class="input" type="text" name="edit_width" value="<?php  echo"$row_template_data[width]"; ?>" maxlength="4"> px</td>
 
@@ -146,7 +146,7 @@
 
   <tr>
 
-    <td class="tableb">Hintergrundfarbe außen</td>
+    <td class="tableb">Hintergrundfarbe au&szlig;en</td>
 
     <td class="tablea"><input class="input" type="text" name="edit_bgcolor" value="<?php  echo"$row_template_data[bgcolor]"; ?>" maxlength="6"></td>
 
@@ -200,7 +200,7 @@
 
     <td class="cellbg" align="center">
 
-    Schriftgröße
+    Schriftgr&ouml;&szlig;e
 
     </td>
 
@@ -212,7 +212,7 @@
 
   <tr>
 
-    <td class="tableb" width="50%">Schriftgröße klein</td>
+    <td class="tableb" width="50%">Schriftgr&ouml;&szlig;e klein</td>
 
     <td class="tablea" width="50%"><input class="input" type="text" name="edit_fontsize_small" value="<?php  echo"$row_template_data[fontsize_small]"; ?>" maxlength="2"> px</td>
 
@@ -220,7 +220,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftgröße normal</td>
+    <td class="tableb">Schriftgr&ouml;&szlig;e normal</td>
 
     <td class="tablea"><input class="input" type="text" name="edit_fontsize" value="<?php  echo"$row_template_data[fontsize]"; ?>" maxlength="2"> px</td>
 
@@ -228,7 +228,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftgröße groß</td>
+    <td class="tableb">Schriftgr&ouml;&szlig;e gro&szlig;</td>
 
     <td class="tablea"><input class="input" type="text" name="edit_fontsize_big" value="<?php  echo"$row_template_data[fontsize_big]"; ?>" maxlength="2"> px</td>
 
@@ -236,7 +236,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftgröße Header Links</td>
+    <td class="tableb">Schriftgr&ouml;&szlig;e Header Links</td>
 
     <td class="tablea"><input class="input" type="text" name="edit_fontsize_header" value="<?php  echo"$row_template_data[fontsize_header]"; ?>" maxlength="2"> px</td>
 
@@ -244,7 +244,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftgröße Überschriften, Titel</td>
+    <td class="tableb">Schriftgr&ouml;&szlig;e &Uuml;berschriften, Titel</td>
 
     <td class="tablea"><input class="input" type="text" name="edit_fontsize_title" value="<?php  echo"$row_template_data[fontsize_title]"; ?>" maxlength="2"> px</td>
 
@@ -252,7 +252,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftgröße Kategorien</td>
+    <td class="tableb">Schriftgr&ouml;&szlig;e Kategorien</td>
 
     <td class="tablea"><input class="input" type="text" name="edit_fontsize_cat" value="<?php  echo"$row_template_data[fontsize_cat]"; ?>" maxlength="2"> px</td>
 
@@ -260,7 +260,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftgröße Buttons, Textarea, Select & Inputfelder</td>
+    <td class="tableb">Schriftgr&ouml;&szlig;e Buttons, Textarea, Select & Inputfelder</td>
 
     <td class="tablea"><input class="input" type="text" name="edit_fontsize_buttons" value="<?php  echo"$row_template_data[fontsize_buttons]"; ?>" maxlength="2"> px</td>
 
@@ -358,7 +358,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftfarbe Überschriften Links</td>
+    <td class="tableb">Schriftfarbe &Uuml;berschriften Links</td>
 
     <td class="tablea"><input class="input" type="text" name="edit_fontcolor_title" value="<?php  echo"$row_template_data[fontcolor_title]"; ?>" maxlength="6"></td>
 
@@ -366,7 +366,7 @@
 
   <tr>
 
-    <td class="tableb">Schriftfarbe Überschriften Hover</td>
+    <td class="tableb">Schriftfarbe &Uuml;berschriften Hover</td>
 
     <td class="tablea"><input class="input" type="text" name="edit_title_hovercolor" value="<?php  echo"$row_template_data[title_hovercolor]"; ?>" maxlength="6"></td>
 
@@ -458,7 +458,7 @@
 
     <input class="input" type="hidden" value="<?php  echo"$template_name"; ?>" name="template_name">
 
-    <input class="input" type="submit" value="Template ändern" name="edit_tpl">
+    <input class="input" type="submit" value="Template &auml;ndern" name="edit_tpl">
 
     </td> 
 

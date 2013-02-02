@@ -123,7 +123,7 @@
 
   $database_tblname        = "unterlagen";        // Data:: Database
 
-  $boerse_tblname          = "boerse";            // Data:: Börse
+  $boerse_tblname          = "boerse";            // Data:: B&ouml;rse
  
   $newsticker_tblname      = "newsticker";        // Data:: Newsticker
 
@@ -283,7 +283,7 @@
   }
 
 
-  // Session nach 20 Minuten Inaktivität löschen
+  // Session nach 20 Minuten Inaktivit&auml;t l&ouml;schen
 
   $ch_ina = $timestamp - 1200;
 
@@ -397,7 +397,7 @@
   
   // Check Visiter Numbers
 
-$visiterRefresh = $timestamp - 600;  // Besucher alle 10 Minuten als neuen B. zählen
+$visiterRefresh = $timestamp - 600;  // Besucher alle 10 Minuten als neuen B. z&auml;hlen
 
   $cvires = mysql_query("SELECT COUNT( id ) AS check_visiter from $visiter_tblname WHERE IP = '$userdata_ip' && time >= '$visiterRefresh' LIMIT 1");
 

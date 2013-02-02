@@ -57,7 +57,7 @@ $count_hover = "1";
 
                if ($row_database_st[lecture] == "UMV")  {
 
-                   $lectureS = "Unternehmen, Märkte, Volkswirtschaften";
+                   $lectureS = "Unternehmen, M&auml;rkte, Volkswirtschaften";
 
                }
 
@@ -75,7 +75,7 @@ $count_hover = "1";
 
                if ($row_database_st[lecture] == "BF")  {
 
-                   $lectureS = "Buchführung";
+                   $lectureS = "Buchf&uuml;hrung";
 
                }
 
@@ -99,13 +99,13 @@ $count_hover = "1";
 
                if ($row_database_st[lecture] == "mikro")  {
 
-                   $lectureS = "Mikrookönomie";
+                   $lectureS = "Mikrook&ouml;nomie";
 
                }
 
                if ($row_database_st[lecture] == "makro")  {
 
-                   $lectureS = "Makrookönomie";
+                   $lectureS = "Makrook&ouml;nomie";
 
                }
 
@@ -166,7 +166,7 @@ $count_hover = "1";
 
                if ($row_database_st[lecture] == "oerecht")  {
 
-                   $lectureS = "Öffentliches Recht I";
+                   $lectureS = "&Ouml;ffentliches Recht I";
 
                }
 
@@ -185,19 +185,19 @@ $count_hover = "1";
 
                if ($row_database_st[lecture] == "EwA")  {
 
-                   $lectureS = "Einführung in das wissenschaftl. Arbeiten";
+                   $lectureS = "Einf&uuml;hrung in das wissenschaftl. Arbeiten";
 
                }
 
                if ($row_database_st[lecture] == "praes")  {
 
-                   $lectureS = "Präsentationsfähigkeiten";
+                   $lectureS = "Pr&auml;sentationsf&auml;higkeiten";
 
                }
 
                if ($row_database_st[lecture] == "oerecht2")  {
 
-                   $lectureS = "Öffentliches Recht II";
+                   $lectureS = "&Ouml;ffentliches Recht II";
 
                }
 
@@ -215,7 +215,7 @@ $count_hover = "1";
 
                if ($row_database_st[lecture] == "intuf")  {
 
-                   $lectureS = "Internationale Unternehmensführung";
+                   $lectureS = "Internationale Unternehmensf&uuml;hrung";
 
                }
 
@@ -269,7 +269,7 @@ $count_hover = "1";
 
                if ($row_database_st[lecture] == "bpaed")  {
 
-                   $lectureS = "Betriebspädagogik";
+                   $lectureS = "Betriebsp&auml;dagogik";
 
                }
 
@@ -281,13 +281,13 @@ $count_hover = "1";
 
                if ($row_database_st[lecture] == "auw")  {
 
-                   $lectureS = "Außenwirtschaft";
+                   $lectureS = "Au&szlig;enwirtschaft";
 
                }
 
                if ($row_database_st[lecture] == "OeoeS")  {
 
-                   $lectureS = "Ökonomie des öffentlichen Sektors";
+                   $lectureS = "&Ouml;konomie des &ouml;ffentlichen Sektors";
 
                }
 
@@ -373,17 +373,17 @@ $count_hover = "1";
 
            if ($row_database_st[category] == "wipaed")  {
 
-               $categoryS = "(B.A.) Wipäd";
+               $categoryS = "(B.A.) Wip&auml;d";
 
                if ($row_database_st[lecture] == "gwip")  {
 
-                   $lectureS = "Grundlagen der Wipäd";
+                   $lectureS = "Grundlagen der Wip&auml;d";
 
                }
 
                if ($row_database_st[lecture] == "praesmod")  {
 
-                   $lectureS = "Präsentations- und Moderationstechniken";
+                   $lectureS = "Pr&auml;sentations- und Moderationstechniken";
 
                }
 
@@ -395,7 +395,7 @@ $count_hover = "1";
 
                if ($row_database_st[lecture] == "paedseminar")  {
 
-                   $lectureS = "Betriebspädagogisches Seminar";
+                   $lectureS = "Betriebsp&auml;dagogisches Seminar";
 
                }
 
@@ -419,7 +419,7 @@ $count_hover = "1";
 
                if ($row_database_st[lecture] == "intrecht1")  {
 
-                   $lectureS = "Europäisches und Internationales Recht";
+                   $lectureS = "Europ&auml;isches und Internationales Recht";
 
                }
 
@@ -431,7 +431,7 @@ $count_hover = "1";
 
                if ($row_database_st[lecture] == "europglob")  {
 
-                   $lectureS = "Europäisierung & Globalisierung";
+                   $lectureS = "Europ&auml;isierung & Globalisierung";
 
                }
 
@@ -463,7 +463,7 @@ $count_hover = "1";
 
            if ($row_database_st[category] == "sozi")  {
 
-               $categoryS = "(B.A.) Sozialökönomik";
+               $categoryS = "(B.A.) Sozial&ouml;k&ouml;nomik";
 
                if ($row_database_st[lecture] == "sozio")  {
 
@@ -491,13 +491,13 @@ $count_hover = "1";
 
                if ($row_database_st[lecture] == "empsozi")  {
 
-                   $lectureS = "Einführung in emp. Sozialforschung";
+                   $lectureS = "Einf&uuml;hrung in emp. Sozialforschung";
 
                }
 
                if ($row_database_st[lecture] == "compana")  {
 
-                   $lectureS = "Computergestützte Datenanalyse";
+                   $lectureS = "Computergest&uuml;tzte Datenanalyse";
 
                }
 
@@ -600,7 +600,7 @@ $count_hover = "1";
                
                if ($row_database_st[category] == "master")  {
 
-                   $categoryS = "Masterstudiengänge";
+                   $categoryS = "Masterstudieng&auml;nge";
 
                if ($row_database_st[lecture] == "m_aup")   $lectureS = "(M.Sc.) Arbeitsmarkt u. Personal"; 
                if ($row_database_st[lecture] == "m_eco")   $lectureS = "(M.Sc.) Economics";
@@ -609,8 +609,8 @@ $count_hover = "1";
                if ($row_database_st[lecture] == "m_iis")   $lectureS = "(M.Sc.) IIS"; 
                if ($row_database_st[lecture] == "m_mgm")   $lectureS = "(M.A.)	Management";
                if ($row_database_st[lecture] == "m_mark")  $lectureS = "(M.A.)	Marketing";
-               if ($row_database_st[lecture] == "m_sozi")  $lectureS = "(M.A.) Sozialökonomik";
-               if ($row_database_st[lecture] == "m_paed")  $lectureS = "(M.A.) Wirtschaftspädagogik";
+               if ($row_database_st[lecture] == "m_sozi")  $lectureS = "(M.A.) Sozial&ouml;konomik";
+               if ($row_database_st[lecture] == "m_paed")  $lectureS = "(M.A.) Wirtschaftsp&auml;dagogik";
                
            }
 

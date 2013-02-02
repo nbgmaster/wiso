@@ -60,7 +60,7 @@
 
         <?php  } if($post_user_name == "")  { ?>
 
-        <font class="big"><b>User gelöscht</b></font>
+        <font class="big"><b>User gel&ouml;scht</b></font>
 
         <?php  } else { ?>
 
@@ -116,11 +116,11 @@ echo"<br>";
 
 <?php  if ($curs == 0 && $tha_numb == 0)  { ?>
 
-         <table width="80" cellspacing="0" cellpadding="0" onmouseover="return overlib('Der aktuelle Punktestand von <b><?php  echo"$us_name"; ?></b> beträgt: <b><?php  echo"$creditnumber"; ?></b> von 10 Punkten!</b><br><br>Gesamtpunktzahl: <b><?php echo"$pointstot";?></b><br><br>Anzahl positiver Bewertungen gesamt:<br>Beiträge: <b><?php  echo"$resultcreP"; ?></b>&nbsp;&nbsp;Unterlagen: <b><?php  echo"$resultcreD"; ?></b><br><br>Bedankungen erhalten: <b><?php echo"$tha_numb";?></b>');" onmouseout="return nd();">
+         <table width="80" cellspacing="0" cellpadding="0" onmouseover="return overlib('Der aktuelle Punktestand von <b><?php  echo"$us_name"; ?></b> betr&auml;gt: <b><?php  echo"$creditnumber"; ?></b> von 10 Punkten!</b><br><br>Gesamtpunktzahl: <b><?php echo"$pointstot";?></b><br><br>Anzahl positiver Bewertungen gesamt:<br>Beitr&auml;ge: <b><?php  echo"$resultcreP"; ?></b>&nbsp;&nbsp;Unterlagen: <b><?php  echo"$resultcreD"; ?></b><br><br>Bedankungen erhalten: <b><?php echo"$tha_numb";?></b>');" onmouseout="return nd();">
 
 <?php  } else { ?>
 
-         <table width="80" cellspacing="0" cellpadding="0" style="cursor:pointer" onclick="location.href='index.php?do=showCredits&user_id=<?php echo"$post_user_id";?>&show=p';" onmouseover="return overlib('Der aktuelle Punktestand von <b><?php  echo"$us_name"; ?></b> beträgt: <b><?php  echo"$creditnumber"; ?></b> von 10 Punkten!</b><br><br>Gesamtpunktzahl: <b><?php echo"$pointstot";?></b><br><br>Anzahl positiver Bewertungen gesamt:<br>Beiträge: <b><?php  echo"$resultcreP"; ?></b>&nbsp;&nbsp;Unterlagen: <b><?php  echo"$resultcreD"; ?></b><br><br>Bedankungen erhalten: <b><?php echo"$tha_numb";?></b><br><br><i>(Mausklick auf Balken zur Detailansicht)</i>');" onmouseout="return nd();">
+         <table width="80" cellspacing="0" cellpadding="0" style="cursor:pointer" onclick="location.href='index.php?do=showCredits&user_id=<?php echo"$post_user_id";?>&show=p';" onmouseover="return overlib('Der aktuelle Punktestand von <b><?php  echo"$us_name"; ?></b> betr&auml;gt: <b><?php  echo"$creditnumber"; ?></b> von 10 Punkten!</b><br><br>Gesamtpunktzahl: <b><?php echo"$pointstot";?></b><br><br>Anzahl positiver Bewertungen gesamt:<br>Beitr&auml;ge: <b><?php  echo"$resultcreP"; ?></b>&nbsp;&nbsp;Unterlagen: <b><?php  echo"$resultcreD"; ?></b><br><br>Bedankungen erhalten: <b><?php echo"$tha_numb";?></b><br><br><i>(Mausklick auf Balken zur Detailansicht)</i>');" onmouseout="return nd();">
    
 <?php  }  ?>
 
@@ -166,9 +166,9 @@ echo"<br>";
             <?php  if ($user_studyt == "bwl")  { echo"Schwerpunkt BWL"; } ?> 
             <?php  if ($user_studyt == "vwl")  { echo"Schwerpunkt VWL"; } ?> 
             <?php  if ($user_studyt == "info")  { echo"Wirtschaftsinformatik"; } ?> 
-            <?php  if ($user_studyt == "paed")  { echo"Schwerpunkt Pädagogik"; } ?> 
+            <?php  if ($user_studyt == "paed")  { echo"Schwerpunkt P&auml;dagogik"; } ?> 
             <?php  if ($user_studyt == "int")  { echo"International Business"; } ?> 
-            <?php  if ($user_studyt == "sozi")  { echo"Sozialökonomik"; } ?> 
+            <?php  if ($user_studyt == "sozi")  { echo"Sozial&ouml;konomik"; } ?> 
             <?php  if ($user_studyt == "ing")  { echo"Wirtschaftsingenieurwesen"; } ?> 
 
             </b>
@@ -187,8 +187,8 @@ echo"<br>";
             <?php  if ($user_studyt == "m_iis")  { echo"IIS"; } ?> 
             <?php  if ($user_studyt == "m_mgm")  { echo"Management"; } ?> 
             <?php  if ($user_studyt == "m_marketing")  { echo"Marketing"; } ?> 
-            <?php  if ($user_studyt == "m_sozu")  { echo"Sozialökonomik"; } ?> 
-            <?php  if ($user_studyt == "m_paed")  { echo"Wirtschaftspädagogik"; } ?> 
+            <?php  if ($user_studyt == "m_sozu")  { echo"Sozial&ouml;konomik"; } ?> 
+            <?php  if ($user_studyt == "m_paed")  { echo"Wirtschaftsp&auml;dagogik"; } ?> 
          
             </b>
             
@@ -227,7 +227,7 @@ if ($user_wisostudent == 1 && $user_semester > 0 || $user_wisostudent == 2 && $u
 
             <td align="left">
 
-            <b>Beiträge:</b> <?php  echo"$postnumbers_user"; ?>
+            <b>Beitr&auml;ge:</b> <?php  echo"$postnumbers_user"; ?>
 
             </td>
 
@@ -455,7 +455,7 @@ if ($user_wisostudent == 1 && $user_semester > 0 || $user_wisostudent == 2 && $u
             
     <a href="index.php?do=search&user_id=<?php  echo"$post_user_id"; ?>" onmouseover="<?php  echo"$img_name_search"; ?>.src='images/templates/<?php  echo"$template"; ?>/search_hover.gif';" onmouseout="<?php  echo"$img_name_search"; ?>.src='images/templates/<?php  echo"$template"; ?>/search.gif';">
 
-    <?php  } ?><img src="images/templates/<?php  echo"$template"; ?>/search.gif" name="<?php  echo"$img_name_search"; ?>" title="Beiträge von <?php  echo"$post_user_name2"; ?> suchen" border="0"><?php  if ($userdata_id != "")  { ?></a><?php  } ?>
+    <?php  } ?><img src="images/templates/<?php  echo"$template"; ?>/search.gif" name="<?php  echo"$img_name_search"; ?>" title="Beitr&auml;ge von <?php  echo"$post_user_name2"; ?> suchen" border="0"><?php  if ($userdata_id != "")  { ?></a><?php  } ?>
 
     &nbsp;
 

@@ -48,7 +48,7 @@
 
   while ($row_write = mysql_fetch_assoc($check_write))  { 
 
-// Darf User Beiträge lesen??
+// Darf User Beitr&auml;ge lesen??
 
 
        if ($row_write[f_read] == "all")  {
@@ -96,7 +96,7 @@
 
 
 
-// Darf User Beiträge schreiben??
+// Darf User Beitr&auml;ge schreiben??
 
 
          if ($row_write[f_write] == "all")  {

@@ -194,7 +194,7 @@ CB2 = document.getElementById(CB);
 
       }
 
-      $text01 = "Änderungen wurden gespeichert!";
+      $text01 = "&Auml;nderungen wurden gespeichert!";
       $link = "index.php?do=usercp&sec=edit_view";
 
       include("./templates/refresh.php");

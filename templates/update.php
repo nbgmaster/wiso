@@ -6,7 +6,7 @@
  
         <span style="font-size : <?php  echo"$fontsize_header"; ?>px;"><b>
 
-        Bevor Du das Forum wieder wie gewohnt nutzen kannst, musst Du einige Daten prüfen und
+        Bevor Du das Forum wieder wie gewohnt nutzen kannst, musst Du einige Daten pr&uuml;fen und
         ggf. anpassen.
  
         </span></b>
@@ -77,13 +77,13 @@
          >Wirtschaftswissenschaften (Schwerpunkt Informatik)</option>
          <option value="paed"
          <?php  if ($upp_study == "paed")  { echo" selected"; } ?>
-         >Wirtschaftswissenschaften (Schwerpunkt Pädagogik)</option>
+         >Wirtschaftswissenschaften (Schwerpunkt P&auml;dagogik)</option>
          <option value="int"
          <?php  if ($upp_study == "int")  { echo" selected"; } ?>
          >International Business Studies</option>
          <option value="sozi"
          <?php  if ($upp_study == "sozi")  { echo" selected"; } ?>
-         >Sozialökonomik</option>
+         >Sozial&ouml;konomik</option>
 
          </select>
 

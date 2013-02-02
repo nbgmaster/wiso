@@ -129,7 +129,7 @@ CB2 = document.getElementById(CB);
 
     <td class="tableb" align="center">
 
-    <b><span style="font-size:13px"><span style="color:red">Hinweis:</span> Die Foreneinstellungen können jederzeit im Profil geändert werden.</span></b>
+    <b><span style="font-size:13px"><span style="color:red">Hinweis:</span> Die Foreneinstellungen k&ouml;nnen jederzeit im Profil ge&auml;ndert werden.</span></b>
 
     </td>
  

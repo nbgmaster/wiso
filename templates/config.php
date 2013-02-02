@@ -113,7 +113,7 @@
 
   $database_tblname        = "unterlagen";        // Data:: Database
 
-  $boerse_tblname          = "boerse";            // Data:: Börse
+  $boerse_tblname          = "boerse";            // Data:: B&ouml;rse
  
 
   // Load:: Admin Config
@@ -238,7 +238,7 @@
   }
 
 
-  // Session nach 10 Minuten Inaktivität löschen
+  // Session nach 10 Minuten Inaktivit&auml;t l&ouml;schen
 
   $ch_ina = $timestamp - 600;
 

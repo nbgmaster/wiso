@@ -3,7 +3,7 @@
   <tr>
 
     <td align="left" class="catbg">
-        <a href="index.php?do=market" class="catFont">Börse</a>
+        <a href="index.php?do=market" class="catFont">B&ouml;rse</a>
 
 &nbsp;:: Meine Anzeigen
      
@@ -17,11 +17,11 @@
 <td width="65" align="center"><img src="images/templates/<?php  echo"$template"; ?>/critical.gif"></td>
 <td style="line-height:20px;">
 
-<b>Hier erhältst du einen Überblick welche Angebote du inseriert hast und wann diese ablaufen.</b>
+<b>Hier erh&auml;ltst du einen &Uuml;berblick welche Angebote du inseriert hast und wann diese ablaufen.</b>
 <br>
-Du hast die Möglichkeit deine Daten nochmals zu bearbeiten oder ein Angebot zu entfernen.
+Du hast die M&ouml;glichkeit deine Daten nochmals zu bearbeiten oder ein Angebot zu entfernen.
 <br>
-<b>Du solltest nicht mehr aktuelle Angebote umgehend löschen um zu späte Käuferanfragen
+<b>Du solltest nicht mehr aktuelle Angebote umgehend l&ouml;schen um zu sp&auml;te K&auml;uferanfragen
 zu verhindern!</b>
 </td></tr>
 

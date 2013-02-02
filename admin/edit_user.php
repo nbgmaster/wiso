@@ -61,7 +61,7 @@
 
                  if ($_POST[nickname] == "$nickname_members" && $user_id != $row_members_free_data["UserID"])  { 
 
-                     $text01     = "Der gewählte Nickname ist bereits registriert!";
+                     $text01     = "Der gew&auml;hlte Nickname ist bereits registriert!";
                      $link       = "index.php?do=admin&sec=edit_user&user_id=$user_id";
 
                      $admin_data = "wrong";
@@ -73,7 +73,7 @@
 
                  if ($_POST[email] == "$email_members" && $user_id != $row_members_free_data["UserID"])  { 
 
-                     $text01     = "Die gewählte Emailadresse ist bereits registriert!";
+                     $text01     = "Die gew&auml;hlte Emailadresse ist bereits registriert!";
                      $link       = "index.php?do=admin&sec=edit_user&user_id=$user_id";
 
                      $admin_data = "wrong";
@@ -126,7 +126,7 @@
                   mysql_query($update_profile4) OR die(mysql_error());
                   mysql_query($update_settings) OR die(mysql_error());
 
-                  $text01   = "Profildaten wurden geändert!";         
+                  $text01   = "Profildaten wurden ge&auml;ndert!";         
                   $link     = "index.php?do=admin&sec=edit_user&user_id=$user_id";
 
              }

@@ -7,10 +7,10 @@ input.focus();
 
 aTag = smilie; eTag = '';
 
-  /* für Internet Explorer */
+  /* f&uuml;r Internet Explorer */
   if(typeof opener.document.selection != 'undefined') {
 
-    /* Einfügen des Formatierungscodes */
+    /* Einf&uuml;gen des Formatierungscodes */
     var range = opener.document.selection.createRange();
     var insText = range.text;
     range.text = aTag + insText + eTag;
@@ -23,7 +23,7 @@ aTag = smilie; eTag = '';
     }
     range.select();
   }
-  /* für neuere auf Gecko basierende Browser */
+  /* f&uuml;r neuere auf Gecko basierende Browser */
   else if(typeof input.selectionStart != 'undefined')
   {
 
@@ -44,19 +44,19 @@ aTag = smilie; eTag = '';
 
 }
 
- /* für die übrigen Browser */
+ /* f&uuml;r die &uuml;brigen Browser */
   else
   {
-    /* Abfrage der Einfügeposition */
+    /* Abfrage der Einf&uuml;geposition */
     var pos;
     var re = new RegExp('^[0-9]{0,3}$');
     while(!re.test(pos)) {
-      pos = prompt("Einfügen an Position (0.." + input.value.length + "):", "0");
+      pos = prompt("Einf&uuml;gen an Position (0.." + input.value.length + "):", "0");
     }
     if(pos > input.value.length) {
       pos = input.value.length;
     }
-    /* Einfügen des Formatierungscodes */
+    /* Einf&uuml;gen des Formatierungscodes */
     var insText = prompt("Bitte geben Sie den zu formatierenden Text ein:");
     input.value = input.value.substr(0, pos) + aTag + insText + eTag + input.value.substr(pos);
   }

@@ -30,7 +30,7 @@ function checkForm() {
 
   if (p1Length < 2)  {
 
-           alert( "Fehler: Antwortmöglichkeit muss mindestens 2 Zeichen lang sein!" );
+           alert( "Fehler: Antwortm&ouml;glichkeit muss mindestens 2 Zeichen lang sein!" );
            document.form_poll.poll_data1.focus();
            return false;
 
@@ -43,7 +43,7 @@ function checkForm() {
 
   if (p2Length < 2)  {
 
-           alert( "Fehler: Antwortmöglichkeit muss mindestens 2 Zeichen lang sein!" );
+           alert( "Fehler: Antwortm&ouml;glichkeit muss mindestens 2 Zeichen lang sein!" );
            document.form_poll.poll_data2.focus();
            return false;
 
@@ -51,14 +51,14 @@ function checkForm() {
 
       if ( document.form_poll.poll_data1.value == "" )  {
 
-           alert( "Fehler: Es müssen mindestens 2 Anwortmöglichkeiten angegeben werden!" );
+           alert( "Fehler: Es m&uuml;ssen mindestens 2 Anwortm&ouml;glichkeiten angegeben werden!" );
            document.form_poll.poll_data1.focus();
            return false;
       }
 
       if ( document.form_poll.poll_data2.value == "" )  {
 
-           alert( "Fehler: Es müssen mindestens 2 Anwortmöglichkeiten angegeben werden!" );
+           alert( "Fehler: Es m&uuml;ssen mindestens 2 Anwortm&ouml;glichkeiten angegeben werden!" );
            document.form_poll.poll_data2.focus();
            return false;
       }

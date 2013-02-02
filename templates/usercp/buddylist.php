@@ -24,7 +24,7 @@
 
     <a href="index.php?do=usercp&sec=<?php  echo"$sec"; ?>&del_id=<?php echo"$f_userid"; ?>" onmouseover="<?php  echo"$imgdel"; ?>.src='images/templates/<?php  echo"$template"; ?>/delete_small_hover.gif';" onmouseout="<?php  echo"$imgdel"; ?>.src='images/templates/<?php  echo"$template"; ?>/delete_small.gif';">
       
-    <img src="images/templates/<?php  echo"$template"; ?>/delete_small.gif" name="<?php  echo"$imgdel"; ?>" title="User aus der Liste löschen" border="0"></a>
+    <img src="images/templates/<?php  echo"$template"; ?>/delete_small.gif" name="<?php  echo"$imgdel"; ?>" title="User aus der Liste l&ouml;schen" border="0"></a>
 
     </a>
  

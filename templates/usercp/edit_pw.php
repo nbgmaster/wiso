@@ -64,7 +64,7 @@
 
          </td><td>
 
-         &nbsp;<b>Nach der Änderung wirst du automatisch ausgeloggt! Du kannst dich sofort danach mit deinem neuen Passwort einloggen!</b>
+         &nbsp;<b>Nach der &Auml;nderung wirst du automatisch ausgeloggt! Du kannst dich sofort danach mit deinem neuen Passwort einloggen!</b>
 
          </td></tr></table>
 

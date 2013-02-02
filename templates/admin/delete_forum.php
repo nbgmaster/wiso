@@ -28,7 +28,7 @@
 
        <td align="center" class="tableb">
 
-       <input type="submit" class="input" name="send_admin_data" value="Forum löschen">
+       <input type="submit" class="input" name="send_admin_data" value="Forum l&ouml;schen">
 
        </td>
 

@@ -82,7 +82,7 @@
 
        <input type="hidden" name="t" value="<?php  echo"$t"; ?>">
 
-       <input type="submit" class="buttons" name="send_edit_data" value="Thema ändern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
+       <input type="submit" class="buttons" name="send_edit_data" value="Thema &auml;ndern" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
 
        </td>
 

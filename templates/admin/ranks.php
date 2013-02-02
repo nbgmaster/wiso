@@ -12,7 +12,7 @@
 
     <a href="index.php?do=admin&sec=ranks&module=delete&r_id=<?php  echo"".$row_ranks["id"].""; ?>">
 
-    <b>löschen</b>
+    <b>l&ouml;schen</b>
 
     </a>
 

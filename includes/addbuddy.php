@@ -89,14 +89,14 @@
 
           if ($buddyfunction == "friend")  {
  
-          $text01 = "Der User wurde zu deiner Freundesliste hinzugefügt!";
+          $text01 = "Der User wurde zu deiner Freundesliste hinzugef&uuml;gt!";
           $link  = "index.php?do=usercp&sec=buddylist";
 
           }
 
           if ($buddyfunction == "ignore")  {
  
-          $text01 = "Der User wurde zu deiner Ignorierliste hinzugefügt!";
+          $text01 = "Der User wurde zu deiner Ignorierliste hinzugef&uuml;gt!";
           $link  = "index.php?do=usercp&sec=ignorelist";
 
           }

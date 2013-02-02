@@ -76,7 +76,7 @@ $tp_F .= "<td class=\"tableb\" align=\"left\" width=\"260\" onmouseover=\"this.c
 
 if($last_article2 == "0")  { 
     
-$tp_F .= "<center>noch keine Beiträge vorhanden</center>";
+$tp_F .= "<center>noch keine Beitr&auml;ge vorhanden</center>";
                     
 } else {
 

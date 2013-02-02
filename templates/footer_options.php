@@ -17,11 +17,11 @@
         <select name="adminoptions">
 
         <option value=""><b>Administrative Optionen:</b></option>
-        <option value="closetopic"><b>Thema öffnen / schliessen</b></option>
+        <option value="closetopic"><b>Thema &ouml;ffnen / schliessen</b></option>
         <option value="movetopic"><b>Verschieben</b></option>
         <option value="edittopic"><b>bearbeiten</b></option>
         <option value="tickertopic"><b>Newsticker <?php  echo"$newstStr"; ?></b></option>
-        <option value="deletetopic"><b>Thema löschen</b></option>
+        <option value="deletetopic"><b>Thema l&ouml;schen</b></option>
          
         </select>
 

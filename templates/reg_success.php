@@ -31,8 +31,8 @@
     <br>
     Du kannst Du dich nun mit deinem <b>Nickname</b> und deinem <b>Passwort</b> einloggen.
     <!--br><br>
-    Solltest Du diese Email nach spätestens 24 Stunden nicht erhalten haben, dann melde dich bei einem der Administratoren.
-    Wie du einen Admin kontaktieren kannst erfährst du <a href="index.php?do=faq"><b><u>in den FAQ</u></b></a>.<br>
+    Solltest Du diese Email nach sp&auml;testens 24 Stunden nicht erhalten haben, dann melde dich bei einem der Administratoren.
+    Wie du einen Admin kontaktieren kannst erf&auml;hrst du <a href="index.php?do=faq"><b><u>in den FAQ</u></b></a>.<br>
     (In diesem Fall bitte unbedingt den Nickname oder die Emailadresse nennen mit der Du dich angemeldet hast.)
     <br><br-->
     <center>

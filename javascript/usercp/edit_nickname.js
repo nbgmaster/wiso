@@ -32,7 +32,7 @@ function check_usercp()
    if( document.usercp_form.nickname.value != document.usercp_form.nickname2.value )
 
       {
-       alert( "Die Nicknames stimmen nicht überein!" );
+       alert( "Die Nicknames stimmen nicht &uuml;berein!" );
        document.usercp_form.nickname.focus();
        return false;
       }

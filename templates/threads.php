@@ -64,7 +64,7 @@
 
     </td>
 
-    <?php  if ($thread_author_name == "User gelöscht")  { ?>
+    <?php  if ($thread_author_name == "User gel&ouml;scht")  { ?>
 
     <td class="tableb" align="left" onmouseover="this.className='mouseover';" onmouseout="this.className='mouseout';">
 

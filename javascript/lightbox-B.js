@@ -201,8 +201,8 @@ function showLightbox(objLink)
               
 	    objL.setAttribute('href','http://o2campusbotschafter.de/nuernberg');
 	    objL.setAttribute('target', '_blank');
-	    objL.setAttribute('title','Zur offiziellen Website der O2 Campus Botschafter Nürnberg');
-	    //falls Bild nach Klick schließen
+	    objL.setAttribute('title','Zur offiziellen Website der O2 Campus Botschafter N&uuml;rnberg');
+	    //falls Bild nach Klick schlie&szlig;en
 	    //objL.onclick = function () {hideLightbox();  }
 
       objImage.onclick = function () { hits(4);   }
@@ -410,7 +410,7 @@ function initLightbox()
   var objN = document.createElement("div");
   objN.setAttribute('align', 'right');
   objN.setAttribute('id', 'notice');
-  objN.innerHTML = "Zum Schließen neben das Bild klicken<br>";
+  objN.innerHTML = "Zum Schlie&szlig;en neben das Bild klicken<br>";
 	objLightbox.appendChild(objN);	
 	
 	// create link
@@ -418,8 +418,8 @@ function initLightbox()
 	objLink.setAttribute('href','http://o2campusbotschafter.de/nuernberg');
 	objLink.setAttribute('target', '_blank');
 	objLink.setAttribute('id', 'main_link');
-	objLink.setAttribute('title',"Zur offiziellen Website der O2 Campus Botschafter Nürnberg");
-	//falls bild nach klick schließen
+	objLink.setAttribute('title',"Zur offiziellen Website der O2 Campus Botschafter N&uuml;rnberg");
+	//falls bild nach klick schlie&szlig;en
   //objLink.onclick = function () {hideLightbox(); }
 	objLightbox.appendChild(objLink);
 
@@ -444,7 +444,7 @@ function initLightbox()
 	// create image
 	var objImage = document.createElement("img");
 	objImage.setAttribute('id','lightboxImage');
-	//objImage.setAttribute('title','Hier klicken um zur offiziellen Website der O2 Campus Botschafter Nürnberg zu gelangen');
+	//objImage.setAttribute('title','Hier klicken um zur offiziellen Website der O2 Campus Botschafter N&uuml;rnberg zu gelangen');
 	objLink.appendChild(objImage);
 	
 	// create details div, a container for the caption and keyboard message

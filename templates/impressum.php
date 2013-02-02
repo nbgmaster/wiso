@@ -39,7 +39,7 @@
 <br>
 Triesdorfer Str. 16
 <br>
-90449 Nürnberg
+90449 N&uuml;rnberg
 <br>
 Tel.: 0911 684396
 <br>
@@ -49,9 +49,9 @@ Email: stefan (at) wiwistud.de
 </td><td align="center">
 
 <table><tr><td style="line-height:22px;">
-<b>Tino Müller</b>
+<b>Tino M&uuml;ller</b>
 <br>
-Straßäckerweg 8a
+Stra&szlig;&auml;ckerweg 8a
 <br>
 91227 Leinburg
 <br>
@@ -67,7 +67,7 @@ Email: tino (at) wiwistud.de
 <br>
 Staffelsteiner Str. 38
 <br>
-90425 Nürnberg
+90425 N&uuml;rnberg
 <br>
 Tel.: 0911 3747119
 <br>
@@ -81,7 +81,7 @@ Email: alex (at) wiwistud.de
 
 <hr size="1" color="#000">
 
-<b>crevnet IT</b> - Tino Müller - USt-IdNr.: 221/253/70873
+<b>crevnet IT</b> - Tino M&uuml;ller - USt-IdNr.: 221/253/70873
 <br>
 <hr size="1" color="#000">
 
@@ -89,12 +89,12 @@ Email: alex (at) wiwistud.de
 <br>
 <table width="700"><tr><td>
 <span style="line-height:20px">
-<b>wiwistud.de</b> fungiert als eigenständige Homepage, die von Studenten für Studenten entwickelt wurde 
-und weder ein Projekt der Universität Erlangen-Nürnberg darstellt noch in irgendeinerweise von dieser Universität publiziert wird.
+<b>wiwistud.de</b> fungiert als eigenst&auml;ndige Homepage, die von Studenten f&uuml;r Studenten entwickelt wurde 
+und weder ein Projekt der Universit&auml;t Erlangen-N&uuml;rnberg darstellt noch in irgendeinerweise von dieser Universit&auml;t publiziert wird.
 </span>
 <br>
 
- <br>Beachten Sie die unten aufgeführten rechtlichen Hinweise sowie Haftungsregeln dieser Website.
+ <br>Beachten Sie die unten aufgef&uuml;hrten rechtlichen Hinweise sowie Haftungsregeln dieser Website.
 
 </td></tr></table>
 

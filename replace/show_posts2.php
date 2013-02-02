@@ -125,11 +125,11 @@ else  {
 
           if ($browser == "Opera")  {
 
-             $str = str_replace("[IMG]$content[1][/IMG]", "</u><img src=\"$img_var\" style=\"width:50px\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\" border=\"0\"><a href=\"$img_var\" target=\"_blank\"> <img title=\"Volle Bildgröße anzeigen\" src=\"images/templates/$template/zoom.gif\" border=\"0\"> </a>", $str);
+             $str = str_replace("[IMG]$content[1][/IMG]", "</u><img src=\"$img_var\" style=\"width:50px\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\" border=\"0\"><a href=\"$img_var\" target=\"_blank\"> <img title=\"Volle Bildgr&ouml;&szlig;e anzeigen\" src=\"images/templates/$template/zoom.gif\" border=\"0\"> </a>", $str);
 
           }  else  {
 
-             $str = str_replace("[IMG]$content[1][/IMG]", "</u><img src=\"$img_var\" style=\"max-width: $max_w;width: expression(this.width > 560 ? 560: true);\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\" border=\"0\"><a href=\"$img_var\" target=\"_blank\"> <img title=\"Volle Bildgröße anzeigen\" src=\"images/templates/$template/zoom.gif\" border=\"0\"> </a>", $str);
+             $str = str_replace("[IMG]$content[1][/IMG]", "</u><img src=\"$img_var\" style=\"max-width: $max_w;width: expression(this.width > 560 ? 560: true);\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\" border=\"0\"><a href=\"$img_var\" target=\"_blank\"> <img title=\"Volle Bildgr&ouml;&szlig;e anzeigen\" src=\"images/templates/$template/zoom.gif\" border=\"0\"> </a>", $str);
 
           }
 

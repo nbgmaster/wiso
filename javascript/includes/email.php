@@ -28,10 +28,10 @@ _______________________________________________________________________________
 Auf http://$board_domain$board_direction$an_link$userdata_id kannst du $userdata_name antworten!
 
 
-Mit freundlichen Grüßen, der Webmaster
+Mit freundlichen Gr&uuml;&szlig;en, der Webmaster
 
 
-- Achtung: Keine Antwort an diese Emailadresse möglich!";
+- Achtung: Keine Antwort an diese Emailadresse m&ouml;glich!";
 
       mail($to, $subject, $message, $from) 
       or $efalse = "1"; 
@@ -64,7 +64,7 @@ Mit freundlichen Grüßen, der Webmaster
 
       if ($check_ignorer != "0" or $check_ignorer != "")  { 
 
-          $text01 = "Der User hat dich auf seiner Ignorierliste!<br> Versendnung nicht möglich!";
+          $text01 = "Der User hat dich auf seiner Ignorierliste!<br> Versendnung nicht m&ouml;glich!";
 
           $link   = "javascript:history.back();";
 

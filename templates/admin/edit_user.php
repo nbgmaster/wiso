@@ -126,12 +126,12 @@
 
          <?php  if($row_admin_userdata["gender"] == "m") { ?>
 
-         <option value="m" selected>männlich</option>   
+         <option value="m" selected>m&auml;nnlich</option>   
          <option value="w">weiblich</option> 
 
          <?php  } else { ?>
 
-         <option value="m">männlich</option>   
+         <option value="m">m&auml;nnlich</option>   
          <option value="w" selected>weiblich</option> 
 
          <?php  }  ?>
@@ -243,9 +243,9 @@
          <option value="bwl"   <?php  if ($row_admin_userdata[study]  == "bwl")   { echo"selected"; } ?> >Wirtschaftswissenschaften (Schwerpunkt BWL)</option>
          <option value="vwl"   <?php  if ($row_admin_userdata[study]  == "vwl")   { echo"selected"; } ?> >Wirtschaftswissenschaften (Schwerpunkt VWL)</option>
          <option value="info"  <?php  if ($row_admin_userdata[study]  == "info")  { echo"selected"; } ?> >Wirtschaftswissenschaften (Schwerpunkt Informatik)</option>
-         <option value="paed"  <?php  if ($row_admin_userdata[study]  == "paed")  { echo"selected"; } ?> >Wirtschaftswissenschaften (Schwerpunkt Pädagogik)</option>
+         <option value="paed"  <?php  if ($row_admin_userdata[study]  == "paed")  { echo"selected"; } ?> >Wirtschaftswissenschaften (Schwerpunkt P&auml;dagogik)</option>
          <option value="int"   <?php  if ($row_admin_userdata[study] == "int")    { echo"selected"; } ?> >International Business Studies</option>
-         <option value="sozi"  <?php  if ($row_admin_userdata[study]  == "sozi")  { echo"selected"; } ?> >Sozialökonomik</option>
+         <option value="sozi"  <?php  if ($row_admin_userdata[study]  == "sozi")  { echo"selected"; } ?> >Sozial&ouml;konomik</option>
 
          </select>
 
@@ -274,7 +274,7 @@
 
          <td class="tablea">
 
-         <b>Straße, PLZ, etc.</b>
+         <b>Stra&szlig;e, PLZ, etc.</b>
 
          </td>
 
@@ -451,7 +451,7 @@
 
          <td class="tablea">
 
-         <b>Lieblingsgetränk</b>
+         <b>Lieblingsgetr&auml;nk</b>
 
          </td>
 
@@ -550,7 +550,7 @@
 
          <td class="tablea" width="50%">
 
-         <b>Emailadresse für andere Miglieder sichtbar?</b>
+         <b>Emailadresse f&uuml;r andere Miglieder sichtbar?</b>
 
          </td>
 
@@ -716,7 +716,7 @@
     <td class="tableb" align="center">
 
     <input class="input" type="hidden" name="user_id" value="<?php  echo"".$row_admin_userdata["UserID"].""; ?>">
-    <input class="input" type="submit" name="send_admin_data" value="Profildaten ändern">
+    <input class="input" type="submit" name="send_admin_data" value="Profildaten &auml;ndern">
 
     </td>
 

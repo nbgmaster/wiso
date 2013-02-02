@@ -193,13 +193,13 @@ if ($do != inbox && $do != "outbox")  {
          if ($userdata_admin == "1" && $do != "inbox" && $do != "outbox" or $mod_user_status == "1" && $do != "inbox" && $do != "outbox")  {
 
              $del_post  = "<a href=index.php?do=delete&p_id=".$row_posts["id"]." onmouseover=\"$img_name_delete.src='images/templates/$template/delete_small_hover.gif';\" onmouseout=\"$img_name_delete.src='images/templates/$template/delete_small.gif';\">";
-             $del_post2 = "<img src=\"images/templates/$template/delete_small.gif\" title=\"Beitrag löschen\" border=\"0\" width=\"86\" height=\"21\" name=\"$img_name_delete\">";
+             $del_post2 = "<img src=\"images/templates/$template/delete_small.gif\" title=\"Beitrag l&ouml;schen\" border=\"0\" width=\"86\" height=\"21\" name=\"$img_name_delete\">";
              $del_post3 = "</a>";
 
          } else if ($do == "inbox" or $do == "outbox")  { 
 
            $del_post  = "<a href=index.php?do=$do&sec=delete&d_id=$m_id onmouseover=\"$img_name_delete.src='images/templates/$template/delete_big_hover.gif';\" onmouseout=\"$img_name_delete.src='images/templates/$template/delete_big.gif';\">";
-           $del_post2 = "<img src=\"images/templates/$template/delete_big.gif\" title=\"PM löschen\" border=\"0\" width=\"115\" height=\"26\" name=\"$img_name_delete\">";
+           $del_post2 = "<img src=\"images/templates/$template/delete_big.gif\" title=\"PM l&ouml;schen\" border=\"0\" width=\"115\" height=\"26\" name=\"$img_name_delete\">";
            $del_post3 = "</a>";
 
          } else  {  $del_post = ""; $del_post2 = ""; $del_post3 = ""; }
@@ -549,11 +549,11 @@ if ($do != inbox && $do != "outbox")  {
 
                      if ($browser == "Opera")  {
 
-                        $attachment = "<br><br> <img style=\"width:50px\" src=\"attachments/$row_posts[attachment]\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\"> <a href=\"attachments/$row_posts[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgröße anzeigen\" border=\"0\"> </a>";
+                        $attachment = "<br><br> <img style=\"width:50px\" src=\"attachments/$row_posts[attachment]\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\"> <a href=\"attachments/$row_posts[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgr&ouml;&szlig;e anzeigen\" border=\"0\"> </a>";
 
                      }  else  {
 
-                        $attachment = "<br><br> <img style=\"max-width: $max_w;width: expression(this.width > 560 ? 560: true);\" src=\"attachments/$row_posts[attachment]\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\"> <a href=\"attachments/$row_posts[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgröße anzeigen\" border=\"0\"> </a>";
+                        $attachment = "<br><br> <img style=\"max-width: $max_w;width: expression(this.width > 560 ? 560: true);\" src=\"attachments/$row_posts[attachment]\" alt=\"[Bild nicht mehr vorhanden]\" title=\"\"> <a href=\"attachments/$row_posts[attachment]\" target=\"_blank\"> <img src=\"images/templates/$template/zoom.gif\" title=\"Volle Bildgr&ouml;&szlig;e anzeigen\" border=\"0\"> </a>";
 
                      }
     
@@ -561,7 +561,7 @@ if ($do != inbox && $do != "outbox")  {
 
                  else  { 
 
-                         $attachment = "<i>Angehängtes Bild konnte nicht gefunden werden</i>";
+                         $attachment = "<i>Angeh&auml;ngtes Bild konnte nicht gefunden werden</i>";
   
                  }
 

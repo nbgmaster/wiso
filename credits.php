@@ -63,11 +63,11 @@ font-size:12px;
   <tr>
     <td style="background-color:#<?php  echo"$tmp_2"; ?>"><p><span><b>Liebe Mitglieder von wiwistud.de</b></span>,</p>
 
-      <p>wir haben uns zusammen mit unseren Partnern etwas  neues für euch ausgedacht und präsentieren das wiwistud.de <strong>Bonuspunktesystem!</strong></p>
-      <p align="center"><b>Wie läuft das ab? Was ist das überhaupt?</b></p>
-      <p>Wir, die Administratoren werden eure Beiträge bewerten und den Mitgliedern, die informative Beiträge oder hilfreiche Unterlagen verfassen, Bonuspunkte zuschreiben.<br />
-      Informative Beiträge können sein: Prüfungstermine, Klausurergebnisse, Klausurtermine...<br> eben Informationen, die der &quot;Masse&quot; dienen!</p>
-      <p align="center"><u>Die gesammelten Punkte kann man dann gegen tolle Prämien einlösen!</u></p>
+      <p>wir haben uns zusammen mit unseren Partnern etwas  neues f&uuml;r euch ausgedacht und pr&auml;sentieren das wiwistud.de <strong>Bonuspunktesystem!</strong></p>
+      <p align="center"><b>Wie l&auml;uft das ab? Was ist das &uuml;berhaupt?</b></p>
+      <p>Wir, die Administratoren werden eure Beitr&auml;ge bewerten und den Mitgliedern, die informative Beitr&auml;ge oder hilfreiche Unterlagen verfassen, Bonuspunkte zuschreiben.<br />
+      Informative Beitr&auml;ge k&ouml;nnen sein: Pr&uuml;fungstermine, Klausurergebnisse, Klausurtermine...<br> eben Informationen, die der &quot;Masse&quot; dienen!</p>
+      <p align="center"><u>Die gesammelten Punkte kann man dann gegen tolle Pr&auml;mien einl&ouml;sen!</u></p>
 
       <p><strong>Ab 10 Punkten:</strong><br />
 <?php 
@@ -77,7 +77,7 @@ $qy_loc = mysql_query("SELECT * from $gutscheine_tblname ORDER by id");
   while ($rw_loc  =  mysql_fetch_assoc($qy_loc))  { 
 
          echo"- $rw_loc[title]";
-if ($rw_loc[id] == 3)  { echo" (nur Samstags einlösbar)"; }
+if ($rw_loc[id] == 3)  { echo" (nur Samstags einl&ouml;sbar)"; }
          echo"<br>";
 
   }

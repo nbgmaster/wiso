@@ -16,11 +16,11 @@
 
            <td>
 
-           <span class="title">Nickname ändern</span>
+           <span class="title">Nickname &auml;ndern</span>
 
            <br><br>
 
-           Hier kannst Du deinen Nickname jederzeit verändern.
+           Hier kannst Du deinen Nickname jederzeit ver&auml;ndern.
 
            </td>
 
@@ -46,7 +46,7 @@
 
            <td>
 
-           <span class="title">Passwort ändern</span>
+           <span class="title">Passwort &auml;ndern</span>
 
            <br><br>
 
@@ -78,11 +78,11 @@
 
            <td>
 
-           <span class="title">Emailadresse ändern</span>
+           <span class="title">Emailadresse &auml;ndern</span>
  
            <br><br>
 
-           Eigene Emailadresse ändern.
+           Eigene Emailadresse &auml;ndern.
 
            </td>
 
@@ -107,11 +107,11 @@
 
            <td>
 
-           <span class="title">Profildaten ändern</span>
+           <span class="title">Profildaten &auml;ndern</span>
 
            <br><br>
 
-           Alle optionalen Profildaten können hier geändert werden.
+           Alle optionalen Profildaten k&ouml;nnen hier ge&auml;ndert werden.
 
            </td>
 
@@ -139,7 +139,7 @@
 
            <td>
 
-           <span class="title">Forendarstellung ändern</span>
+           <span class="title">Forendarstellung &auml;ndern</span>
 
            <br><br>
 
@@ -172,7 +172,7 @@
 
            <br><br>
 
-           Persönliche Einstellungen für das Forum.
+           Pers&ouml;nliche Einstellungen f&uuml;r das Forum.
 
            </td>
 
@@ -265,7 +265,7 @@
 
            <br><br>
 
-           Hier können bekannte Mitglieder in einer Liste verwaltet werden.
+           Hier k&ouml;nnen bekannte Mitglieder in einer Liste verwaltet werden.
 
            </td>
 
@@ -294,7 +294,7 @@
 
            <br><br>
 
-           Unerwünschte Kontakte können auf dieser Liste vermerkt werden.
+           Unerw&uuml;nschte Kontakte k&ouml;nnen auf dieser Liste vermerkt werden.
 
            </td>
 

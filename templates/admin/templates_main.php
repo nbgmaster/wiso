@@ -15,11 +15,11 @@
 
        <td class="tableb" align="center" width="33%">
 
-       <a href="index.php?do=admin&sec=templates&module=edit" class="title">Template ändern</a>
+       <a href="index.php?do=admin&sec=templates&module=edit" class="title">Template &auml;ndern</a>
 
        <br><br>
 
-       Ein vorhandes Template bearbeiten oder löschen.
+       Ein vorhandes Template bearbeiten oder l&ouml;schen.
 
        </td>
 

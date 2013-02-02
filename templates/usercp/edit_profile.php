@@ -49,12 +49,12 @@ function wisostud(choice)  {
 
          <?php  if($userdata_gender == "m") { ?>
 
-         <option value="m" selected>männlich</option>   
+         <option value="m" selected>m&auml;nnlich</option>   
          <option value="w">weiblich</option> 
 
          <?php  } else { ?>
 
-         <option value="m">männlich</option>   
+         <option value="m">m&auml;nnlich</option>   
          <option value="w" selected>weiblich</option> 
 
          <?php  }  ?>
@@ -264,7 +264,7 @@ function wisostud(choice)  {
                    
          <option value="paed"
          <?php  if ($userdata_study == "paed")  { echo" selected"; } ?>
-         >Wirtschaftswissenschaften (Schwerpunkt Pädagogik)</option>
+         >Wirtschaftswissenschaften (Schwerpunkt P&auml;dagogik)</option>
 
          <option value="int"
          <?php  if ($userdata_study == "int")  { echo" selected"; } ?>
@@ -272,7 +272,7 @@ function wisostud(choice)  {
                          
          <option value="sozi"
          <?php  if ($userdata_study == "sozi")  { echo" selected"; } ?>
-         >Sozialökonomik</option>
+         >Sozial&ouml;konomik</option>
 
          <option value="ing"
          <?php  if ($userdata_study == "ing")  { echo" selected"; } ?>
@@ -334,11 +334,11 @@ function wisostud(choice)  {
                    
          <option value="m_sozi"
          <?php  if ($userdata_study == "m_sozi")  { echo" selected"; } ?>
-         >Sozialökonomik</option>
+         >Sozial&ouml;konomik</option>
 
          <option value="m_paed"
          <?php  if ($userdata_study == "m_paed")  { echo" selected"; } ?>
-         >Wirtschaftspädagogik</option>
+         >Wirtschaftsp&auml;dagogik</option>
          
          </select>
 
@@ -502,7 +502,7 @@ function wisostud(choice)  {
 
          <td class="tableb" align="left">
 
-         <b>Straße, PLZ, etc.</b>
+         <b>Stra&szlig;e, PLZ, etc.</b>
 
          </td>
 

@@ -83,7 +83,7 @@ Dein
 wiwistud.de Team
 
 
-- Achtung: Keine Antwort an diese Emailadresse möglich!";
+- Achtung: Keine Antwort an diese Emailadresse m&ouml;glich!";
 
                  mail($to, $subject, $message, $from);
 
@@ -109,7 +109,7 @@ wiwistud.de Team
   
           $link   = "javascript:history.back()";
 
-          $text01 = "Empfänger ungültig!";
+          $text01 = "Empf&auml;nger ung&uuml;ltig!";
 
       }
 
@@ -251,7 +251,7 @@ wiwistud.de Team
 
 
               $text01 = "Beitrag ";
-              $text02 = "geändert!";
+              $text02 = "ge&auml;ndert!";
 
           }
 

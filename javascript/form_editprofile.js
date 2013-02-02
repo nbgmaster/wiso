@@ -23,7 +23,7 @@ function check_user()
 
       {
 
-       alert( "Fehler: Vorname ungültig!" );
+       alert( "Fehler: Vorname ung&uuml;ltig!" );
        document.usercp_form.firstname.focus();
        return false;
       }
@@ -40,7 +40,7 @@ function check_user()
    if( NachLength < 3 )
 
       {
-       alert( "Fehler: Nachname ungültig!" );
+       alert( "Fehler: Nachname ung&uuml;ltig!" );
        document.usercp_form.lastname.focus();
        return false;
       }

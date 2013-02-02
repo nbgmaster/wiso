@@ -8,7 +8,7 @@
 
   include('templates/main_top.php'); 
 
-  /* Array bilden, um zu wissen, in welchen Foren der User neue Beiträge hat */
+  /* Array bilden, um zu wissen, in welchen Foren der User neue Beitr&auml;ge hat */
 
   $Ay_NwP[] = "";
 
@@ -201,7 +201,7 @@
 
              }
 
-             if ($last_user_name == "")  $last_user_name = "User gelöscht";
+             if ($last_user_name == "")  $last_user_name = "User gel&ouml;scht";
 
              $current_time    = date("H:i",$unixtime);
              $current_dateX   = date("d.m.Y",$unixtime);

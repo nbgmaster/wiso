@@ -217,13 +217,13 @@ exit();
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 
-       <title>Bachelorstudiengang Wirtschaftswissenschaften an der Universität Erlangen - N&uuml;rnberg</title>
+       <title>Bachelorstudiengang Wirtschaftswissenschaften an der Universit&auml;t Erlangen - N&uuml;rnberg</title>
 
 	<META NAME="Title" CONTENT="Bachelor WiSo N&uuml;rnberg">
 	<META NAME="Author" CONTENT="Stefan Richter">
 	<META NAME="Publisher" CONTENT="Stefan Richter">
 	<META NAME="Copyright" CONTENT="www.nbg-master.de (Stefan Richter)">
-	<META NAME="Keywords" CONTENT="Studentenportal,kostenlos,Bachelor,International,WiSo,RW,ReWi,Studenten,Student,Studium,BWL,VWL,Uni,Hochschule,Unterlagen,Forum,Betriebswirtschaft,Hausarbeiten,Klausur,Mitschriften,N&uuml;rnberg,Erlangen,Bildung,Management,Controlling,Marketing,Statistik,Mathematik,Recht,Privatrecht,Makro,Mikro,Ökonomik,Wirtschaftswissenschaften,Wirtschaftspädagogik,Skript,Zusammenfassungen">
+	<META NAME="Keywords" CONTENT="Studentenportal,kostenlos,Bachelor,International,WiSo,RW,ReWi,Studenten,Student,Studium,BWL,VWL,Uni,Hochschule,Unterlagen,Forum,Betriebswirtschaft,Hausarbeiten,Klausur,Mitschriften,N&uuml;rnberg,Erlangen,Bildung,Management,Controlling,Marketing,Statistik,Mathematik,Recht,Privatrecht,Makro,Mikro,&Ouml;konomik,Wirtschaftswissenschaften,Wirtschaftsp&auml;dagogik,Skript,Zusammenfassungen">
 	<META NAME="Description" CONTENT="Forum f&uuml;r die Bachelor Studenten im Fach Wirtschaftswissenschaften an der WiSo N&uuml;rnberg">
 	<META NAME="Abstract" CONTENT="Forum f&uuml;r die Bachelor Studenten im Fach Wirtschaftswissenschaften an der WiSo N&uuml;rnberg">
 	<META NAME="Robots" CONTENT="INDEX,FOLLOW">

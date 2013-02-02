@@ -77,13 +77,13 @@
 
           if ($upload_access == "no")  { 
 
-              $text04        = "Das Dateiformat ist ung¸ltig!";  
+              $text04        = "Das Dateiformat ist ung&uuml;ltig!";  
 
           }
 
           else if ($size > 500000)   {  
 
-              $text04        = "Datei darf max. 500 KB groﬂ sein!";  
+              $text04        = "Datei darf max. 500 KB gro&szlig; sein!";  
               $upload_access = "no";
 
           }

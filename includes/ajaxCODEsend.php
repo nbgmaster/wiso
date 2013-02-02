@@ -79,7 +79,7 @@ Dein Aktivierungslink: http://$board_domain$board_direction$act_link$active_x
 Dein wiwistud.de Team
 
 
-- Achtung: Keine Antwort an diese Emailadresse möglich!";
+- Achtung: Keine Antwort an diese Emailadresse m&ouml;glich!";
 
                 mail($to, $subject, $message, $Header);
 

@@ -47,7 +47,7 @@
 
                   $len_nickname = strlen($str_nickname);
 
-                  if ($len_nickname < 3)   {  $wrong_par = 1;  $text01 = "Nickname ungültig!"; }
+                  if ($len_nickname < 3)   {  $wrong_par = 1;  $text01 = "Nickname ung&uuml;ltig!"; }
 
               }
 
@@ -60,8 +60,8 @@
               $len_lastname = strlen($str_lastname);
 
 
-              if ($len_firstname < 3)  {  $wrong_par = 1;  $text01 = "Vorname ungültig!";  }
-              if ($len_lastname < 3)   {  $wrong_par = 1;  $text01 = "Nachname ungültig!"; }
+              if ($len_firstname < 3)  {  $wrong_par = 1;  $text01 = "Vorname ung&uuml;ltig!";  }
+              if ($len_lastname < 3)   {  $wrong_par = 1;  $text01 = "Nachname ung&uuml;ltig!"; }
 
 
               if ($wrong_par == 0)  {
@@ -115,7 +115,7 @@
                   else  {
                               */
 
-                    $link = "index.php"; $refresh_time = "2";     $text01 = "Dein Profil wurde geändert.";
+                    $link = "index.php"; $refresh_time = "2";     $text01 = "Dein Profil wurde ge&auml;ndert.";
 
                     include("./templates/refresh.php");
 

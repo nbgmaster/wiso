@@ -58,7 +58,7 @@
 <li class="active" onclick="location.href='index.php?do=usercp';"><img src="./images/templates/<?php  echo"$template"; ?>/h_usercp.png" border="0" style="vertical-align:middle"> Profil</li>
 <li class="li" onclick="location.href='index.php?do=members';"><img src="./images/templates/<?php  echo"$template"; ?>/h_members.png" border="0" style="vertical-align:middle"> Mitglieder</li>
 <li class="li" onclick="location.href='index.php?do=inbox';"><img src="./images/templates/<?php  echo"$template"; ?>/h_pm.png" border="0" style="vertical-align:middle"> Nachrichten</li>
-<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> Börse</li>
+<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> B&ouml;rse</li>
 <li class="li" onclick="location.href='index.php?do=database';"><img src="./images/templates/<?php  echo"$template"; ?>/h_data.png" border="0" style="vertical-align:middle"> Unterlagen</li>
 <li class="li" onclick="location.href='index.php?do=links';"><img src="./images/templates/<?php  echo"$template"; ?>/h_forum.png" border="0" style="vertical-align:middle"> Links</li>
 <li class="li" onclick="location.href='index.php?do=search';"><img src="./images/templates/<?php  echo"$template"; ?>/h_search.png" border="0" style="vertical-align:middle"> Suche</li>
@@ -78,7 +78,7 @@
 <li class="li" onclick="location.href='index.php?do=usercp';"><img src="./images/templates/<?php  echo"$template"; ?>/h_usercp.png" border="0" style="vertical-align:middle"> Profil</li>
 <li class="active" onclick="location.href='index.php?do=members';"><img src="./images/templates/<?php  echo"$template"; ?>/h_members.png" border="0" style="vertical-align:middle"> Mitglieder</li>
 <li class="li" onclick="location.href='index.php?do=inbox';"><img src="./images/templates/<?php  echo"$template"; ?>/h_pm.png" border="0" style="vertical-align:middle"> Nachrichten</li>
-<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> Börse</li>
+<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> B&ouml;rse</li>
 <li class="li" onclick="location.href='index.php?do=database';"><img src="./images/templates/<?php  echo"$template"; ?>/h_data.png" border="0" style="vertical-align:middle"> Unterlagen</li>
 <li class="li" onclick="location.href='index.php?do=links';"><img src="./images/templates/<?php  echo"$template"; ?>/h_forum.png" border="0" style="vertical-align:middle"> Links</li>
 <li class="li" onclick="location.href='index.php?do=search';"><img src="./images/templates/<?php  echo"$template"; ?>/h_search.png" border="0" style="vertical-align:middle"> Suche</li>
@@ -98,7 +98,7 @@
 <li class="li" onclick="location.href='index.php?do=usercp';"><img src="./images/templates/<?php  echo"$template"; ?>/h_usercp.png" border="0" style="vertical-align:middle"> Profil</li>
 <li class="li" onclick="location.href='index.php?do=members';"><img src="./images/templates/<?php  echo"$template"; ?>/h_members.png" border="0" style="vertical-align:middle"> Mitglieder</li>
 <li class="active" onclick="location.href='index.php?do=inbox';"><img src="./images/templates/<?php  echo"$template"; ?>/h_pm.png" border="0" style="vertical-align:middle"> Nachrichten</li>
-<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> Börse</li>
+<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> B&ouml;rse</li>
 <li class="li" onclick="location.href='index.php?do=database';"><img src="./images/templates/<?php  echo"$template"; ?>/h_data.png" border="0" style="vertical-align:middle"> Unterlagen</li>
 <li class="li" onclick="location.href='index.php?do=links';"><img src="./images/templates/<?php  echo"$template"; ?>/h_forum.png" border="0" style="vertical-align:middle"> Links</li>
 <li class="li" onclick="location.href='index.php?do=search';"><img src="./images/templates/<?php  echo"$template"; ?>/h_search.png" border="0" style="vertical-align:middle"> Suche</li>
@@ -119,7 +119,7 @@
 <li class="li" onclick="location.href='index.php?do=usercp';"><img src="./images/templates/<?php  echo"$template"; ?>/h_usercp.png" border="0" style="vertical-align:middle"> Profil</li>
 <li class="li" onclick="location.href='index.php?do=members';"><img src="./images/templates/<?php  echo"$template"; ?>/h_members.png" border="0" style="vertical-align:middle"> Mitglieder</li>
 <li class="li" onclick="location.href='index.php?do=inbox';"><img src="./images/templates/<?php  echo"$template"; ?>/h_pm.png" border="0" style="vertical-align:middle"> Nachrichten</li>
-<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> Börse</li>
+<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> B&ouml;rse</li>
 <li class="li" onclick="location.href='index.php?do=database';"><img src="./images/templates/<?php  echo"$template"; ?>/h_data.png" border="0" style="vertical-align:middle"> Unterlagen</li>
 <li class="li" onclick="location.href='index.php?do=links';"><img src="./images/templates/<?php  echo"$template"; ?>/h_forum.png" border="0" style="vertical-align:middle"> Links</li>
 <li class="active" onclick="location.href='index.php?do=search';"><img src="./images/templates/<?php  echo"$template"; ?>/h_search.png" border="0" style="vertical-align:middle"> Suche</li>
@@ -140,7 +140,7 @@
 <li class="li" onclick="location.href='index.php?do=usercp';"><img src="./images/templates/<?php  echo"$template"; ?>/h_usercp.png" border="0" style="vertical-align:middle"> Profil</li>
 <li class="li" onclick="location.href='index.php?do=members';"><img src="./images/templates/<?php  echo"$template"; ?>/h_members.png" border="0" style="vertical-align:middle"> Mitglieder</li>
 <li class="li" onclick="location.href='index.php?do=inbox';"><img src="./images/templates/<?php  echo"$template"; ?>/h_pm.png" border="0" style="vertical-align:middle"> Nachrichten</li>
-<li class="active" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> Börse</li>
+<li class="active" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> B&ouml;rse</li>
 <li class="li" onclick="location.href='index.php?do=database';"><img src="./images/templates/<?php  echo"$template"; ?>/h_data.png" border="0" style="vertical-align:middle"> Unterlagen</li>
 <li class="li" onclick="location.href='index.php?do=links';"><img src="./images/templates/<?php  echo"$template"; ?>/h_forum.png" border="0" style="vertical-align:middle"> Links</li>
 <li class="li" onclick="location.href='index.php?do=search';"><img src="./images/templates/<?php  echo"$template"; ?>/h_search.png" border="0" style="vertical-align:middle"> Suche</li>
@@ -160,7 +160,7 @@
 <li class="li" onclick="location.href='index.php?do=usercp';"><img src="./images/templates/<?php  echo"$template"; ?>/h_usercp.png" border="0" style="vertical-align:middle"> Profil</li>
 <li class="li" onclick="location.href='index.php?do=members';"><img src="./images/templates/<?php  echo"$template"; ?>/h_members.png" border="0" style="vertical-align:middle"> Mitglieder</li>
 <li class="li" onclick="location.href='index.php?do=inbox';"><img src="./images/templates/<?php  echo"$template"; ?>/h_pm.png" border="0" style="vertical-align:middle"> Nachrichten</li>
-<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> Börse</li>
+<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> B&ouml;rse</li>
 <li class="active" onclick="location.href='index.php?do=database';"><img src="./images/templates/<?php  echo"$template"; ?>/h_data.png" border="0" style="vertical-align:middle"> Unterlagen</li>
 <li class="li" onclick="location.href='index.php?do=links';"><img src="./images/templates/<?php  echo"$template"; ?>/h_forum.png" border="0" style="vertical-align:middle"> Links</li>
 <li class="li" onclick="location.href='index.php?do=search';"><img src="./images/templates/<?php  echo"$template"; ?>/h_search.png" border="0" style="vertical-align:middle"> Suche</li>
@@ -180,7 +180,7 @@
 <li class="li" onclick="location.href='index.php?do=usercp';"><img src="./images/templates/<?php  echo"$template"; ?>/h_usercp.png" border="0" style="vertical-align:middle"> Profil</li>
 <li class="li" onclick="location.href='index.php?do=members';"><img src="./images/templates/<?php  echo"$template"; ?>/h_members.png" border="0" style="vertical-align:middle"> Mitglieder</li>
 <li class="li" onclick="location.href='index.php?do=inbox';"><img src="./images/templates/<?php  echo"$template"; ?>/h_pm.png" border="0" style="vertical-align:middle"> Nachrichten</li>
-<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> Börse</li>
+<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> B&ouml;rse</li>
 <li class="li" onclick="location.href='index.php?do=database';"><img src="./images/templates/<?php  echo"$template"; ?>/h_data.png" border="0" style="vertical-align:middle"> Unterlagen</li>
 <li class="active" onclick="location.href='index.php?do=links';"><img src="./images/templates/<?php  echo"$template"; ?>/h_forum.png" border="0" style="vertical-align:middle"> Links</li>
 <li class="li" onclick="location.href='index.php?do=search';"><img src="./images/templates/<?php  echo"$template"; ?>/h_search.png" border="0" style="vertical-align:middle"> Suche</li>
@@ -201,7 +201,7 @@
 <li class="li" onclick="location.href='index.php?do=usercp';"><img src="./images/templates/<?php  echo"$template"; ?>/h_usercp.png" border="0" style="vertical-align:middle"> Profil</li>
 <li class="li" onclick="location.href='index.php?do=members';"><img src="./images/templates/<?php  echo"$template"; ?>/h_members.png" border="0" style="vertical-align:middle"> Mitglieder</li>
 <li class="li" onclick="location.href='index.php?do=inbox';"><img src="./images/templates/<?php  echo"$template"; ?>/h_pm.png" border="0" style="vertical-align:middle"> Nachrichten</li>
-<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> Börse</li>
+<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> B&ouml;rse</li>
 <li class="li" onclick="location.href='index.php?do=database';"><img src="./images/templates/<?php  echo"$template"; ?>/h_data.png" border="0" style="vertical-align:middle"> Unterlagen</li>
 <li class="li" onclick="location.href='index.php?do=links';"><img src="./images/templates/<?php  echo"$template"; ?>/h_forum.png" border="0" style="vertical-align:middle"> Links</li>
 <li class="li" onclick="location.href='index.php?do=search';"><img src="./images/templates/<?php  echo"$template"; ?>/h_search.png" border="0" style="vertical-align:middle"> Suche</li>
@@ -223,7 +223,7 @@
 <li class="li" onclick="location.href='index.php?do=usercp';"><img src="./images/templates/<?php  echo"$template"; ?>/h_usercp.png" border="0" style="vertical-align:middle"> Profil</li>
 <li class="li" onclick="location.href='index.php?do=members';"><img src="./images/templates/<?php  echo"$template"; ?>/h_members.png" border="0" style="vertical-align:middle"> Mitglieder</li>
 <li class="li" onclick="location.href='index.php?do=inbox';"><img src="./images/templates/<?php  echo"$template"; ?>/h_pm.png" border="0" style="vertical-align:middle"> Nachrichten</li>
-<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> Börse</li>
+<li class="li" onclick="location.href='index.php?do=market';"><img src="./images/templates/<?php  echo"$template"; ?>/h_boerse.png" border="0" style="vertical-align:middle"> B&ouml;rse</li>
 <li class="li" onclick="location.href='index.php?do=database';"><img src="./images/templates/<?php  echo"$template"; ?>/h_data.png" border="0" style="vertical-align:middle"> Unterlagen</li>
 <li class="li" onclick="location.href='index.php?do=links';"><img src="./images/templates/<?php  echo"$template"; ?>/h_forum.png" border="0" style="vertical-align:middle"> Links</li>
 <li class="li" onclick="location.href='index.php?do=search';"><img src="./images/templates/<?php  echo"$template"; ?>/h_search.png" border="0" style="vertical-align:middle"> Suche</li>

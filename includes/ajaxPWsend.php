@@ -72,9 +72,9 @@
 
                 $message = "Hallo $retreive_user
 
-Jemand (wahrscheinlich Du) hat ein neues Kennwort für Deinen Zugang auf wiwistud.de angefordert.
+Jemand (wahrscheinlich Du) hat ein neues Kennwort f&uuml;r Deinen Zugang auf wiwistud.de angefordert.
 
-Um dies zu bestätigen und ein neues Kennwort per E-Mail zu erhalten, musst du folgenden Link aufrufen:
+Um dies zu best&auml;tigen und ein neues Kennwort per E-Mail zu erhalten, musst du folgenden Link aufrufen:
 
 http://$board_domain$board_direction$act_link$act_code
 
@@ -87,7 +87,7 @@ Bei Problemen wenden Dich bitte an die Administratoren der Website.
 Dein wiwistud.de Team
 
 
-- Achtung: Keine Antwort an diese Emailadresse möglich!";
+- Achtung: Keine Antwort an diese Emailadresse m&ouml;glich!";
 
  mail($to, $subject, $message, $Header);
 

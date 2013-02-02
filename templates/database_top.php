@@ -137,7 +137,7 @@
 
     <?php  if ($category == "wipaed")  { echo" selected"; } ?>
 
-    >(B.A.) Wipäd</option>
+    >(B.A.) Wip&auml;d</option>
 
         <option value="intbus"
 
@@ -150,7 +150,7 @@
 
     <?php  if ($category == "sozi")  { echo" selected"; } ?>
 
-    >(B.A.) Sozialökonomik</option>
+    >(B.A.) Sozial&ouml;konomik</option>
 
 
     <option value="sonstige"
@@ -163,7 +163,7 @@
 
     <?php  if ($category == "master")  { echo" selected"; } ?>
 
-    >Masterstudiengänge</option>
+    >Masterstudieng&auml;nge</option>
     
     </select>
 
@@ -182,14 +182,14 @@
 
     <option value="empty"
     <?php  if ($lecture == "empty")  { echo" selected = selected"; } ?>
-    >wähle hier eine Vorlesung aus</option>
+    >w&auml;hle hier eine Vorlesung aus</option>
 
 
     <option value="UMV"
 
     <?php  if ($lecture == "UMV")  { echo" selected = selected"; } ?>
 
-    >Unternehmen, Märkte, Volkswirtschaften (<?php  GetUnterlagenNumbers("UMV"); ?>)</option>
+    >Unternehmen, M&auml;rkte, Volkswirtschaften (<?php  GetUnterlagenNumbers("UMV"); ?>)</option>
 
     <option value="UU"
 
@@ -207,7 +207,7 @@
 
     <?php  if ($lecture == "BF")  { echo" selected = selected"; } ?>
 
-    >Buchführung (<?php  GetUnterlagenNumbers("BF"); ?>)</option>
+    >Buchf&uuml;hrung (<?php  GetUnterlagenNumbers("BF"); ?>)</option>
 
     <option value="FM"
 
@@ -240,20 +240,20 @@
 
     <option value="empty"
     <?php  if ($lecture == "empty")  { echo" selected = selected"; } ?>
-    >wähle hier eine Vorlesung aus</option>
+    >w&auml;hle hier eine Vorlesung aus</option>
 
 
     <option value="mikro"
 
     <?php  if ($lecture == "mikro")  { echo" selected = selected"; } ?>
 
-    >Mikrookönomie (<?php  GetUnterlagenNumbers("mikro"); ?>)</option>
+    >Mikrook&ouml;nomie (<?php  GetUnterlagenNumbers("mikro"); ?>)</option>
 
     <option value="makro"
 
     <?php  if ($lecture == "makro")  { echo" selected = selected"; } ?>
 
-    >Makroökonomie (<?php  GetUnterlagenNumbers("makro"); ?>)</option>
+    >Makro&ouml;konomie (<?php  GetUnterlagenNumbers("makro"); ?>)</option>
 
     <option value="absatz"
 
@@ -297,7 +297,7 @@
 
     <option value="empty"
     <?php  if ($lecture == "empty")  { echo" selected = selected"; } ?>
-    >wähle hier eine Vorlesung aus</option>
+    >w&auml;hle hier eine Vorlesung aus</option>
 
 
     <option value="stat"
@@ -332,7 +332,7 @@
 
     <?php  if ($lecture == "oerecht")  { echo" selected = selected"; } ?>
 
-    >Öffentliches Recht I (<?php  GetUnterlagenNumbers("oerecht"); ?>)</option>
+    >&Ouml;ffentliches Recht I (<?php  GetUnterlagenNumbers("oerecht"); ?>)</option>
 
 
     </select>
@@ -349,7 +349,7 @@
 
     <option value="empty"
     <?php  if ($lecture == "empty")  { echo" selected = selected"; } ?>
-    >wähle hier eine Vorlesung aus</option>
+    >w&auml;hle hier eine Vorlesung aus</option>
 
 
     <option value="stat2"
@@ -363,21 +363,21 @@
 
     <?php  if ($lecture == "EwA")  { echo" selected = selected"; } ?>
 
-    >Einführung in das wissenschaftl. Arbeiten (<?php  GetUnterlagenNumbers("EwA"); ?>)</option>
+    >Einf&uuml;hrung in das wissenschaftl. Arbeiten (<?php  GetUnterlagenNumbers("EwA"); ?>)</option>
 
 
     <option value="praes"
 
     <?php  if ($lecture == "praes")  { echo" selected = selected"; } ?>
 
-    >Präsentationsfähigkeiten (<?php  GetUnterlagenNumbers("praes"); ?>)</option>
+    >Pr&auml;sentationsf&auml;higkeiten (<?php  GetUnterlagenNumbers("praes"); ?>)</option>
 
 
     <option value="oerecht2"
 
     <?php  if ($lecture == "oerecht2")  { echo" selected = selected"; } ?>
 
-    >Öffentliches Recht II (<?php  GetUnterlagenNumbers("oerecht2"); ?>)</option>
+    >&Ouml;ffentliches Recht II (<?php  GetUnterlagenNumbers("oerecht2"); ?>)</option>
 
 
     </select>
@@ -394,7 +394,7 @@
 
     <option value="empty"
     <?php  if ($lecture == "empty")  { echo" selected = selected"; } ?>
-    >wähle hier eine Vorlesung aus</option>
+    >w&auml;hle hier eine Vorlesung aus</option>
 
 
     <option value="control"
@@ -408,7 +408,7 @@
 
     <?php  if ($lecture == "intuf")  { echo" selected = selected"; } ?>
 
-    >Internationale Unternehmensführung (<?php  GetUnterlagenNumbers("intuf"); ?>)</option>
+    >Internationale Unternehmensf&uuml;hrung (<?php  GetUnterlagenNumbers("intuf"); ?>)</option>
 
 
      <option value="invest"
@@ -478,7 +478,7 @@
 
     <?php  if ($lecture == "bpaed")  { echo" selected = selected"; } ?>
 
-    >Betriebspädagogik (<?php  GetUnterlagenNumbers("bpaed"); ?>)</option>
+    >Betriebsp&auml;dagogik (<?php  GetUnterlagenNumbers("bpaed"); ?>)</option>
 
     </select>
 
@@ -493,21 +493,21 @@
 
     <option value="empty"
     <?php  if ($lecture == "empty")  { echo" selected = selected"; } ?>
-    >wähle hier eine Vorlesung aus</option>
+    >w&auml;hle hier eine Vorlesung aus</option>
 
 
     <option value="auw"
 
     <?php  if ($lecture == "auw")  { echo" selected = selected"; } ?>
 
-    >Außenwirtschaft (<?php  GetUnterlagenNumbers("auw"); ?>)</option>
+    >Au&szlig;enwirtschaft (<?php  GetUnterlagenNumbers("auw"); ?>)</option>
 
 
     <option value="OeoeS"
 
     <?php  if ($lecture == "OeoeS")  { echo" selected = selected"; } ?>
 
-    >Ökonomie des öffentlichen Sektors (<?php  GetUnterlagenNumbers("OeoeS"); ?>)</option>
+    >&Ouml;konomie des &ouml;ffentlichen Sektors (<?php  GetUnterlagenNumbers("OeoeS"); ?>)</option>
 
 
         <option value="arbp"
@@ -580,7 +580,7 @@
 
     <option value="empty"
     <?php  if ($lecture == "empty")  { echo" selected = selected"; } ?>
-    >wähle hier eine Vorlesung aus</option>
+    >w&auml;hle hier eine Vorlesung aus</option>
 
 
     <option value="is"
@@ -626,21 +626,21 @@
 
     <option value="empty"
     <?php  if ($lecture == "empty")  { echo" selected = selected"; } ?>
-    >wähle hier eine Vorlesung aus</option>
+    >w&auml;hle hier eine Vorlesung aus</option>
 
 
     <option value="gwip"
 
     <?php  if ($lecture == "gwip")  { echo" selected = selected"; } ?>
 
-    >Grundlagen der Wipäd (<?php  GetUnterlagenNumbers("gwip"); ?>)</option>
+    >Grundlagen der Wip&auml;d (<?php  GetUnterlagenNumbers("gwip"); ?>)</option>
 
 
     <option value="praesmod"
 
     <?php  if ($lecture == "praesmod")  { echo" selected = selected"; } ?>
 
-    >Präsentations- und Moderationstechniken (<?php  GetUnterlagenNumbers("praesmod"); ?>)</option>
+    >Pr&auml;sentations- und Moderationstechniken (<?php  GetUnterlagenNumbers("praesmod"); ?>)</option>
 
 
         <option value="berufwb"
@@ -654,7 +654,7 @@
 
     <?php  if ($lecture == "paedsem")  { echo" selected = selected"; } ?>
 
-    >Betriebspädagogisches Seminar (<?php  GetUnterlagenNumbers("paedsem"); ?>)</option>
+    >Betriebsp&auml;dagogisches Seminar (<?php  GetUnterlagenNumbers("paedsem"); ?>)</option>
 
 
         <option value="projstudi"
@@ -682,14 +682,14 @@
 
     <option value="empty"
     <?php  if ($lecture == "empty")  { echo" selected = selected"; } ?>
-    >wähle hier eine Vorlesung aus</option>
+    >w&auml;hle hier eine Vorlesung aus</option>
 
 
     <option value="íntrecht1"
 
     <?php  if ($lecture == "intrecht1")  { echo" selected = selected"; } ?>
 
-    >Europäisches und Internationales Recht (<?php  GetUnterlagenNumbers("intrecht1"); ?>)</option>
+    >Europ&auml;isches und Internationales Recht (<?php  GetUnterlagenNumbers("intrecht1"); ?>)</option>
 
     <option value="angel"
 
@@ -702,7 +702,7 @@
 
     <?php  if ($lecture == "europglob")  { echo" selected = selected"; } ?>
 
-    >Europäisierung & Globalisierung (<?php  GetUnterlagenNumbers("europglob"); ?>)</option>
+    >Europ&auml;isierung & Globalisierung (<?php  GetUnterlagenNumbers("europglob"); ?>)</option>
 
 
         <option value="intbez"
@@ -746,7 +746,7 @@
 
     <option value="empty"
     <?php  if ($lecture == "empty")  { echo" selected = selected"; } ?>
-    >wähle hier eine Vorlesung aus</option>
+    >w&auml;hle hier eine Vorlesung aus</option>
 
 
     <option value="sozio"
@@ -780,14 +780,14 @@
 
     <?php  if ($lecture == "empsozi")  { echo" selected = selected"; } ?>
 
-    >Einführung in empirische Sozialforschung (<?php  GetUnterlagenNumbers("empsozi"); ?>)</option>
+    >Einf&uuml;hrung in empirische Sozialforschung (<?php  GetUnterlagenNumbers("empsozi"); ?>)</option>
 
 
         <option value="compana"
 
     <?php  if ($lecture == "compana")  { echo" selected = selected"; } ?>
 
-    >Computergestützte Datenanalyse (<?php  GetUnterlagenNumbers("compana"); ?>)</option>
+    >Computergest&uuml;tzte Datenanalyse (<?php  GetUnterlagenNumbers("compana"); ?>)</option>
 
 
         <option value="intkom"
@@ -878,7 +878,7 @@
 
     <option value="empty"
     <?php  if ($lecture == "empty")  { echo" selected = selected"; } ?>
-    >wähle hier eine Vorlesung aus</option>
+    >w&auml;hle hier eine Vorlesung aus</option>
 
 
     <option value="daten"
@@ -920,7 +920,7 @@
 
     <option value="empty"
     <?php  if ($lecture == "empty")  { echo" selected = selected"; } ?>
-    >wähle hier eine Vorlesung aus</option>
+    >w&auml;hle hier eine Vorlesung aus</option>
                
     <option value="m_aup"
 
@@ -968,13 +968,13 @@
 
     <?php  if ($lecture == "m_sozi")  { echo" selected = selected"; } ?>
 
-    >(M.A.) Sozialökonomik (<?php  GetUnterlagenNumbers("m_sozi"); ?>)</option>
+    >(M.A.) Sozial&ouml;konomik (<?php  GetUnterlagenNumbers("m_sozi"); ?>)</option>
     
     <option value="m_paed"
 
     <?php  if ($lecture == "m_paed")  { echo" selected = selected"; } ?>
 
-    >(M.A.) Wirtschaftspädagogik (<?php  GetUnterlagenNumbers("m_paed"); ?>)</option>  
+    >(M.A.) Wirtschaftsp&auml;dagogik (<?php  GetUnterlagenNumbers("m_paed"); ?>)</option>  
 
 
     </select>
@@ -987,7 +987,7 @@
 
     <span id="LecturesField">
     <select id="lecture" name="lecture" style="width:250px" ONCHANGE="sendTdata()">
-    <option>nicht fächerbezogene Dateien (<?php  GetUnterlagenNumbers("stuff"); ?>)</option>
+    <option>nicht f&auml;cherbezogene Dateien (<?php  GetUnterlagenNumbers("stuff"); ?>)</option>
     </select>
     </span>
 
@@ -1014,7 +1014,7 @@
 
 
 
-        lectureB = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"\">nicht fächerbezogene Dateien (<?php GetUnterlagenNumbers("stuff"); ?>)</option></select>";
+        lectureB = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"\">nicht f&auml;cherbezogene Dateien (<?php GetUnterlagenNumbers("stuff"); ?>)</option></select>";
 
 
         document.getElementById("LecturesField").innerHTML = lectureB;
@@ -1028,7 +1028,7 @@
 
 
 
-        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"UMV\">Unternehmen, Märkte, Volkswirtschaften (<?php  GetUnterlagenNumbers(UMV); ?>)</option><option value=\"UU\">Unternehmer & Unternehmen (<?php  GetUnterlagenNumbers("UU"); ?>)</option><option value=\"IT\">Grundlagen des E-Business (<?php  GetUnterlagenNumbers("IT"); ?>)</option><option value=\"BF\">Buchführung (<?php  GetUnterlagenNumbers("BF"); ?>)</option><option value=\"FM\">Finanzmathematik (<?php  GetUnterlagenNumbers("FM"); ?>)</option><option value=\"LA\">Lineare Algebra (<?php  GetUnterlagenNumbers("LA"); ?>)</option></select>";
+        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"UMV\">Unternehmen, M&auml;rkte, Volkswirtschaften (<?php  GetUnterlagenNumbers(UMV); ?>)</option><option value=\"UU\">Unternehmer & Unternehmen (<?php  GetUnterlagenNumbers("UU"); ?>)</option><option value=\"IT\">Grundlagen des E-Business (<?php  GetUnterlagenNumbers("IT"); ?>)</option><option value=\"BF\">Buchf&uuml;hrung (<?php  GetUnterlagenNumbers("BF"); ?>)</option><option value=\"FM\">Finanzmathematik (<?php  GetUnterlagenNumbers("FM"); ?>)</option><option value=\"LA\">Lineare Algebra (<?php  GetUnterlagenNumbers("LA"); ?>)</option></select>";
 
 
         document.getElementById("LecturesField").innerHTML = lecturec;
@@ -1042,9 +1042,9 @@
 
 
 
-        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"mikro\">Mikroökonomie (<?php  GetUnterlagenNumbers("mikro"); ?>)</option><option value=\"makro\">Makroökonomie (<?php  GetUnterlagenNumbers("makro"); ?>)</option><option value=\"absatz\">Absatz / Marketing (<?php  GetUnterlagenNumbers("absatz"); ?>)</option><option value=\"jahresabschluss\">Jahresabschluss (<?php  GetUnterlagenNumbers("jahresabschluss"); ?>)</option><option value=\"recht\">Privat- und Handelsrecht I (<?php  GetUnterlagenNumbers("recht"); ?>)</option><option value=\"ITp\">Internetpraktikum (<?php  GetUnterlagenNumbers("ITp"); ?>)</option></select>";
+        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"mikro\">Mikro&ouml;konomie (<?php  GetUnterlagenNumbers("mikro"); ?>)</option><option value=\"makro\">Makro&ouml;konomie (<?php  GetUnterlagenNumbers("makro"); ?>)</option><option value=\"absatz\">Absatz / Marketing (<?php  GetUnterlagenNumbers("absatz"); ?>)</option><option value=\"jahresabschluss\">Jahresabschluss (<?php  GetUnterlagenNumbers("jahresabschluss"); ?>)</option><option value=\"recht\">Privat- und Handelsrecht I (<?php  GetUnterlagenNumbers("recht"); ?>)</option><option value=\"ITp\">Internetpraktikum (<?php  GetUnterlagenNumbers("ITp"); ?>)</option></select>";
 
-        lectured = "<option value=\"mikro\">Mikroökonomie (<?php  GetUnterlagenNumbers("mikro"); ?>)</option><option value=\"makro\">Makroökonomie (<?php  GetUnterlagenNumbers("makro"); ?>)</option><option value=\"absatz\">Absatz / Marketing (<?php  GetUnterlagenNumbers("absatz"); ?>)</option><option value=\"jahresabschluss\">Jahresabschluss (<?php  GetUnterlagenNumbers("jahresabschluss"); ?>)</option><option value=\"recht\">Privat- und Handelsrecht I (<?php  GetUnterlagenNumbers("recht"); ?>)</option><option value=\"ITp\">Internetpraktikum (<?php  GetUnterlagenNumbers("ITp"); ?>)</option>";
+        lectured = "<option value=\"mikro\">Mikro&ouml;konomie (<?php  GetUnterlagenNumbers("mikro"); ?>)</option><option value=\"makro\">Makro&ouml;konomie (<?php  GetUnterlagenNumbers("makro"); ?>)</option><option value=\"absatz\">Absatz / Marketing (<?php  GetUnterlagenNumbers("absatz"); ?>)</option><option value=\"jahresabschluss\">Jahresabschluss (<?php  GetUnterlagenNumbers("jahresabschluss"); ?>)</option><option value=\"recht\">Privat- und Handelsrecht I (<?php  GetUnterlagenNumbers("recht"); ?>)</option><option value=\"ITp\">Internetpraktikum (<?php  GetUnterlagenNumbers("ITp"); ?>)</option>";
 
       
         document.getElementById("LecturesField").innerHTML = lecturec; 
@@ -1058,7 +1058,7 @@
 
 
 
-        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"stat\">Statistik (<?php  GetUnterlagenNumbers("stat"); ?>)</option><option value=\"prod\">Produktion, Logistik, Beschaffung (<?php  GetUnterlagenNumbers("prod"); ?>)</option><option value=\"wus\">Wirtschaft & Staat (<?php  GetUnterlagenNumbers("wus"); ?>)</option><option value=\"recht2\">Privat- und Handelsrecht II (<?php  GetUnterlagenNumbers("recht2"); ?>)</option><option value=\"oerecht\">Öffentliches Recht I (<?php  GetUnterlagenNumbers("oerecht"); ?>)</option></select>";
+        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"stat\">Statistik (<?php  GetUnterlagenNumbers("stat"); ?>)</option><option value=\"prod\">Produktion, Logistik, Beschaffung (<?php  GetUnterlagenNumbers("prod"); ?>)</option><option value=\"wus\">Wirtschaft & Staat (<?php  GetUnterlagenNumbers("wus"); ?>)</option><option value=\"recht2\">Privat- und Handelsrecht II (<?php  GetUnterlagenNumbers("recht2"); ?>)</option><option value=\"oerecht\">&Ouml;ffentliches Recht I (<?php  GetUnterlagenNumbers("oerecht"); ?>)</option></select>";
 
 
         document.getElementById("LecturesField").innerHTML = lecturec;
@@ -1070,7 +1070,7 @@
     if (WhichSem.substr(3,4) == "4")  {
 
 
-        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"stat2\">Praxis der emp. Wirtschaftsforschung (<?php  GetUnterlagenNumbers("stat2"); ?>)</option><option value=\"EwA\">Einführung in das wissenschaftl. Arbeiten (<?php  GetUnterlagenNumbers("EwA"); ?>)</option><option value=\"praes\">Präsentationsfähigkeiten (<?php  GetUnterlagenNumbers("praes"); ?>)</option><option value=\"oerecht2\">Öffentliches Recht II (<?php  GetUnterlagenNumbers("oerecht2"); ?>)</option></select>";
+        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"stat2\">Praxis der emp. Wirtschaftsforschung (<?php  GetUnterlagenNumbers("stat2"); ?>)</option><option value=\"EwA\">Einf&uuml;hrung in das wissenschaftl. Arbeiten (<?php  GetUnterlagenNumbers("EwA"); ?>)</option><option value=\"praes\">Pr&auml;sentationsf&auml;higkeiten (<?php  GetUnterlagenNumbers("praes"); ?>)</option><option value=\"oerecht2\">&Ouml;ffentliches Recht II (<?php  GetUnterlagenNumbers("oerecht2"); ?>)</option></select>";
 
 
         document.getElementById("LecturesField").innerHTML = lecturec;
@@ -1082,7 +1082,7 @@
 
 
 
-        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"control\">Kostenrechnung und Controlling (<?php  GetUnterlagenNumbers("control"); ?>)</option><option value=\"intuf\">Internationale Unternehmensführung (<?php  GetUnterlagenNumbers("intuf"); ?>)</option><option value=\"invest\">Investition und Finanzierung (<?php  GetUnterlagenNumbers("invest"); ?>)</option><option value=\"stratint\">Strateg. und Internat. Management (<?php  GetUnterlagenNumbers("stratint"); ?>)</option><option value=\"intacc\">International Accounting and Controlling (<?php  GetUnterlagenNumbers("intacc"); ?>)</option><option value=\"markman\">Marketing Management (<?php  GetUnterlagenNumbers("markman"); ?>)</option><option value=\"logi\">Operations and Logistics (<?php  GetUnterlagenNumbers("logi"); ?>)</option><option value=\"entrepreneuer\">Innovation and Entrepreneurship (<?php  GetUnterlagenNumbers("entrepreneur"); ?>)</option><option value=\"finanz\">Finanzierung (<?php  GetUnterlagenNumbers("finanz"); ?>)</option><option value=\"tax\">Taxation (<?php  GetUnterlagenNumbers("tax"); ?>)</option><option value=\"health\">Gesundheitsmanagement (<?php  GetUnterlagenNumbers("health"); ?>)</option><option value=\"bpaed\">Betriebspädagogik (<?php  GetUnterlagenNumbers("bpaed"); ?>)</option></select>";
+        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"control\">Kostenrechnung und Controlling (<?php  GetUnterlagenNumbers("control"); ?>)</option><option value=\"intuf\">Internationale Unternehmensf&uuml;hrung (<?php  GetUnterlagenNumbers("intuf"); ?>)</option><option value=\"invest\">Investition und Finanzierung (<?php  GetUnterlagenNumbers("invest"); ?>)</option><option value=\"stratint\">Strateg. und Internat. Management (<?php  GetUnterlagenNumbers("stratint"); ?>)</option><option value=\"intacc\">International Accounting and Controlling (<?php  GetUnterlagenNumbers("intacc"); ?>)</option><option value=\"markman\">Marketing Management (<?php  GetUnterlagenNumbers("markman"); ?>)</option><option value=\"logi\">Operations and Logistics (<?php  GetUnterlagenNumbers("logi"); ?>)</option><option value=\"entrepreneuer\">Innovation and Entrepreneurship (<?php  GetUnterlagenNumbers("entrepreneur"); ?>)</option><option value=\"finanz\">Finanzierung (<?php  GetUnterlagenNumbers("finanz"); ?>)</option><option value=\"tax\">Taxation (<?php  GetUnterlagenNumbers("tax"); ?>)</option><option value=\"health\">Gesundheitsmanagement (<?php  GetUnterlagenNumbers("health"); ?>)</option><option value=\"bpaed\">Betriebsp&auml;dagogik (<?php  GetUnterlagenNumbers("bpaed"); ?>)</option></select>";
 
 
 
@@ -1096,7 +1096,7 @@
 
 
 
-        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"auw\">Außenwirtschaft (<?php  GetUnterlagenNumbers("auw"); ?>)</option><option value=\"OeoeS\">Ökonomie des öffentlichen Sektors (<?php  GetUnterlagenNumbers("OeoeS"); ?>)</option><option value=\"arbp\">Arbeitsmarktpolitik (<?php  GetUnterlagenNumbers("arbp"); ?>)</option><option value=\"wettbp\">Wettbewerbstheorie und –politik (<?php  GetUnterlagenNumbers("wettbp"); ?>)</option><option value=\"apb\">Arbeit, Personal und Bildung (<?php  GetUnterlagenNumbers("apb"); ?>)</option><option value=\"EoM\">Economics of Management (<?php  GetUnterlagenNumbers("EoM"); ?>)</option><option value=\"QwF\">Quantitative Wirtschaftsforschung (<?php  GetUnterlagenNumbers("QwF"); ?>)</option><option value=\"wp\">Wirtschaftspolitik (<?php  GetUnterlagenNumbers("wp"); ?>)</option><option value=\"money\">Money and Capital Markets (<?php  GetUnterlagenNumbers("money"); ?>)</option><option value=\"coopst\">Cooperative Studies (<?php  GetUnterlagenNumbers("coopst"); ?>)</option></select>";
+        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"auw\">Au&szlig;enwirtschaft (<?php  GetUnterlagenNumbers("auw"); ?>)</option><option value=\"OeoeS\">&Ouml;konomie des &ouml;ffentlichen Sektors (<?php  GetUnterlagenNumbers("OeoeS"); ?>)</option><option value=\"arbp\">Arbeitsmarktpolitik (<?php  GetUnterlagenNumbers("arbp"); ?>)</option><option value=\"wettbp\">Wettbewerbstheorie und –politik (<?php  GetUnterlagenNumbers("wettbp"); ?>)</option><option value=\"apb\">Arbeit, Personal und Bildung (<?php  GetUnterlagenNumbers("apb"); ?>)</option><option value=\"EoM\">Economics of Management (<?php  GetUnterlagenNumbers("EoM"); ?>)</option><option value=\"QwF\">Quantitative Wirtschaftsforschung (<?php  GetUnterlagenNumbers("QwF"); ?>)</option><option value=\"wp\">Wirtschaftspolitik (<?php  GetUnterlagenNumbers("wp"); ?>)</option><option value=\"money\">Money and Capital Markets (<?php  GetUnterlagenNumbers("money"); ?>)</option><option value=\"coopst\">Cooperative Studies (<?php  GetUnterlagenNumbers("coopst"); ?>)</option></select>";
 
         document.getElementById("LecturesField").innerHTML = lecturec; 
 
@@ -1108,7 +1108,7 @@
 
 
 
-        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"is\">Innovation Strategy (<?php  GetUnterlagenNumbers("is"); ?>)</option><option value=\"innot\">Innovation Technology (<?php  GetUnterlagenNumbers("innot"); ?>)</option><option value=\"mtc\">Managing Technological Change (<?php  GetUnterlagenNumbers("mtc"); ?>)</option><option value=\"ebm\">E-Business Management (<?php  GetUnterlagenNumbers("ebm"); ?>)</option></select>";
+        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"is\">Innovation Strategy (<?php  GetUnterlagenNumbers("is"); ?>)</option><option value=\"innot\">Innovation Technology (<?php  GetUnterlagenNumbers("innot"); ?>)</option><option value=\"mtc\">Managing Technological Change (<?php  GetUnterlagenNumbers("mtc"); ?>)</option><option value=\"ebm\">E-Business Management (<?php  GetUnterlagenNumbers("ebm"); ?>)</option></select>";
 
 
         document.getElementById("LecturesField").innerHTML = lecturec;
@@ -1118,7 +1118,7 @@
 
     if (WhichSem == "wipaed")  {
 
-        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"gwip\">Grundlagen der Wipäd (<?php  GetUnterlagenNumbers("gwip"); ?>)</option><option value=\"praesmod\">Präsentations- und Moderationstechniken (<?php  GetUnterlagenNumbers("praesmod"); ?>)</option><option value=\"berufwb\">Berufliche Weiterbildung (<?php  GetUnterlagenNumbers("berufwb"); ?>)</option><option value=\"paedsem\">Betriebspädagogisches Seminar (<?php  GetUnterlagenNumbers("paedsem"); ?>)</option><option value=\"projstudi\">Erkundungsprojekt / Schulpraktische Studien (<?php  GetUnterlagenNumbers("projstudi"); ?>)</option><option value=\"zweitfach\">Module der Zweitfach-Vertiefung (<?php  GetUnterlagenNumbers("zweitfach"); ?>)</option></select>";
+        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"gwip\">Grundlagen der Wip&auml;d (<?php  GetUnterlagenNumbers("gwip"); ?>)</option><option value=\"praesmod\">Pr&auml;sentations- und Moderationstechniken (<?php  GetUnterlagenNumbers("praesmod"); ?>)</option><option value=\"berufwb\">Berufliche Weiterbildung (<?php  GetUnterlagenNumbers("berufwb"); ?>)</option><option value=\"paedsem\">Betriebsp&auml;dagogisches Seminar (<?php  GetUnterlagenNumbers("paedsem"); ?>)</option><option value=\"projstudi\">Erkundungsprojekt / Schulpraktische Studien (<?php  GetUnterlagenNumbers("projstudi"); ?>)</option><option value=\"zweitfach\">Module der Zweitfach-Vertiefung (<?php  GetUnterlagenNumbers("zweitfach"); ?>)</option></select>";
 
         document.getElementById("LecturesField").innerHTML = lecturec;
 
@@ -1126,7 +1126,7 @@
 
     if (WhichSem == "intbus")  {
 
-        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"intrecht1\">Europäisches und Internationales Recht (<?php  GetUnterlagenNumbers("intrecht1"); ?>)</option><option value=\"angel\">Angloamerikanische Gesellschaften (<?php  GetUnterlagenNumbers("angel"); ?>)</option><option value=\"europglob\">Europäisierung & Globalisierung (<?php  GetUnterlagenNumbers("europglob"); ?>)</option><option value=\"intbez\">Internationale Beziehungen (<?php  GetUnterlagenNumbers("intbez"); ?>)</option><option value=\"intstud\">Internationale Studien (<?php  GetUnterlagenNumbers("intstud"); ?>)</option><option value=\"regional\">Regionalstudien (<?php  GetUnterlagenNumbers("regional"); ?>)</option><option value=\"romanisch\">Romanischsprachige Gesellschaften (<?php  GetUnterlagenNumbers("romanisch"); ?>)</option></select>";
+        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"intrecht1\">Europ&auml;isches und Internationales Recht (<?php  GetUnterlagenNumbers("intrecht1"); ?>)</option><option value=\"angel\">Angloamerikanische Gesellschaften (<?php  GetUnterlagenNumbers("angel"); ?>)</option><option value=\"europglob\">Europ&auml;isierung & Globalisierung (<?php  GetUnterlagenNumbers("europglob"); ?>)</option><option value=\"intbez\">Internationale Beziehungen (<?php  GetUnterlagenNumbers("intbez"); ?>)</option><option value=\"intstud\">Internationale Studien (<?php  GetUnterlagenNumbers("intstud"); ?>)</option><option value=\"regional\">Regionalstudien (<?php  GetUnterlagenNumbers("regional"); ?>)</option><option value=\"romanisch\">Romanischsprachige Gesellschaften (<?php  GetUnterlagenNumbers("romanisch"); ?>)</option></select>";
 
         document.getElementById("LecturesField").innerHTML = lecturec;
 
@@ -1135,7 +1135,7 @@
 
     if (WhichSem == "sozi")  {
 
-        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"sozio\">Soziologie (<?php  GetUnterlagenNumbers("sozio"); ?>)</option><option value=\"transbez\">Internat. und transnationale Beziehungen (<?php  GetUnterlagenNumbers("transbez"); ?>)</option><option value=\"regio\">Regionen im internationalen System (<?php  GetUnterlagenNumbers("regio"); ?>)</option><option value=\"grundpsy\">Grundl. + Anwend.felder d. Sozialpsychologie (<?php  GetUnterlagenNumbers("grundpsy"); ?>)</option><option value=\"empsozi\">Einführung in empirische Sozialforschung (<?php  GetUnterlagenNumbers("empsozi"); ?>)</option><option value=\"compana\">Computergestützte Datenanalyse (<?php  GetUnterlagenNumbers("compana"); ?>)</option><option value=\"intkom\">Internationale Kommunikation (<?php  GetUnterlagenNumbers("intkom"); ?>)</option><option value=\"personal\">Personal und Organisation (<?php  GetUnterlagenNumbers("personal"); ?>)</option><option value=\"anamgesell\">Analyse moderner Gesellschaften (<?php  GetUnterlagenNumbers("anamgesell"); ?>)</option><option value=\"empmus\">Empirische Methoden und Statistik (<?php  GetUnterlagenNumbers("empmus"); ?>)</option><option value=\"konsum\">Konsumentenverhalten (<?php  GetUnterlagenNumbers("konsum"); ?>)</option><option value=\"soziprakt\">Soziologisches Praktikum (<?php  GetUnterlagenNumbers("soziprakt"); ?>)</option><option value=\"sozialp\">Sozial- und Arbeitspolitik (<?php  GetUnterlagenNumbers("sozialp"); ?>)</option><option value=\"spezkom\">Spezielle Kommunikationswissenschaft (<?php  GetUnterlagenNumbers("spezkom"); ?>)</option><option value=\"wirtorgsoz\">Wirtschafts- und Organisationssoziologie (<?php  GetUnterlagenNumbers("wirtorgsoz"); ?>)</option><option value=\"wsugesch\">Wirt.-, Sozial- u. Unternehmensgeschichte (<?php  GetUnterlagenNumbers("wsugesch"); ?>)</option></select>";
+        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"sozio\">Soziologie (<?php  GetUnterlagenNumbers("sozio"); ?>)</option><option value=\"transbez\">Internat. und transnationale Beziehungen (<?php  GetUnterlagenNumbers("transbez"); ?>)</option><option value=\"regio\">Regionen im internationalen System (<?php  GetUnterlagenNumbers("regio"); ?>)</option><option value=\"grundpsy\">Grundl. + Anwend.felder d. Sozialpsychologie (<?php  GetUnterlagenNumbers("grundpsy"); ?>)</option><option value=\"empsozi\">Einf&uuml;hrung in empirische Sozialforschung (<?php  GetUnterlagenNumbers("empsozi"); ?>)</option><option value=\"compana\">Computergest&uuml;tzte Datenanalyse (<?php  GetUnterlagenNumbers("compana"); ?>)</option><option value=\"intkom\">Internationale Kommunikation (<?php  GetUnterlagenNumbers("intkom"); ?>)</option><option value=\"personal\">Personal und Organisation (<?php  GetUnterlagenNumbers("personal"); ?>)</option><option value=\"anamgesell\">Analyse moderner Gesellschaften (<?php  GetUnterlagenNumbers("anamgesell"); ?>)</option><option value=\"empmus\">Empirische Methoden und Statistik (<?php  GetUnterlagenNumbers("empmus"); ?>)</option><option value=\"konsum\">Konsumentenverhalten (<?php  GetUnterlagenNumbers("konsum"); ?>)</option><option value=\"soziprakt\">Soziologisches Praktikum (<?php  GetUnterlagenNumbers("soziprakt"); ?>)</option><option value=\"sozialp\">Sozial- und Arbeitspolitik (<?php  GetUnterlagenNumbers("sozialp"); ?>)</option><option value=\"spezkom\">Spezielle Kommunikationswissenschaft (<?php  GetUnterlagenNumbers("spezkom"); ?>)</option><option value=\"wirtorgsoz\">Wirtschafts- und Organisationssoziologie (<?php  GetUnterlagenNumbers("wirtorgsoz"); ?>)</option><option value=\"wsugesch\">Wirt.-, Sozial- u. Unternehmensgeschichte (<?php  GetUnterlagenNumbers("wsugesch"); ?>)</option></select>";
 
         document.getElementById("LecturesField").innerHTML = lecturec;
 
@@ -1143,7 +1143,7 @@
 
     if (WhichSem == "sonstige")  {
 
-        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"daten\">Datenermittlung und Datenanalyse (<?php  GetUnterlagenNumbers("daten"); ?>)</option><option value=\"arbeitsr\">Arbeitsrecht (<?php  GetUnterlagenNumbers("arbeitsr"); ?>)</option><option value=\"gesellr\">Unternehmens- und Gesellschaftsrecht (<?php  GetUnterlagenNumbers("gesellr"); ?>)</option><option value=\"versr\">Versicherungswesen (<?php  GetUnterlagenNumbers("versr"); ?>)</option></select>";
+        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"daten\">Datenermittlung und Datenanalyse (<?php  GetUnterlagenNumbers("daten"); ?>)</option><option value=\"arbeitsr\">Arbeitsrecht (<?php  GetUnterlagenNumbers("arbeitsr"); ?>)</option><option value=\"gesellr\">Unternehmens- und Gesellschaftsrecht (<?php  GetUnterlagenNumbers("gesellr"); ?>)</option><option value=\"versr\">Versicherungswesen (<?php  GetUnterlagenNumbers("versr"); ?>)</option></select>";
 
         document.getElementById("LecturesField").innerHTML = lecturec;
 
@@ -1151,7 +1151,7 @@
 
     if (WhichSem == "master")  {
 
-        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"m_aup\">(M.Sc.) Arbeitsmarkt u. Personal (<?php  GetUnterlagenNumbers("m_aup"); ?>)</option><option value=\"m_eco\">(M.Sc.) Economics (<?php  GetUnterlagenNumbers("m_eco"); ?>)</option><option value=\"m_fact\">(M.A.) FACT (<?php  GetUnterlagenNumbers("m_fact"); ?>)</option><option value=\"m_ibs\">(M.Sc.) IBS (<?php  GetUnterlagenNumbers("m_ibs"); ?>)</option><option value=\"m_iis\">(M.Sc.) IIS (<?php  GetUnterlagenNumbers("m_iis"); ?>)</option><option value=\"m_mgm\">(M.A.) Management (<?php  GetUnterlagenNumbers("m_mgm"); ?>)</option><option value=\"m_mark\">(M.A.)	Marketing (<?php  GetUnterlagenNumbers("m_mark"); ?>)</option><option value=\"m_sozi\">(M.A.) Sozialökonomik (<?php  GetUnterlagenNumbers("m_sozi"); ?>)</option><option value=\"m_paed\">(M.A.) Wirtschaftspädagogik (<?php  GetUnterlagenNumbers("m_paed"); ?>)</option></select>";
+        lecturec = "<select id=\"lecture\" name=\"lecture\" style=\"width:250px\" ONCHANGE=\"sendTdata()\"><option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"m_aup\">(M.Sc.) Arbeitsmarkt u. Personal (<?php  GetUnterlagenNumbers("m_aup"); ?>)</option><option value=\"m_eco\">(M.Sc.) Economics (<?php  GetUnterlagenNumbers("m_eco"); ?>)</option><option value=\"m_fact\">(M.A.) FACT (<?php  GetUnterlagenNumbers("m_fact"); ?>)</option><option value=\"m_ibs\">(M.Sc.) IBS (<?php  GetUnterlagenNumbers("m_ibs"); ?>)</option><option value=\"m_iis\">(M.Sc.) IIS (<?php  GetUnterlagenNumbers("m_iis"); ?>)</option><option value=\"m_mgm\">(M.A.) Management (<?php  GetUnterlagenNumbers("m_mgm"); ?>)</option><option value=\"m_mark\">(M.A.)	Marketing (<?php  GetUnterlagenNumbers("m_mark"); ?>)</option><option value=\"m_sozi\">(M.A.) Sozial&ouml;konomik (<?php  GetUnterlagenNumbers("m_sozi"); ?>)</option><option value=\"m_paed\">(M.A.) Wirtschaftsp&auml;dagogik (<?php  GetUnterlagenNumbers("m_paed"); ?>)</option></select>";
 
         document.getElementById("LecturesField").innerHTML = lecturec;
 
@@ -1186,7 +1186,7 @@
 
 
 
-        lectureB = "<option value=\"\">nicht fächerbezogene Dateien (<?php GetUnterlagenNumbers("stuff"); ?>)</option>";
+        lectureB = "<option value=\"\">nicht f&auml;cherbezogene Dateien (<?php GetUnterlagenNumbers("stuff"); ?>)</option>";
 
 
         document.getElementById("lecture").innerHTML = lectureB;
@@ -1200,7 +1200,7 @@
 
 
 
-        lecturec = "<option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"UMV\">Unternehmen, Märkte, Volkswirtschaften (<?php  GetUnterlagenNumbers(UMV); ?>)</option><option value=\"UU\">Unternehmer & Unternehmen (<?php  GetUnterlagenNumbers("UU"); ?>)</option><option value=\"IT\">Grundlagen des E-Business (<?php  GetUnterlagenNumbers("IT"); ?>)</option><option value=\"BF\">Buchführung (<?php  GetUnterlagenNumbers("BF"); ?>)</option><option value=\"FM\">Finanzmathematik (<?php  GetUnterlagenNumbers("FM"); ?>)</option><option value=\"LA\">Lineare Algebra (<?php  GetUnterlagenNumbers("LA"); ?>)</option>";
+        lecturec = "<option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"UMV\">Unternehmen, M&auml;rkte, Volkswirtschaften (<?php  GetUnterlagenNumbers(UMV); ?>)</option><option value=\"UU\">Unternehmer & Unternehmen (<?php  GetUnterlagenNumbers("UU"); ?>)</option><option value=\"IT\">Grundlagen des E-Business (<?php  GetUnterlagenNumbers("IT"); ?>)</option><option value=\"BF\">Buchf&uuml;hrung (<?php  GetUnterlagenNumbers("BF"); ?>)</option><option value=\"FM\">Finanzmathematik (<?php  GetUnterlagenNumbers("FM"); ?>)</option><option value=\"LA\">Lineare Algebra (<?php  GetUnterlagenNumbers("LA"); ?>)</option>";
 
 
         document.getElementById("lecture").innerHTML = lecturec; 
@@ -1214,7 +1214,7 @@
 
 
 
-        lecturec = "<option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"mikro\">Mikroökonomie (<?php  GetUnterlagenNumbers("mikro"); ?>)</option><option value=\"makro\">Makroökonomie (<?php  GetUnterlagenNumbers("makro"); ?>)</option><option value=\"absatz\">Absatz / Marketing (<?php  GetUnterlagenNumbers("absatz"); ?>)</option><option value=\"jahresabschluss\">Jahresabschluss (<?php  GetUnterlagenNumbers("jahresabschluss"); ?>)</option><option value=\"recht\">Privat- und Handelsrecht I (<?php  GetUnterlagenNumbers("recht"); ?>)</option><option value=\"ITp\">Internetpraktikum (<?php  GetUnterlagenNumbers("ITp"); ?>)</option>";
+        lecturec = "<option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"mikro\">Mikro&ouml;konomie (<?php  GetUnterlagenNumbers("mikro"); ?>)</option><option value=\"makro\">Makro&ouml;konomie (<?php  GetUnterlagenNumbers("makro"); ?>)</option><option value=\"absatz\">Absatz / Marketing (<?php  GetUnterlagenNumbers("absatz"); ?>)</option><option value=\"jahresabschluss\">Jahresabschluss (<?php  GetUnterlagenNumbers("jahresabschluss"); ?>)</option><option value=\"recht\">Privat- und Handelsrecht I (<?php  GetUnterlagenNumbers("recht"); ?>)</option><option value=\"ITp\">Internetpraktikum (<?php  GetUnterlagenNumbers("ITp"); ?>)</option>";
 
 
         document.getElementById("lecture").innerHTML = lecturec; 
@@ -1226,7 +1226,7 @@
 
 
 
-        lecturec = "<option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"stat\">Statistik (<?php  GetUnterlagenNumbers("stat"); ?>)</option><option value=\"prod\">Produktion, Logistik, Beschaffung (<?php  GetUnterlagenNumbers("prod"); ?>)</option><option value=\"wus\">Wirtschaft & Staat (<?php  GetUnterlagenNumbers("wus"); ?>)</option><option value=\"recht2\">Privat- und Handelsrecht II (<?php  GetUnterlagenNumbers("recht2"); ?>)</option><option value=\"oerecht\">Öffentliches Recht I (<?php  GetUnterlagenNumbers("oerecht"); ?>)</option>";
+        lecturec = "<option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"stat\">Statistik (<?php  GetUnterlagenNumbers("stat"); ?>)</option><option value=\"prod\">Produktion, Logistik, Beschaffung (<?php  GetUnterlagenNumbers("prod"); ?>)</option><option value=\"wus\">Wirtschaft & Staat (<?php  GetUnterlagenNumbers("wus"); ?>)</option><option value=\"recht2\">Privat- und Handelsrecht II (<?php  GetUnterlagenNumbers("recht2"); ?>)</option><option value=\"oerecht\">&Ouml;ffentliches Recht I (<?php  GetUnterlagenNumbers("oerecht"); ?>)</option>";
 
 
         document.getElementById("lecture").innerHTML = lecturec;
@@ -1237,7 +1237,7 @@
 
      if (WhichSem.substr(3,4) == "4")  {
 
-        lecturec = "<option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"stat2\">Praxis der emp. Wirtschaftsforschung (<?php  GetUnterlagenNumbers("stat2"); ?>)</option><option value=\"EwA\">Einführung in das wissenschaftl. Arbeiten (<?php  GetUnterlagenNumbers("EwA"); ?>)</option><option value=\"praes\">Präsentationsfähigkeiten (<?php  GetUnterlagenNumbers("praes"); ?>)</option><option value=\"oerecht2\">Öffentliches Recht II (<?php  GetUnterlagenNumbers("oerecht2"); ?>)</option>";
+        lecturec = "<option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"stat2\">Praxis der emp. Wirtschaftsforschung (<?php  GetUnterlagenNumbers("stat2"); ?>)</option><option value=\"EwA\">Einf&uuml;hrung in das wissenschaftl. Arbeiten (<?php  GetUnterlagenNumbers("EwA"); ?>)</option><option value=\"praes\">Pr&auml;sentationsf&auml;higkeiten (<?php  GetUnterlagenNumbers("praes"); ?>)</option><option value=\"oerecht2\">&Ouml;ffentliches Recht II (<?php  GetUnterlagenNumbers("oerecht2"); ?>)</option>";
 
         document.getElementById("lecture").innerHTML = lecturec;
 
@@ -1246,7 +1246,7 @@
     if (WhichSem == "bwl")  {
 
 
-        lecturec = "<option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"control\">Kostenrechnung und Controlling (<?php  GetUnterlagenNumbers("control"); ?>)</option><option value=\"intuf\">Internationale Unternehmensführung (<?php  GetUnterlagenNumbers("intuf"); ?>)</option><option value=\"invest\">Investition und Finanzierung (<?php  GetUnterlagenNumbers("invest"); ?>)</option><option value=\"stratint\">Strateg. und Internat. Management (<?php  GetUnterlagenNumbers("stratint"); ?>)</option><option value=\"intacc\">International Accounting and Controlling (<?php  GetUnterlagenNumbers("intacc"); ?>)</option><option value=\"markman\">Marketing Management (<?php  GetUnterlagenNumbers("markman"); ?>)</option><option value=\"logi\">Operations and Logistics (<?php  GetUnterlagenNumbers("logi"); ?>)</option><option value=\"entrepreneuer\">Innovation and Entrepreneurship (<?php  GetUnterlagenNumbers("entrepreneur"); ?>)</option><option value=\"finanz\">Finanzierung (<?php  GetUnterlagenNumbers("finanz"); ?>)</option><option value=\"tax\">Taxation (<?php  GetUnterlagenNumbers("tax"); ?>)</option><option value=\"bpaed\">Betriebspädagogik (<?php  GetUnterlagenNumbers("bpaed"); ?>)</option>";
+        lecturec = "<option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"control\">Kostenrechnung und Controlling (<?php  GetUnterlagenNumbers("control"); ?>)</option><option value=\"intuf\">Internationale Unternehmensf&uuml;hrung (<?php  GetUnterlagenNumbers("intuf"); ?>)</option><option value=\"invest\">Investition und Finanzierung (<?php  GetUnterlagenNumbers("invest"); ?>)</option><option value=\"stratint\">Strateg. und Internat. Management (<?php  GetUnterlagenNumbers("stratint"); ?>)</option><option value=\"intacc\">International Accounting and Controlling (<?php  GetUnterlagenNumbers("intacc"); ?>)</option><option value=\"markman\">Marketing Management (<?php  GetUnterlagenNumbers("markman"); ?>)</option><option value=\"logi\">Operations and Logistics (<?php  GetUnterlagenNumbers("logi"); ?>)</option><option value=\"entrepreneuer\">Innovation and Entrepreneurship (<?php  GetUnterlagenNumbers("entrepreneur"); ?>)</option><option value=\"finanz\">Finanzierung (<?php  GetUnterlagenNumbers("finanz"); ?>)</option><option value=\"tax\">Taxation (<?php  GetUnterlagenNumbers("tax"); ?>)</option><option value=\"bpaed\">Betriebsp&auml;dagogik (<?php  GetUnterlagenNumbers("bpaed"); ?>)</option>";
 
 
         document.getElementById("lecture").innerHTML = lecturec;
@@ -1257,7 +1257,7 @@
     if (WhichSem == "vwl")  {
 
 
-        lecturec = "<option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"auw\">Außenwirtschaft (<?php  GetUnterlagenNumbers("auw"); ?>)</option><option value=\"OeoeS\">Ökonomie des öffentlichen Sektors (<?php  GetUnterlagenNumbers("OeoeS"); ?>)</option><option value=\"arbp\">Arbeitsmarktpolitik (<?php  GetUnterlagenNumbers("arbp"); ?>)</option><option value=\"wettbp\">Wettbewerbstheorie und –politik (<?php  GetUnterlagenNumbers("wettbp"); ?>)</option><option value=\"apb\">Arbeit, Personal und Bildung (<?php  GetUnterlagenNumbers("apb"); ?>)</option><option value=\"EoM\">Economics of Management (<?php  GetUnterlagenNumbers("EoM"); ?>)</option><option value=\"QwF\">Quantitative Wirtschaftsforschung (<?php  GetUnterlagenNumbers("QwF"); ?>)</option><option value=\"wp\">Wirtschaftspolitik (<?php  GetUnterlagenNumbers("wp"); ?>)</option><option value=\"money\">Money and Capital Markets (<?php  GetUnterlagenNumbers("money"); ?>)</option><option value=\"coopst\">Cooperative Studies (<?php  GetUnterlagenNumbers("coopst"); ?>)</option>";
+        lecturec = "<option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"auw\">Au&szlig;enwirtschaft (<?php  GetUnterlagenNumbers("auw"); ?>)</option><option value=\"OeoeS\">&Ouml;konomie des &ouml;ffentlichen Sektors (<?php  GetUnterlagenNumbers("OeoeS"); ?>)</option><option value=\"arbp\">Arbeitsmarktpolitik (<?php  GetUnterlagenNumbers("arbp"); ?>)</option><option value=\"wettbp\">Wettbewerbstheorie und –politik (<?php  GetUnterlagenNumbers("wettbp"); ?>)</option><option value=\"apb\">Arbeit, Personal und Bildung (<?php  GetUnterlagenNumbers("apb"); ?>)</option><option value=\"EoM\">Economics of Management (<?php  GetUnterlagenNumbers("EoM"); ?>)</option><option value=\"QwF\">Quantitative Wirtschaftsforschung (<?php  GetUnterlagenNumbers("QwF"); ?>)</option><option value=\"wp\">Wirtschaftspolitik (<?php  GetUnterlagenNumbers("wp"); ?>)</option><option value=\"money\">Money and Capital Markets (<?php  GetUnterlagenNumbers("money"); ?>)</option><option value=\"coopst\">Cooperative Studies (<?php  GetUnterlagenNumbers("coopst"); ?>)</option>";
 
         document.getElementById("lecture").innerHTML = lecturec; 
 
@@ -1266,7 +1266,7 @@
 
     if (WhichSem == "info")  {
 
-        lecturec = "<option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"is\">Innovation Strategy (<?php  GetUnterlagenNumbers("is"); ?>)</option><option value=\"innot\">Innovation Technology (<?php  GetUnterlagenNumbers("innot"); ?>)</option><option value=\"mtc\">Managing Technological Change (<?php  GetUnterlagenNumbers("mtc"); ?>)</option><option value=\"ebm\">E-Business Management (<?php  GetUnterlagenNumbers("ebm"); ?>)</option>";
+        lecturec = "<option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"is\">Innovation Strategy (<?php  GetUnterlagenNumbers("is"); ?>)</option><option value=\"innot\">Innovation Technology (<?php  GetUnterlagenNumbers("innot"); ?>)</option><option value=\"mtc\">Managing Technological Change (<?php  GetUnterlagenNumbers("mtc"); ?>)</option><option value=\"ebm\">E-Business Management (<?php  GetUnterlagenNumbers("ebm"); ?>)</option>";
 
         document.getElementById("lecture").innerHTML = lecturec;
 
@@ -1275,7 +1275,7 @@
 
     if (WhichSem == "wipaed")  {
 
-        lecturec = "<option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"gwip\">Grundlagen der Wipäd (<?php  GetUnterlagenNumbers("gwip"); ?>)</option><option value=\"praesmod\">Präsentations- und Moderationstechniken (<?php  GetUnterlagenNumbers("praesmod"); ?>)</option><option value=\"berufwb\">Berufliche Weiterbildung (<?php  GetUnterlagenNumbers("berufwb"); ?>)</option><option value=\"paedsem\">Betriebspädagogisches Seminar (<?php  GetUnterlagenNumbers("paedsem"); ?>)</option><option value=\"projstudi\">Erkundungsprojekt / Schulpraktische Studien (<?php  GetUnterlagenNumbers("projstudi"); ?>)</option><option value=\"zweitfach\">Module der Zweitfach-Vertiefung (<?php  GetUnterlagenNumbers("zweitfach"); ?>)</option>";
+        lecturec = "<option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"gwip\">Grundlagen der Wip&auml;d (<?php  GetUnterlagenNumbers("gwip"); ?>)</option><option value=\"praesmod\">Pr&auml;sentations- und Moderationstechniken (<?php  GetUnterlagenNumbers("praesmod"); ?>)</option><option value=\"berufwb\">Berufliche Weiterbildung (<?php  GetUnterlagenNumbers("berufwb"); ?>)</option><option value=\"paedsem\">Betriebsp&auml;dagogisches Seminar (<?php  GetUnterlagenNumbers("paedsem"); ?>)</option><option value=\"projstudi\">Erkundungsprojekt / Schulpraktische Studien (<?php  GetUnterlagenNumbers("projstudi"); ?>)</option><option value=\"zweitfach\">Module der Zweitfach-Vertiefung (<?php  GetUnterlagenNumbers("zweitfach"); ?>)</option>";
 
         document.getElementById("lecture").innerHTML = lecturec;
 
@@ -1283,7 +1283,7 @@
 
     if (WhichSem == "intbus")  {
 
-        lecturec = "<option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"intrecht1\">Europäisches und Internationales Recht (<?php  GetUnterlagenNumbers("intrecht1"); ?>)</option><option value=\"angel\">Angloamerikanische Gesellschaften (<?php  GetUnterlagenNumbers("angel"); ?>)</option><option value=\"europglob\">Europäisierung & Globalisierung (<?php  GetUnterlagenNumbers("europglob"); ?>)</option><option value=\"intbez\">Internationale Beziehungen (<?php  GetUnterlagenNumbers("intbez"); ?>)</option><option value=\"intstud\">Internationale Studien (<?php  GetUnterlagenNumbers("intstud"); ?>)</option><option value=\"regional\">Regionalstudien (<?php  GetUnterlagenNumbers("regional"); ?>)</option><option value=\"romanisch\">Romanischsprachige Gesellschaften (<?php  GetUnterlagenNumbers("romanisch"); ?>)</option>";
+        lecturec = "<option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"intrecht1\">Europ&auml;isches und Internationales Recht (<?php  GetUnterlagenNumbers("intrecht1"); ?>)</option><option value=\"angel\">Angloamerikanische Gesellschaften (<?php  GetUnterlagenNumbers("angel"); ?>)</option><option value=\"europglob\">Europ&auml;isierung & Globalisierung (<?php  GetUnterlagenNumbers("europglob"); ?>)</option><option value=\"intbez\">Internationale Beziehungen (<?php  GetUnterlagenNumbers("intbez"); ?>)</option><option value=\"intstud\">Internationale Studien (<?php  GetUnterlagenNumbers("intstud"); ?>)</option><option value=\"regional\">Regionalstudien (<?php  GetUnterlagenNumbers("regional"); ?>)</option><option value=\"romanisch\">Romanischsprachige Gesellschaften (<?php  GetUnterlagenNumbers("romanisch"); ?>)</option>";
 
         document.getElementById("lecture").innerHTML = lecturec;
 
@@ -1292,7 +1292,7 @@
 
     if (WhichSem == "sozi")  {
 
-        lecturec = "<option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"sozio\">Soziologie (<?php  GetUnterlagenNumbers("sozio"); ?>)</option><option value=\"transbez\">Internat. und transnationale Beziehungen (<?php  GetUnterlagenNumbers("transbez"); ?>)</option><option value=\"regio\">Regionen im internationalen System (<?php  GetUnterlagenNumbers("regio"); ?>)</option><option value=\"grundpsy\">Grundl. + Anwend.felder d. Sozialpsychologie (<?php  GetUnterlagenNumbers("grundpsy"); ?>)</option><option value=\"empsozi\">Einführung in empirische Sozialforschung (<?php  GetUnterlagenNumbers("empsozi"); ?>)</option><option value=\"compana\">Computergestützte Datenanalyse (<?php  GetUnterlagenNumbers("compana"); ?>)</option><option value=\"intkom\">Internationale Kommunikation (<?php  GetUnterlagenNumbers("intkom"); ?>)</option><option value=\"personal\">Personal und Organisation (<?php  GetUnterlagenNumbers("personal"); ?>)</option><option value=\"anamgesell\">Analyse moderner Gesellschaften (<?php  GetUnterlagenNumbers("anamgesell"); ?>)</option><option value=\"empmus\">Empirische Methoden und Statistik (<?php  GetUnterlagenNumbers("empmus"); ?>)</option><option value=\"konsum\">Konsumentenverhalten (<?php  GetUnterlagenNumbers("konsum"); ?>)</option><option value=\"soziprakt\">Soziologisches Praktikum (<?php  GetUnterlagenNumbers("soziprakt"); ?>)</option><option value=\"sozialp\">Sozial- und Arbeitspolitik (<?php  GetUnterlagenNumbers("sozialp"); ?>)</option><option value=\"spezkom\">Spezielle Kommunikationswissenschaft (<?php  GetUnterlagenNumbers("spezkom"); ?>)</option><option value=\"wirtorgsoz\">Wirtschafts- und Organisationssoziologie (<?php  GetUnterlagenNumbers("wirtorgsoz"); ?>)</option><option value=\"wsugesch\">Wirt.-, Sozial- u. Unternehmensgeschichte (<?php  GetUnterlagenNumbers("wsugesch"); ?>)</option>";
+        lecturec = "<option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"sozio\">Soziologie (<?php  GetUnterlagenNumbers("sozio"); ?>)</option><option value=\"transbez\">Internat. und transnationale Beziehungen (<?php  GetUnterlagenNumbers("transbez"); ?>)</option><option value=\"regio\">Regionen im internationalen System (<?php  GetUnterlagenNumbers("regio"); ?>)</option><option value=\"grundpsy\">Grundl. + Anwend.felder d. Sozialpsychologie (<?php  GetUnterlagenNumbers("grundpsy"); ?>)</option><option value=\"empsozi\">Einf&uuml;hrung in empirische Sozialforschung (<?php  GetUnterlagenNumbers("empsozi"); ?>)</option><option value=\"compana\">Computergest&uuml;tzte Datenanalyse (<?php  GetUnterlagenNumbers("compana"); ?>)</option><option value=\"intkom\">Internationale Kommunikation (<?php  GetUnterlagenNumbers("intkom"); ?>)</option><option value=\"personal\">Personal und Organisation (<?php  GetUnterlagenNumbers("personal"); ?>)</option><option value=\"anamgesell\">Analyse moderner Gesellschaften (<?php  GetUnterlagenNumbers("anamgesell"); ?>)</option><option value=\"empmus\">Empirische Methoden und Statistik (<?php  GetUnterlagenNumbers("empmus"); ?>)</option><option value=\"konsum\">Konsumentenverhalten (<?php  GetUnterlagenNumbers("konsum"); ?>)</option><option value=\"soziprakt\">Soziologisches Praktikum (<?php  GetUnterlagenNumbers("soziprakt"); ?>)</option><option value=\"sozialp\">Sozial- und Arbeitspolitik (<?php  GetUnterlagenNumbers("sozialp"); ?>)</option><option value=\"spezkom\">Spezielle Kommunikationswissenschaft (<?php  GetUnterlagenNumbers("spezkom"); ?>)</option><option value=\"wirtorgsoz\">Wirtschafts- und Organisationssoziologie (<?php  GetUnterlagenNumbers("wirtorgsoz"); ?>)</option><option value=\"wsugesch\">Wirt.-, Sozial- u. Unternehmensgeschichte (<?php  GetUnterlagenNumbers("wsugesch"); ?>)</option>";
 
         document.getElementById("lecture").innerHTML = lecturec;
 
@@ -1301,7 +1301,7 @@
 
     if (WhichSem == "sonstige")  {
 
-        lecturec = "<option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"daten\">Datenermittlung und Datenanalyse (<?php  GetUnterlagenNumbers("daten"); ?>)</option><option value=\"arbeitsr\">Arbeitsrecht (<?php  GetUnterlagenNumbers("arbeitsr"); ?>)</option><option value=\"gesellr\">Unternehmens- und Gesellschaftsrecht (<?php  GetUnterlagenNumbers("gesellr"); ?>)</option><option value=\"versr\">Versicherungswesen (<?php  GetUnterlagenNumbers("versr"); ?>)</option>";
+        lecturec = "<option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"daten\">Datenermittlung und Datenanalyse (<?php  GetUnterlagenNumbers("daten"); ?>)</option><option value=\"arbeitsr\">Arbeitsrecht (<?php  GetUnterlagenNumbers("arbeitsr"); ?>)</option><option value=\"gesellr\">Unternehmens- und Gesellschaftsrecht (<?php  GetUnterlagenNumbers("gesellr"); ?>)</option><option value=\"versr\">Versicherungswesen (<?php  GetUnterlagenNumbers("versr"); ?>)</option>";
 
         document.getElementById("lecture").innerHTML = lecturec;
 
@@ -1309,7 +1309,7 @@
 
     if (WhichSem == "master")  {
 
-        lecturec = "<option value=\"empty\">wähle hier eine Vorlesung aus</option><option value=\"daten\">Datenermittlung und Datenanalyse (<?php  GetUnterlagenNumbers("daten"); ?>)</option><option value=\"arbeitsr\">Arbeitsrecht (<?php  GetUnterlagenNumbers("arbeitsr"); ?>)</option><option value=\"gesellr\">Unternehmens- und Gesellschaftsrecht (<?php  GetUnterlagenNumbers("gesellr"); ?>)</option><option value=\"versr\">Versicherungswesen (<?php  GetUnterlagenNumbers("versr"); ?>)</option>";
+        lecturec = "<option value=\"empty\">w&auml;hle hier eine Vorlesung aus</option><option value=\"daten\">Datenermittlung und Datenanalyse (<?php  GetUnterlagenNumbers("daten"); ?>)</option><option value=\"arbeitsr\">Arbeitsrecht (<?php  GetUnterlagenNumbers("arbeitsr"); ?>)</option><option value=\"gesellr\">Unternehmens- und Gesellschaftsrecht (<?php  GetUnterlagenNumbers("gesellr"); ?>)</option><option value=\"versr\">Versicherungswesen (<?php  GetUnterlagenNumbers("versr"); ?>)</option>";
 
         document.getElementById("lecture").innerHTML = lecturec;
 

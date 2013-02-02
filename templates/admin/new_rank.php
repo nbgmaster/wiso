@@ -53,7 +53,7 @@
 
   <tr>
 
-    <td class="tableb">Ab Beiträge</td>
+    <td class="tableb">Ab Beitr&auml;ge</td>
 
     <td class="tablea">
 

@@ -10,7 +10,7 @@
 
     <?php  if ($do == "showNewPosts")  { ?>
 
-    <b><font class="big">Deine Auswahl enthält keine neuen Beiträge.</font></b>
+    <b><font class="big">Deine Auswahl enth&auml;lt keine neuen Beitr&auml;ge.</font></b>
 
     <?php  } else  { ?> 
 

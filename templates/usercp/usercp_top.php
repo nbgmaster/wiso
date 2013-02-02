@@ -4,7 +4,7 @@
 
     <td class="catbg" align="left">
 
-    &nbsp;<a class="catbg" href="index.php?do=usercp">Persönliches Kontrollzentrum</a>
+    &nbsp;<a class="catbg" href="index.php?do=usercp">Pers&ouml;nliches Kontrollzentrum</a>
 
     <?php  echo"$usercp_navi"; ?>
 

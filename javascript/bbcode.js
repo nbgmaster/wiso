@@ -5,8 +5,8 @@ name_text_prompt = "Von wem stammt das Zitat? (optional)";
 link_url_prompt = "Gebe die volle Adresse des Links ein:";
 quote_url_prompt = "Gebe das Zitat ein:";
 link_email_prompt = "Gebe eine Email Adesse ein";
-list_type_prompt = "was für eine Liste möchtest du? Gebe '1' ein für eine nummerierte Liste, 'a' für ein alphabetische, oder gar nichts für eine einfache Punktliste.";
-list_item_prompt = "Gebe eine Listepunkt ein.\nGebe nichts ein oder drücke 'Cancel' um die Liste fertigzustellen.";
+list_type_prompt = "was f&uuml;r eine Liste m&ouml;chtest du? Gebe '1' ein f&uuml;r eine nummerierte Liste, 'a' f&uuml;r ein alphabetische, oder gar nichts f&uuml;r eine einfache Punktliste.";
+list_item_prompt = "Gebe eine Listepunkt ein.\nGebe nichts ein oder dr&uuml;cke 'Cancel' um die Liste fertigzustellen.";
 
 tags = new Array();
 

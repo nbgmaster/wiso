@@ -36,7 +36,7 @@
 
           mysql_query($update_pw) OR die(mysql_error());
 
-          $text01   = "Passwort wurde geändert!";         
+          $text01   = "Passwort wurde ge&auml;ndert!";         
           $link     = "index.php?do=usercp";
 
       }

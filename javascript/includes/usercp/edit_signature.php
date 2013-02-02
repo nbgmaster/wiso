@@ -30,7 +30,7 @@
 
       mysql_query($update_signature) OR die(mysql_error());
 
-      $text01 = "Signatur wurde geändert!";
+      $text01 = "Signatur wurde ge&auml;ndert!";
       $link   = "index.php?do=usercp";
 
       include("./templates/refresh.php");

@@ -48,7 +48,7 @@ $count_hover++;
          <table cellspacing="0" cellpadding="0"><tr><td style="padding:0 3px 0 0;">
          <img src="images/templates/<?php  echo"$template"; ?>/user_member.gif">
          </td><td>
-         <?php  if ($st_userl != "") echo"$st_userl"; else echo"User gelöscht";  ?>
+         <?php  if ($st_userl != "") echo"$st_userl"; else echo"User gel&ouml;scht";  ?>
          </tr></table>
 
          </td>

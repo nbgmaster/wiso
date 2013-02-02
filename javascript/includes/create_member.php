@@ -20,7 +20,7 @@
 
          if ($_POST[r_nickname] == "$nickname_members" && $_POST[email] != "$email_members")  { 
 
-             $text01   = "Der gewählte Nickname ist bereits registriert!";
+             $text01   = "Der gew&auml;hlte Nickname ist bereits registriert!";
              $link     = "index.php?do=register";
 
              $reg_data = "wrong";
@@ -30,7 +30,7 @@
          if ($_POST[r_nickname] != "$nickname_members" && $_POST[email] == "$email_members")  { 
  
             
-             $text01   = "Die gewählte Emailadresse ist bereits registriert!";
+             $text01   = "Die gew&auml;hlte Emailadresse ist bereits registriert!";
              $link     = "index.php?do=register";
          
              $reg_data = "wrong";
@@ -39,8 +39,8 @@
  
          if($_POST[r_nickname] == "$nickname_members" && $_POST[email] == "$email_members")  { 
         
-            $text01   = "Der gewählte Nickname ist bereits registriert!<br>";
-            $text02   = "Die gewählte Emailadresse ist bereits registriert!";
+            $text01   = "Der gew&auml;hlte Nickname ist bereits registriert!<br>";
+            $text02   = "Die gew&auml;hlte Emailadresse ist bereits registriert!";
             $link     = "index.php?do=register";
 
             $reg_data = "wrong";

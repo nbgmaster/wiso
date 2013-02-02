@@ -12,7 +12,7 @@
 
        <td>
 
-       <b>Suche nach Schlüsselwort:</b> <input type="text" name="searchword">
+       <b>Suche nach Schl&uuml;sselwort:</b> <input type="text" name="searchword">
 
        </td>
 
@@ -118,7 +118,7 @@
 
         <td class="tablea" align="center" style="height:47px;">
 
-        <input class="radio" type="radio" name="showposts" value="1" checked="checked">als Beiträge
+        <input class="radio" type="radio" name="showposts" value="1" checked="checked">als Beitr&auml;ge
 
         </td>
    

@@ -41,7 +41,7 @@
 
    <td class="catbg" align="left">
 
-   Lehrstühle :: Semester 3
+   Lehrst&uuml;hle :: Semester 3
 
    </td>
 
@@ -174,7 +174,7 @@
 
         <td class="cellbg" align="left">
 
-        <b>Öffentliches Recht</b>
+        <b>&Ouml;ffentliches Recht</b>
 
         </td>
 
@@ -277,7 +277,7 @@
 
    <td class="catbg" align="left">
 
-   Lehrstühle :: Semester 2
+   Lehrst&uuml;hle :: Semester 2
 
    </td>
 
@@ -302,7 +302,7 @@
 
         <td class="cellbg" align="left">
 
-        <b>Grundzüge der mikroökonomischen Theorie</b>
+        <b>Grundz&uuml;ge der mikro&ouml;konomischen Theorie</b>
 
         </td>
 
@@ -355,7 +355,7 @@
 
         <td class="cellbg" align="left">
 
-        <b>Makroökonomie</b>
+        <b>Makro&ouml;konomie</b>
 
         </td>
 
@@ -583,7 +583,7 @@
 
    <td class="catbg" align="left">
 
-   Lehrstühle :: Semester 1
+   Lehrst&uuml;hle :: Semester 1
 
    </td>
 
@@ -672,7 +672,7 @@
 
         <td class="cellbg" align="left">
 
-        <b>Unternehmer, Märkte & Volkswirtschaften</b>
+        <b>Unternehmer, M&auml;rkte & Volkswirtschaften</b>
 
         </td>
 
@@ -731,7 +731,7 @@
 
         <td class="cellbg" align="left">
 
-        <b>Buchführung</b>
+        <b>Buchf&uuml;hrung</b>
 
         </td>
 
@@ -943,7 +943,7 @@
          <td align="left">
 
          
-         Was Dienste Uni Erlangen-Nürnberg
+         Was Dienste Uni Erlangen-N&uuml;rnberg
  
          </td>
 
@@ -978,7 +978,7 @@
 
         <td class="cellbg" align="left">
 
-        <b>Portalseite zur Prüfungsanmeldung</b>
+        <b>Portalseite zur Pr&uuml;fungsanmeldung</b>
 
         </td>
 
@@ -1061,7 +1061,7 @@
          <td align="left">
 
          
-         Sprachkurse Uni Erlangen-Nürnberg
+         Sprachkurse Uni Erlangen-N&uuml;rnberg
  
          </td>
 
@@ -1179,7 +1179,7 @@
          <td align="left">
 
          
-         Bibliothek Uni Erlangen-Nürnberg
+         Bibliothek Uni Erlangen-N&uuml;rnberg
  
          </td>
 
@@ -1237,7 +1237,7 @@
 
          <td align="left">
          
-         Alle aktuellen Vorlesungen, Übungen & Tutorien
+         Alle aktuellen Vorlesungen, &Uuml;bungen & Tutorien
  
          </td>
 
@@ -1276,7 +1276,7 @@
 
         <td class="cellbg" align="left">
 
-        <b>Mensa Insel Schütt</b>
+        <b>Mensa Insel Sch&uuml;tt</b>
 
         </td>
 
@@ -1298,7 +1298,7 @@
 
          <td align="left">
 
-         Speiseplan der Mensa Insel Schütt
+         Speiseplan der Mensa Insel Sch&uuml;tt
  
          </td>
 
@@ -1334,7 +1334,7 @@
 
         <td class="cellbg" align="left">
 
-        <b>Prüfungsamt</b>
+        <b>Pr&uuml;fungsamt</b>
 
         </td>
 

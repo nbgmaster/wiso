@@ -13,7 +13,7 @@
 
               if ($_POST[$courseUP] != "ka" && $_POST[$courseUP] != "")  {
 
-                      // Prüfung auf Manipulationsverdacht
+                      // Pr&uuml;fung auf Manipulationsverdacht
 
 
                       // VERY DANGEROUS!!!

@@ -119,14 +119,14 @@
 
           if ($size > $avatar_max_size)   {
 
-              $text04        = "<br>Datei darf max. $avatar_max_size2 KB groß sein!<br><br>";  
+              $text04        = "<br>Datei darf max. $avatar_max_size2 KB gro&szlig; sein!<br><br>";  
               $upload_access = "false";
 
           }
 
           if ($avatartype != "image/jpeg" && $avatartype != "image/jpg" && $avatartype != "image/pjpeg" && $avatartype != "image/gif" && $avatartype != "image/bmp" && $avatartype != "image/png" && $avatartype != "")  {
 
-              $text05 = "Keine gültige Bilddatei!<br><br>"; $upload_access = "false";
+              $text05 = "Keine g&uuml;ltige Bilddatei!<br><br>"; $upload_access = "false";
 
           }
 
@@ -141,7 +141,7 @@
 
           if ($size > $avatar_max_size)   {
 
-              $text04        = "<br>Datei darf max. $avatar_max_size2 KB groß sein!<br><br>";  
+              $text04        = "<br>Datei darf max. $avatar_max_size2 KB gro&szlig; sein!<br><br>";  
 
               $upload_access = "false";
 
@@ -168,7 +168,7 @@
 
           $link   = "index.php?do=usercp";        
 
-          $text01 = "Avatar wurde geändert!"; 
+          $text01 = "Avatar wurde ge&auml;ndert!"; 
  
       }
 

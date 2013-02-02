@@ -19,7 +19,7 @@
     </td>
 
     <td class="cellbg" align="center" width="50">
-    <b>Beiträge</b>
+    <b>Beitr&auml;ge</b>
     </td>
 
     <td class="cellbg" align="left" width="260">

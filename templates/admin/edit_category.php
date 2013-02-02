@@ -32,7 +32,7 @@
 
        <input type="hidden" value="<?php  echo"$c"; ?>" name="c">
 
-       <input type="submit" class="input" name="send_admin_data" value="Kategorie ändern">
+       <input type="submit" class="input" name="send_admin_data" value="Kategorie &auml;ndern">
 
        </td>
 

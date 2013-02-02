@@ -38,7 +38,7 @@ include("config.php");
 
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 
-<title>Bonuspunkte einlösen</title>
+<title>Bonuspunkte einl&ouml;sen</title>
 
 <style type="text/css">
 
@@ -98,7 +98,7 @@ echo"<input type=\"button\" onclick=\"self.close()\" class=\"buttons\" value=\"F
 
  if ($_POST[gutschein] == "" && $action != "done" && $userdata_credits == "10")  { ?>
 
-<b><span style="font-size:12px">Wähle hier einen der folgenden Gutscheine aus:</span></b>
+<b><span style="font-size:12px">W&auml;hle hier einen der folgenden Gutscheine aus:</span></b>
 
 <br><br>
 
@@ -146,7 +146,7 @@ $qy_loc2 = mysql_query("SELECT * from $gutscheine_tblname ORDER by id LIMIT 1");
 
 <br>
 
-<input type="submit" value="Punkte einlösen" onclick="loading()" class="buttons" name="submit_data" style="width:150px;" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
+<input type="submit" value="Punkte einl&ouml;sen" onclick="loading()" class="buttons" name="submit_data" style="width:150px;" onmouseover="this.className='mouseoverInput';" onmouseout="this.className='mouseoutInput';">
 
 </form>
 
@@ -241,7 +241,7 @@ $col=imagecolorallocate($im,0,0,0);
 
 imagettftext ($im, 16, 0, 38, $ho-14, 0, 'arial.ttf', $uniqueID);
 
-/* (Dateiname, Schriftgröße, Abstand TOP-Höhe, Text, Farbe) */
+/* (Dateiname, Schriftgr&ouml;&szlig;e, Abstand TOP-H&ouml;he, Text, Farbe) */
 
 
 
@@ -277,7 +277,7 @@ include(FPDF_INSTALLDIR.'/fpdf.php');
 
 
 
-// Prüfen ob die Klasse existiert
+// Pr&uuml;fen ob die Klasse existiert
 
 if(class_exists('FPDF')) {
 
@@ -328,25 +328,25 @@ $usern = "Hallo $userdata_name!";
 
    if ($yourChoose == 1)  {
 
-    $this->Cell(190,-19,'Drucke den Gutschein aus und löse ihn in der Prinzenbar ein!',0,10);
+    $this->Cell(190,-19,'Drucke den Gutschein aus und l&ouml;se ihn in der Prinzenbar ein!',0,10);
 
    }
 
 
    if ($yourChoose == 2)  {
 
-    $this->Cell(190,-19,'Drucke den Gutschein aus und löse ihn im Café Zauberberg ein!',0,10);
+    $this->Cell(190,-19,'Drucke den Gutschein aus und l&ouml;se ihn im Café Zauberberg ein!',0,10);
 
    }
 
 
    if ($yourChoose == 3)  {
 
-    $this->Cell(190,-30,'Drucke den Gutschein aus und löse ihn im Stars & Stairs ein!',0,10);
+    $this->Cell(190,-30,'Drucke den Gutschein aus und l&ouml;se ihn im Stars & Stairs ein!',0,10);
     $this->Ln(20);
-    $this->Cell(190,-1,'Der Gutschein kann nur an einem SAMSTAG eingelöst werden!',0,10);
+    $this->Cell(190,-1,'Der Gutschein kann nur an einem SAMSTAG eingel&ouml;st werden!',0,10);
     $this->Ln(20);
-    $this->Cell(190,-18,'Nicht gültig bei Fremdveranstaltungen!',0,10);
+    $this->Cell(190,-18,'Nicht g&uuml;ltig bei Fremdveranstaltungen!',0,10);
     $this->Ln(20);
 
     }
@@ -421,30 +421,30 @@ $Header .= "\n\n";
 $Header .= "Hallo $userdata_name!";
 $Header .= "\n\n";
 
-$Header .= "Im Anhang an diese Email erhälst du deinen Gutschein von wiwistud.de!";
+$Header .= "Im Anhang an diese Email erh&auml;lst du deinen Gutschein von wiwistud.de!";
 $Header .= "\n\n";
-$Header .= "Du hast dich für folgenden Gutschein entschieden:";
+$Header .= "Du hast dich f&uuml;r folgenden Gutschein entschieden:";
 $Header .= "\n";
 $Header .= "$yourChoose2";
 $Header .= "\n\n";
 
 if ($yourChoose == 1)  {
 
-$Header .= "Drucke den Gutschein aus und löse ihn in der Prinzenbar ein!";
+$Header .= "Drucke den Gutschein aus und l&ouml;se ihn in der Prinzenbar ein!";
 
 }
 
 if ($yourChoose == 2)  {
 
-$Header .= "Drucke den Gutschein aus und löse ihn im Café Zauberberg ein!";
+$Header .= "Drucke den Gutschein aus und l&ouml;se ihn im Café Zauberberg ein!";
 
 }
 
 if ($yourChoose == 3)  {
 
-$Header .= "Drucke den Gutschein aus und löse ihn im Stars & Stairs ein!";
+$Header .= "Drucke den Gutschein aus und l&ouml;se ihn im Stars & Stairs ein!";
 $Header .= "\n\n";
-$Header .= "Der Gutschein kann nur an einem SAMSTAG eingelöst werden und gilt nicht bei Fremdveranstaltungen!";
+$Header .= "Der Gutschein kann nur an einem SAMSTAG eingel&ouml;st werden und gilt nicht bei Fremdveranstaltungen!";
 
 }
 

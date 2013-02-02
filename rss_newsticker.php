@@ -10,7 +10,7 @@ echo "<?php xml version=\"1.0\" encoding=\"ISO-8859-1\" ?>";
 
 <rss version="2.0">
 <channel> 
-    <title>wiwistud.de - Bachelorstudiengang Wirtschaftswissenschaften an der Universität Erlangen - Nürnberg</title>
+    <title>wiwistud.de - Bachelorstudiengang Wirtschaftswissenschaften an der Universit&auml;t Erlangen - N&uuml;rnberg</title>
     <link>http://www.wiwistud.de</link>
     <description>+++ Newsticker +++ Newsticker +++ Newsticker +++ Newsticker +++ Newsticker +++ Newsticker +++ Newsticker +++ Newsticker +++ Newsticker +++ Newsticker +++</description>
     <language>de-de</language>

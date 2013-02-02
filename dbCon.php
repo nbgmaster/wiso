@@ -27,5 +27,5 @@ $DBcon = new EstablishDBConnection();
 $DBcon->connectDB();
 
                    mysql_query("SET NAMES 'utf-8'");
-				 //  mysql_set_charset('utf8');
+				   mysql_set_charset('utf8');
 				   				

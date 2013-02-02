@@ -74,8 +74,8 @@ umgehend angelegt.
 
    <td valign="top" align="left" style="padding: 5px 4px 7px 4px;" align="center" class="tableb">
 
-<span style="padding-left:4px"><a href="https://www.facebook.com/kdstvostmark" target="_blank"><img src="images/flyer/2013ostmark_whisky.jpg" border="1" onclick="hits(3)"></a></span>
-<br><br>
+<!--span style="padding-left:4px"><a href="https://www.facebook.com/kdstvostmark" target="_blank"><img src="images/flyer/2013ostmark_whisky.jpg" border="1" onclick="hits(3)"></a></span>
+<br><br-->
 
     <a href="mailto:werbung@wiwistud.de" class="small"><span class="small"><u>Hier k&ouml;nnte Ihre Werbung stehen!</u></span></a>
 
